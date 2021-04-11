@@ -34,7 +34,7 @@ function Navbar() {
 
 
         <li className="navbar-item normaltheme">
-          <a className="nav-link" href="#">Profile</a>
+          <a className="nav-link" href="#">Contact</a>
         </li>
       </ul>
       </nav>

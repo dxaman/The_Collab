@@ -22,9 +22,9 @@ function Sidebar(){
       <MenuItem>Component 2</MenuItem>
     </SubMenu>
     <SubMenu title="Clubs" >
-      <MenuItem>lauda</MenuItem>
-      <MenuItem>lassan</MenuItem>
-      <MenuItem>gand</MenuItem>
+      <MenuItem>Programming Club</MenuItem>
+      <MenuItem>Robotics CLub</MenuItem>
+      <MenuItem>Electronics Club</MenuItem>
     </SubMenu>
 <MenuItem >Classes</MenuItem>
 <MenuItem >Others</MenuItem>
