@@ -19,8 +19,8 @@ function Navbar() {
     <nav className="nav1 navbar navbar-expand-lg nav bottom-nav">
 
       <a className="navbar-brand SmartMail-logo" href="#">
-       <img src={Logo} width="30" height="30" className="d-inline-block SmartMail-img " alt="" />
-      Smart Mail</a>
+       <img src={Logo} width="50" height="50" className="d-inline-block SmartMail-img " alt="" />
+      Public Policy and Opinion Cell</a>
       <ul className="navbar-nav list margin-nav1">
         <li className="navbar-item normaltheme ">
           <a className="nav-link " href="#">Profile</a>
@@ -38,7 +38,7 @@ function Navbar() {
         </li>
       </ul>
       </nav>
-      <ColoredLine color="white" />
+
 </div>
 
 
