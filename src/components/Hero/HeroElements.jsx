@@ -37,7 +37,7 @@ export const VideoBg = styled.video`
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  background: #232a34;
+  background: #472e96;
 `
 export const HeroContent = styled.div`
   z-index: 3;
