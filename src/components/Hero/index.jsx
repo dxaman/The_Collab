@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight , TattiBg} from './HeroElements'
+import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight , TattiBg, TattiBg2, TattiBg3} from './HeroElements'
 import { Button } from '../ButtonElements'
 
 const Hero = () => {
@@ -11,14 +11,12 @@ const Hero = () => {
 
   return (
     <HeroContainer id='home'>
-   
-  
       <HeroBg>
-      
-        
-        
+          <TattiBg/>
+          <VideoBg/>
+          <TattiBg2/>
+          <TattiBg3/>
       </HeroBg>
-      <TattiBg src={require('../../images/photo.png')} />
       <HeroContent>
         <HeroH1> Public Policy And Opinion Cell</HeroH1>
         <HeroP>*Info about PPOC here*<br></br>**Insert some more catchy line here**</HeroP>

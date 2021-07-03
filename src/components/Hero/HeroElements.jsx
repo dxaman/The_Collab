@@ -39,13 +39,38 @@ export const VideoBg = styled.video`
   object-fit: cover;
   background: linear-gradient(to right, #B08CCB, #38218F);
 `
-export const TattiBg = styled.image`
- width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  background: linear-gradient(to right, #B08CCB, #38218F);
+export const TattiBg = styled.div`
+  position: absolute;
+  left: 85.94%;
+  right: -7.84%;
+  top: -150px;
+  bottom: 96.93%;
+  height: 260.5168151855469px;
+  width: 420.5814514160156px;
+  border-radius: 0px;
+  background-image: url('https://i.ibb.co/KwrmKqP/landpagetopright.png');
 `
+
+export const TattiBg2 = styled.div`
+  position: absolute;
+  height: 1358.9783935546875px;
+  width: 2575.9697265625px;
+  left: -550px;
+  top: -230px;
+  border-radius: 0px;
+  background-image: url('https://i.ibb.co/HxWkGyK/landpagemain.png');
+`
+
+export const TattiBg3 = styled.div`
+  position: absolute;
+  height: 1525.1356201171875px;
+  width: 1680px;
+  left: 120px;
+  top: -150px;
+  border-radius: 0px;
+  background-image: url('https://i.ibb.co/GRKQ6Z2/Tattimgae.png');
+`
+
 export const HeroContent = styled.div`
   z-index: 3;
   max-width: 1200px;
@@ -60,10 +85,10 @@ export const HeroH1 = styled.h1`
   font-size: 48px;
   text-align: center;
 
-  @media screen and (max-wodth: 768px) {
+  @media screen and (max-width: 768px) {
     font-size: 40px
   }
-  @media screen and (max-wodth: 480px) {
+  @media screen and (max-width: 480px) {
     font-size: 32px
   }
 `
@@ -75,10 +100,10 @@ export const HeroP = styled.p`
   text-align: center;
   max-width: 600px;
 
-  @media screen and (max-wodth: 768px) {
+  @media screen and (max-width: 768px) {
     font-size: 24px
   }
-  @media screen and (max-wodth: 480px) {
+  @media screen and (max-width: 480px) {
     font-size: 18px
   }
 `

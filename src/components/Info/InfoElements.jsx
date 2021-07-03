@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
   color: #fff;
+  z-index: 101;
   background: ${({lightBg}) => (lightBg ? '#f9f9f9' : 'linear-gradient(to right, #B08CCB, #38218F)')};
 
   @media screen and  (max-width: 768px) {

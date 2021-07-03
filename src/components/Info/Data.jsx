@@ -42,7 +42,7 @@ export const homeObjThree = {
   description: 'PPOC DETAILS',
   buttonLabel: 'Start Now',
   imgStart: false,
-  img: 'https://pbs.twimg.com/profile_images/1179368858769080320/K9Kx2P_w.jpg',
+  img: 'https://i.ibb.co/KwrmKqP/landpagetopright.png',
   alt: 'car',
   primary: false,
   darkText: true
