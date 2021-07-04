@@ -49,6 +49,7 @@ export const TattiBg = styled.div`
   width: 420.5814514160156px;
   border-radius: 0px;
   background-image: url('https://i.ibb.co/KwrmKqP/landpagetopright.png');
+
 `
 
 export const TattiBg2 = styled.div`
@@ -59,6 +60,11 @@ export const TattiBg2 = styled.div`
   top: -230px;
   border-radius: 0px;
   background-image: url('https://i.ibb.co/HxWkGyK/landpagemain.png');
+  background-attachment: fixed;
+  background-position:-550px -230px;
+  background-repeat: no-repeat;
+  background-size: 2575.9697265625px 1358.9783935546875px ;
+  
 `
 
 export const TattiBg3 = styled.div`
@@ -69,6 +75,11 @@ export const TattiBg3 = styled.div`
   top: -150px;
   border-radius: 0px;
   background-image: url('https://i.ibb.co/GRKQ6Z2/Tattimgae.png');
+  background-attachment: fixed;
+  background-position:120px -150px;
+  background-repeat: no-repeat;
+  background-size: 1680px 1525.1356201171875px ;
+
 `
 
 export const HeroContent = styled.div`

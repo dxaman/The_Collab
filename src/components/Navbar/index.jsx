@@ -38,7 +38,7 @@ const Navbar = ({ toggle }) => {
               >About Us</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='discover'
+              <NavLinks to='events'
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
               >Competitions</NavLinks>
             </NavItem>
