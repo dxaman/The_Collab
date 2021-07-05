@@ -27,7 +27,9 @@ const Navbar = ({ toggle }) => {
     <IconContext.Provider value={{ color: '#fff'}}>
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo to='/' onClick={toggleHome}>PPOC</NavLogo>
+        <NavLogo to='/' onClick={toggleHome}>
+            <img src="https://i.ibb.co/HrjPjh5/bwppoc.png" style={{width:150, marginTop: -7}} />
+          </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
@@ -48,7 +50,7 @@ const Navbar = ({ toggle }) => {
               >Events</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='signup'
+              <NavLinks to='team'
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
               >Our Team</NavLinks>
             </NavItem>

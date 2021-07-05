@@ -34,7 +34,7 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
   id: 'signup',
-  lightBg: false,
+  lightBg: true,
   lightText: false,
   lighttextDesc: false,
   topLine: 'PPOC Section 2',

@@ -74,3 +74,32 @@ position: absolute;
 
   }
   `
+  export const Button4 = styled(Link)`
+  position: absolute;
+  top: 9%;
+  left: 72%;
+  border-radius: 10px;
+  background: ${({primary}) => (primary ?  '#ff6c00' : '#ff6c00')};
+  white-space: nowrap;
+  padding: ${({big}) =>  (big ? '14px  48px' : '12px 30px')};
+  color: ${({dark}) =>  (dark ? '#fff' : '#fff')};
+  font-size:${({fontBig}) =>  (fontBig ? '20px' : '16px')};
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    color:black;
+    transition: all 0.2s ease-in-out;
+    background: ${({primary}) => (primary ?  '#fff' : '#fff')};
+
+  }
+  @media screen and (max-width: 786px) {
+    top: 97%;
+  left: 40%;
+  }
+  `

@@ -4,8 +4,11 @@ import Hero from '../components/Hero'
 import Info from '../components/Info'
 import { homeObjOne, homeObjTwo, homeObjThree} from '../components/Info/Data';
 import Navbar from '../components/Navbar'
+import About from '../components/About'
+import {AboutOne} from '../components/About/Data';
 import Services from '../components/Services';
 import Events from '../components/Events';
+import Team from '../components/Team';
 import Sidebar from '../components/SideBar'
 
 const Home = () => {
@@ -20,10 +23,11 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle}/>
       <Hero />
-      <Info {...homeObjOne}/>
+      <About {...AboutOne}/>
       <Events/>
       <Services />
-      <Info {...homeObjThree}/>
+      <Team/>
+      
       <Footer />
     </>
   )
