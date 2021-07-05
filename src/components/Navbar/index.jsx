@@ -27,7 +27,9 @@ const Navbar = ({ toggle }) => {
     <IconContext.Provider value={{ color: '#fff'}}>
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo to='/' onClick={toggleHome}>PPOC</NavLogo>
+          <NavLogo to='/' onClick={toggleHome}>
+            <img src="https://i.ibb.co/QYHFbf5/logoppoc.png" style={{width:100, marginTop: -7}} />
+          </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>

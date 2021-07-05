@@ -59,6 +59,10 @@ export const TattiBg2 = styled.div`
   top: -230px;
   border-radius: 0px;
   background-image: url('https://i.ibb.co/HxWkGyK/landpagemain.png');
+  background-attachment: fixed;
+  background-position:-550px -230px;
+  background-repeat: no-repeat;
+  background-size: 2575.9697265625px 1358.9783935546875px ;
 `
 
 export const TattiBg3 = styled.div`
@@ -69,6 +73,13 @@ export const TattiBg3 = styled.div`
   top: -150px;
   border-radius: 0px;
   background-image: url('https://i.ibb.co/GRKQ6Z2/Tattimgae.png');
+  background-attachment: fixed;
+  background-position:120px -150px;
+  background-repeat: no-repeat;
+  background-size: 1680px 1525.1356201171875px ;
+  //@media screen and (max-width: 768px) {
+  //  left: 1100px;
+  //}
 `
 
 export const HeroContent = styled.div`
@@ -108,10 +119,17 @@ export const HeroP = styled.p`
   }
 `
 export const HeroBtnWrapper = styled.div`
-  margin-top: 32px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  position: absolute;
+  align-content: center;
+  height: 5%;
+  width: 20%;
+  top: 140%;
+  border-radius: 0px;
+
+  margin-left: 70%;
+  //display: flex;
+  //flex-direction: column;
+  //align-items: center;
 `
 
 export const ArrowForward = styled(MdArrowForward)`
@@ -121,4 +139,15 @@ export const ArrowForward = styled(MdArrowForward)`
 export const ArrowRight = styled(MdKeyboardArrowRight)`
   margin-left: 8px;
   font-size: 20px;
+`
+
+export const SocialHandle = styled.div`
+  position: absolute;
+  align-content: center;
+  height: 5%;
+  width: 20%;
+  top: 350%;
+  left: 60%;
+  border-radius: 0px;
+  margin-left: 70%;
 `

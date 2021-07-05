@@ -9,7 +9,7 @@ export const Nav = styled.nav`
   display:flex;
   justify-content: center;
   align-items: center;
-  font-size: 1rem;
+  font-size: 1.5rem;
   position: sticky;
   top:0;
   z-index:10;
@@ -29,15 +29,11 @@ export const NavbarContainer = styled.div`
   max-width: 1100px;
 `
 export const NavLogo = styled(LinkR) `
-  color:#fff;
   justify-self: flex-start;
   cursor: pointer;
-  font-size: 1.5rem;
   display: flex;
   align-items: center;
   margin-left: 24px;
-  font-weight: bold;
-  text-decoration: none;
 `
 export const MobileIcon = styled.div`
   display: none;
@@ -77,7 +73,11 @@ export const NavLinks = styled(LinkS)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid #01bf71
+    border-bottom: 3px solid #ff6c00
+  }
+  &:hover {
+    font-size: 2.5rem;
+    color: #ff6c00
   }
 `
 export const NavBtn = styled.nav`
@@ -89,21 +89,21 @@ export const NavBtn = styled.nav`
   }
 `
 export const NavBtnLink = styled(LinkR)`
-  border-radius: 50px;
-  background: #ff6c00;
-  white-space: nowrap;
-  padding: 10px 22px;
-  color: #010606;
-  font-size: 16px;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  text-decoration: none;
+border-radius: 10px;
+background: #ff6c00;
+white-space: nowrap;
+padding: 10px 22px;
+color: white;
+font-size: 16px;
+outline: none;
+border: none;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+text-decoration: none;
 
-  &:hover {
+&:hover {
     transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: #010606;
-  }
+    background: #38218f;
+    color: white;
+}
 `
