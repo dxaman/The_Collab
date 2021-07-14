@@ -37,6 +37,7 @@ export const ServicesWrapper = styled.div`
 `
 export const ServicesCard = styled.div`
 position : relative;
+ z-index: 2;
   background: #fff;
   display: flex;
   flex-direction: column;
@@ -49,8 +50,8 @@ position : relative;
   background: #F9F9F9;
 box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
 border-radius: 16px;
-height: 375px;
-width: 250px;
+height: 400px;
+width: 300px;
 left: 0px;
 top: 0px;
 border-radius: 16px;
