@@ -5,7 +5,7 @@ import {Img} from "../About/AboutElements";
 const Decor = () => {
     return (
         <Bg>
-            <Img src={'https://i.ibb.co/GRKQ6Z2/Tattimgae.png'}/>
+            <Img src={'https://i.ibb.co/7kQDYdd/kuchnai.png'}/>
         </Bg>
     )
 }

@@ -17,8 +17,6 @@ export const decor1 = styled.div`
 export const Bg = styled.div`
   position: absolute;
   z-index: 1;
-  height: 1525.1356201171875px;
-  width: 1680px;
   left: 1214px;
   top: 1980px;
   overflow: hidden;
