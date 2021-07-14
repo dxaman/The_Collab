@@ -9,6 +9,7 @@ import Services from '../components/Services';
 import Events from '../components/Events';
 import Team from '../components/Team';
 import Sidebar from '../components/SideBar'
+import Ending from "../components/Ending";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -27,6 +28,7 @@ const Home = () => {
       <Events/>
       <Services />
       <Team/>
+      <Ending/>
       <Footer />
     </>
   )

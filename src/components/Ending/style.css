@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+.parterns_div{
+    margin: 10px 10px;
+}
+img{
+    width: 140px;
+}
+.sponcer_bigimg1{
+    width: 300px;
+    height: 70px;
+}
+.sponcer_bigimg2{
+    width: 300px;
+    height: 70px;
+}
+.sponcer_bigimg3{
+    width: 370px;
+    height: 70px;
+}
+
+hr {
+    border: 1px solid #664AA6;
+}
+
