@@ -5,11 +5,13 @@ import Decor from '../components/Decor'
 import Navbar from '../components/Navbar'
 import About from '../components/About'
 import {AboutOne} from '../components/About/Data';
+import {YoutubeOne} from '../components/Youtube/Data';
 import Services from '../components/Services';
 import Events from '../components/Events';
 import Team from '../components/Team';
 import Sidebar from '../components/SideBar'
 import Ending from "../components/Ending";
+import Youtube from "../components/Youtube";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -29,6 +31,7 @@ const Home = () => {
       <Services />
       <Team/>
       <Ending/>
+      <Youtube {...YoutubeOne}/>
       <Footer />
     </>
   )

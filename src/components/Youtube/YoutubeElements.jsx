@@ -1,19 +1,18 @@
 import styled from 'styled-components';
 
-export const EndingContainer = styled.div`
+export const YoutubeContainer = styled.div`
   color: #fff;
   z-index: 101;
-  background: #f9f9f9 ;
+  background: ${({lightBg}) => (lightBg ? '#f9f9f9' : 'linear-gradient(to right, #B08CCB, #38218F)')};
 
   @media screen and  (max-width: 768px) {
-    display: none;
     padding: 100px 0;
   }
 `
-export const EndingWrapper = styled.div`
+export const YoutubeWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 100px;
+  height: 860px;
   width: 100%auto;
   max-width: 1100px;
   margin-right: auto;
@@ -21,7 +20,7 @@ export const EndingWrapper = styled.div`
   padding: 0 24px;
   justify-content: center;
 `
-export const EndingRow = styled.div`
+export const YoutubeRow = styled.div`
   display: grid;
   grid-auto-columns: minmax(auto, 1fr);
   align-items: center;
@@ -31,7 +30,6 @@ export const EndingRow = styled.div`
     grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)}
   }
 `
-
 export const TextWrapper = styled.div`
   position: relative;
   top:100%;
@@ -42,7 +40,6 @@ export const TextWrapper = styled.div`
     top: 50%;
   }
 `
-
 export const TopLine = styled.p`
   color: #01bf71;
   font-size: 16px;
@@ -65,13 +62,31 @@ export const Heading = styled.h1`
     font-size: 32px;
   }
 `
-export const EndH1 = styled.h1`
-  font-size: 2.5rem;
-  color: #664AA6;
-  margin-top: 10px;
-  margin-bottom: 10px;
-
-  @media screen and (max-width: 480px) {
-    font-size: 2rem;
-  }  
+export const Subtitle  = styled.p`
+  align-content: center;
+  margin-bottom: 35px;
+  font-size: 18px;
+  line-height: 24px;
+  color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
 `
+export const BtnWrap = styled.div`
+  display:flex;
+  justify-content: flex-start;
+`;
+export const ImgWrap = styled.div`
+  position: relative;
+  top:20%;
+  left:95%;
+  max-width: 455px;
+  height: 100%;
+  @media screen and (max-width: 768px) {
+    left:25%;
+    top:44%;
+    max-width: 350px;
+  }
+`;
+export const Img = styled.img`
+  width: 100%;
+  margin: 0 0 10px 0;
+  padding-right: 0;
+`;

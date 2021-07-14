@@ -2,22 +2,13 @@ import React, {useState} from 'react'
 import {
     EndingContainer,
     EndingWrapper,
-    EndingRow,
-    Column1,
-    Column2,
-    TextWrapper,
-    TopLine,
-    Heading,
-    Subtitle,
-    BtnWrap,
-    ImgWrap,
-    Img,
     EndH1
 } from './EndingElements'
 import './style.css'
 
 
-const Ending = ({headline}) => {
+
+const Ending = () => {
     const [hover, setHover] = useState(false);
 
     const onHover = () => {
