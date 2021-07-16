@@ -33,7 +33,7 @@ export const YoutubeRow = styled.div`
 export const TextWrapper = styled.div`
   position: relative;
   top:100%;
-  max-width: 80%;
+  max-width: 40%;
   padding-top: 0;
   //padding-bottom: 60px;
   @media screen and (max-width: 768px) {
@@ -75,8 +75,8 @@ export const BtnWrap = styled.div`
 `;
 export const ImgWrap = styled.div`
   position: relative;
-  top:20%;
-  left:95%;
+  top:-15%;
+  left:50%;
   max-width: 455px;
   height: 100%;
   @media screen and (max-width: 768px) {
