@@ -6,7 +6,7 @@ import Icon1 from '../../images/book-open-w.png'
 import Icon2 from '../../images/svg-2.svg'
 import Icon3 from '../../images/svg-3.svg'
 import { Button3 } from '../ButtonElements'
-import About from '../IGS-about'
+import About from '../igs/IGS_about'
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavLinks, NavItem, NavBtn, NavBtnLink2 } from '../Navbar/NavbarElements'
 
 import {ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, ServicesP,Line} from './ServiceElements'

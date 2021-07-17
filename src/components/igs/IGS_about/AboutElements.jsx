@@ -32,7 +32,7 @@ export const AboutRow = styled.div`
 `
 export const TextWrapper = styled.div`
   position: relative;
-  top:100%;
+  top:40%;
   max-width: 80%;
   padding-top: 0;
   //padding-bottom: 60px;
