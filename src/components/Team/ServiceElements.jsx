@@ -9,12 +9,12 @@ position:relative;
   align-items: center;
   background: linear-gradient(to right, #B08CCB, #38218F);
 
-  @media screen and (max-width: 768px) {
-    height: 3500px;
+  @media screen and (max-width: 1000px) {
+    height: 3200px;
   }
 
   @media screen and (max-width: 480px) {
-    height: 3500px;
+    height: 3200px;
   }
  `
 export const ServicesWrapper = styled.div`
@@ -33,7 +33,7 @@ export const ServicesWrapper = styled.div`
     @media screen and (max-width: 786px) {
       grid-template-columns: 1fr;
       padding: 0 20px;
-      grid-gap: 60px;
+      grid-gap: 20px;
   }
 `
 export const ServicesCard = styled.div`

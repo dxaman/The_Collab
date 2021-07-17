@@ -38,6 +38,8 @@ export const TextWrapper = styled.div`
   //padding-bottom: 60px;
   @media screen and (max-width: 768px) {
     top: 50%;
+    max-width:100%;
+    text-align: center;
   }
 `
 export const TopLine = styled.p`
@@ -72,6 +74,9 @@ export const Subtitle  = styled.p`
 export const BtnWrap = styled.div`
   display:flex;
   justify-content: flex-start;
+  @media screen and (max-width: 800px) {
+    justify-content: center;
+  }
 `;
 export const ImgWrap = styled.div`
   position: relative;
@@ -80,9 +85,18 @@ export const ImgWrap = styled.div`
   max-width: 455px;
   height: 100%;
   @media screen and (max-width: 768px) {
-    left:25%;
+    display: none;
+  }
+`;
+export const ImgWrap2 = styled.div`
+ display: none;
+  @media screen and (max-width: 768px) {
+    display: block;
+    position: relative;
+  max-width: 455px;
+  height: 100%;
+    left :0;
     top:44%;
-    max-width: 350px;
   }
 `;
 export const Img = styled.img`

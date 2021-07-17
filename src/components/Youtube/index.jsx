@@ -1,8 +1,10 @@
 import React, {useState} from 'react'
-import { YoutubeContainer, YoutubeWrapper, YoutubeRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './YoutubeElements'
+import { YoutubeContainer, YoutubeWrapper, YoutubeRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap,ImgWrap2, Img } from './YoutubeElements'
 import {Button} from "../ButtonElements";
 import {ServicesCard} from "../Services/ServiceElements";
 import {ArrowForward, ArrowRight, HeroBtnWrapper} from "../Hero/HeroElements";
+
+
 
 import YouTube from 'react-youtube';
 
@@ -15,6 +17,22 @@ const Youtube = ({lightBg, id, imgStart, topLine, lightText, headline, darkText,
     const onHover = () => {
         setHover(!hover)
     }
+    const opts = {
+        height: '390',
+        width: '640',
+        playerVars: {
+          // https://developers.google.com/youtube/player_parameters
+          autoplay: 1,
+        },
+      };
+      const opts2 = {
+        height: '280',
+        width: '450',
+        playerVars: {
+          // https://developers.google.com/youtube/player_parameters
+          autoplay: 1,
+        },
+      };
     return (
         <>
       
@@ -30,8 +48,11 @@ const Youtube = ({lightBg, id, imgStart, topLine, lightText, headline, darkText,
                                 </BtnWrap>
                             </TextWrapper>
                             <ImgWrap>
-                            <YouTube videoId="77lB8WgJa28"  />;
+                            <YouTube videoId="77lB8WgJa28" opts={opts} />;
                             </ImgWrap>
+                            <ImgWrap2>
+                            <YouTube videoId="77lB8WgJa28" opts={opts2} />;
+                            </ImgWrap2>
                 </YoutubeWrapper>
             </YoutubeContainer>
             
