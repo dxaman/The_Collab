@@ -13,9 +13,10 @@ const Sidebar = ({isOpen,toggle}) => {
           <SidebarLink to='events' onClick={toggle}>Competitions</SidebarLink>
           <SidebarLink to='services' onClick={toggle}>Events</SidebarLink>
           <SidebarLink to='team' onClick={toggle}>Our Team</SidebarLink>
+          <SidebarLink to='youtube' onClick={toggle}>Videos</SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to='/signin'>Opine Matters</SidebarRoute>
+          <SidebarRoute to='/Opine'>Opine Matters</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

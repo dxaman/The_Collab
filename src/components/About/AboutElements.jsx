@@ -37,7 +37,9 @@ export const TextWrapper = styled.div`
   padding-top: 0;
   //padding-bottom: 60px;
   @media screen and (max-width: 768px) {
-    top: 50%;
+    top: 20%;
+    max-width:100%;
+    
   }
 `
 export const TopLine = styled.p`
@@ -75,13 +77,13 @@ export const BtnWrap = styled.div`
 `;
 export const ImgWrap = styled.div`
   position: relative;
-  top:20%;
+  top: 8%;
   left:95%;
   max-width: 455px;
   height: 100%;
   @media screen and (max-width: 768px) {
-    left:25%;
-    top:44%;
+    left:20%;
+    top:29%;
     max-width: 350px;
   }
 `;

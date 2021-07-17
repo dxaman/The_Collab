@@ -31,13 +31,13 @@ const Services = () => {
         <ServicesCard>
           <ServicesIcon src={Icon1}/>
           <ServicesH2>Aman Dixit</ServicesH2>
-          <ServicesP>The God</ServicesP>
+          <ServicesP>Senior Web Manager</ServicesP>
          
         </ServicesCard>
         <ServicesCard>
         <ServicesIcon src={Icon2}/>
           <ServicesH2>Tanishq Gupta</ServicesH2>
-          <ServicesP>Assistant God</ServicesP>
+          <ServicesP>Junior Web Manager</ServicesP>
           
         </ServicesCard>
         <ServicesCard>
@@ -48,34 +48,35 @@ const Services = () => {
         </ServicesCard>
         <ServicesCard>
         <ServicesIcon src={Icon3}/>
-          <ServicesH2>Aditya</ServicesH2>
+          <ServicesH2>Aditya Rao</ServicesH2>
           <ServicesP>Overall Coordinator</ServicesP>
           
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon5}/>
-          <ServicesH2>Unknown</ServicesH2>
-          <ServicesP>Some Work</ServicesP>
+          <ServicesH2>Sunny Kumar Bhagat</ServicesH2>
+          <ServicesP>Policy Research</ServicesP>
          
         </ServicesCard>
         <ServicesCard>
         <ServicesIcon src={Icon6}/>
-          <ServicesH2>Unkown</ServicesH2>
-          <ServicesP>Some Work</ServicesP>
+          <ServicesH2>Abhinav Raj Singh</ServicesH2>
+          <ServicesP>Finance and Marketing</ServicesP>
+          
+        </ServicesCard>
+        <ServicesCard>
+        <ServicesIcon src={Icon8}/>
+          <ServicesH2>Narendra Damu</ServicesH2>
+          <ServicesP>Finance and Marketing</ServicesP>
           
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon7}/>
-          <ServicesH2>Unknown </ServicesH2>
-          <ServicesP>Some Work</ServicesP>
+          <ServicesH2>Gaurav Dadhich</ServicesH2>
+          <ServicesP>Design</ServicesP>
          
         </ServicesCard>
-        <ServicesCard>
-        <ServicesIcon src={Icon8}/>
-          <ServicesH2>Unknown</ServicesH2>
-          <ServicesP>Some Work</ServicesP>
-          
-        </ServicesCard>
+       
       </ServicesWrapper>
     </ServicesContainer>
   )

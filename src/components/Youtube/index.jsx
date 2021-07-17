@@ -26,8 +26,8 @@ const Youtube = ({lightBg, id, imgStart, topLine, lightText, headline, darkText,
         },
       };
       const opts2 = {
-        height: '280',
-        width: '450',
+        height: '250',
+        width: '400',
         playerVars: {
           // https://developers.google.com/youtube/player_parameters
           autoplay: 1,
