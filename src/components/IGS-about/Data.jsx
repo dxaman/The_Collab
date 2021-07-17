@@ -1,5 +1,5 @@
 export const AboutOne = {
-    id: 'about',
+    id: 'igs',
     lightBg: true,
     lightText: false,
     lighttextDesc: true,

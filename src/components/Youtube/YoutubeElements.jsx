@@ -75,7 +75,7 @@ export const BtnWrap = styled.div`
 `;
 export const ImgWrap = styled.div`
   position: relative;
-  top:-15%;
+  top:-0%;
   left:50%;
   max-width: 455px;
   height: 100%;

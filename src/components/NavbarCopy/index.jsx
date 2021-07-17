@@ -61,7 +61,7 @@ const Navbar = ({ toggle }) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to='/Opine'>Opine Matters</NavBtnLink>
+            <NavBtnLink to='/igs'>Opine Matters</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

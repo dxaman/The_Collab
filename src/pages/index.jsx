@@ -12,6 +12,7 @@ import Team from '../components/Team';
 import Sidebar from '../components/SideBar'
 import Ending from "../components/Ending";
 import Youtube from "../components/Youtube";
+import Pakistan from '../components/IGS-about'
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)

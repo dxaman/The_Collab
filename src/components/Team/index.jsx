@@ -1,8 +1,12 @@
 import React,{useState}  from 'react'
 import Icon1 from '../../images/pp.jpg'
 import Icon2 from '../../images/tt.jpg'
-import Icon3 from '../../images/aa.jpg'
+import Icon3 from '../../images/aa2.jpg'
 import Icon4 from '../../images/nn.jpg'
+import Icon5 from '../../images/11.jpg'
+import Icon6 from '../../images/22.png'
+import Icon7 from '../../images/33.jpeg'
+import Icon8 from '../../images/aa.jpg'
 import { Button4 } from '../ButtonElements'
 import {ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, ServicesP} from './ServiceElements'
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight , TattiBg, TattiBg2, TattiBg3} from '../Hero/HeroElements'
@@ -49,27 +53,27 @@ const Services = () => {
           
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon1}/>
-          <ServicesH2>Aman Dixit</ServicesH2>
-          <ServicesP>The God</ServicesP>
+          <ServicesIcon src={Icon5}/>
+          <ServicesH2>Unknown</ServicesH2>
+          <ServicesP>Some Work</ServicesP>
          
         </ServicesCard>
         <ServicesCard>
-        <ServicesIcon src={Icon2}/>
-          <ServicesH2>Tanishq Gupta</ServicesH2>
-          <ServicesP>Assistant God</ServicesP>
+        <ServicesIcon src={Icon6}/>
+          <ServicesH2>Unkown</ServicesH2>
+          <ServicesP>Some Work</ServicesP>
           
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon4}/>
-          <ServicesH2>Nikhil </ServicesH2>
-          <ServicesP>Overall Coordinator</ServicesP>
+          <ServicesIcon src={Icon7}/>
+          <ServicesH2>Unknown </ServicesH2>
+          <ServicesP>Some Work</ServicesP>
          
         </ServicesCard>
         <ServicesCard>
-        <ServicesIcon src={Icon3}/>
-          <ServicesH2>Aditya</ServicesH2>
-          <ServicesP>Overall Coordinator</ServicesP>
+        <ServicesIcon src={Icon8}/>
+          <ServicesH2>Unknown</ServicesH2>
+          <ServicesP>Some Work</ServicesP>
           
         </ServicesCard>
       </ServicesWrapper>

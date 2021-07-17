@@ -4,14 +4,20 @@ import {Button} from "../ButtonElements";
 import {ServicesCard} from "../Services/ServiceElements";
 import {ArrowForward, ArrowRight, HeroBtnWrapper} from "../Hero/HeroElements";
 
+import YouTube from 'react-youtube';
+
+
+
 const Youtube = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, alt, img, primary, dark, dark2 }) => {
     const [hover, setHover] = useState(false);
+   
 
     const onHover = () => {
         setHover(!hover)
     }
     return (
         <>
+      
             <YoutubeContainer lightBg={lightBg} id={id}>
                 <YoutubeWrapper>
                             <TextWrapper>
@@ -19,15 +25,16 @@ const Youtube = ({lightBg, id, imgStart, topLine, lightText, headline, darkText,
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
                                     <Button to='#' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
-                                        Know More {hover ? <ArrowForward /> : <ArrowRight/>}
+                                         Know More {hover ? <ArrowForward /> : <ArrowRight/>}
                                     </Button>
                                 </BtnWrap>
                             </TextWrapper>
                             <ImgWrap>
-                                <Img src={img} alt={alt}/>
+                            <YouTube videoId="77lB8WgJa28"  />;
                             </ImgWrap>
                 </YoutubeWrapper>
             </YoutubeContainer>
+            
         </>
     )
 }

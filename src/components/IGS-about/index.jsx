@@ -2,9 +2,9 @@ import React, {useState} from 'react'
 import { AboutContainer, AboutWrapper, AboutRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './AboutElements'
 import {Button} from "../ButtonElements";
 import {ServicesCard} from "../Services/ServiceElements";
-import {ArrowForward, ArrowRight, HeroBtnWrapper} from "../Hero/HeroElements";
+import {ArrowForward, ArrowRight, HeroBtnWrapper,HeroContent2,HeroH2} from "../Hero/HeroElements";
 
-const About = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, alt, img, primary, dark, dark2 }) => {
+const Aboute = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, alt, img, primary, dark, dark2 }) => {
     const [hover, setHover] = useState(false);
 
     const onHover = () => {
@@ -12,9 +12,14 @@ const About = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, d
     }
     return (
         <>
+        
             <AboutContainer lightBg={lightBg} id={id}>
+            
                 <AboutWrapper>
                             <TextWrapper>
+                            <HeroContent2>
+        <HeroH2> Indian Government Summit</HeroH2>
+        </HeroContent2>
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
@@ -32,4 +37,4 @@ const About = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, d
     )
 }
 
-export default About
+export default Aboute

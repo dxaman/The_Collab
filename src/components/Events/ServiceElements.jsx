@@ -44,7 +44,7 @@ position : relative;
   justify-content: flex-start;
   align-items: center;
   border-radius: 10px;
-  max-height: 340px;
+  max-height: 400px;
   padding:  30px;
   transition: all 0.2s ease-in-out;
   background: #0c0c0c03;
@@ -55,6 +55,7 @@ width: 350px;
 left: 0px;
 top: 0px;
 border-radius: 16px;
+z-index:2;
 
 
   &:hover {
