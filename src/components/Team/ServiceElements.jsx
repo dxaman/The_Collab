@@ -14,7 +14,7 @@ position:relative;
   }
 
   @media screen and (max-width: 480px) {
-    height: 1300px;
+    height: 3500px;
   }
  `
 export const ServicesWrapper = styled.div`
