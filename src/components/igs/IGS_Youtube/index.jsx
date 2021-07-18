@@ -13,7 +13,7 @@ import {
     ImgWrap,
     ImgWrap2,
     Img,
-    Content, Speaker, IGS_YoutubeH1, Speakerbio
+    Content, Speaker, IGS_YoutubeH1, Speakerbio, IGS_hr
 } from './YoutubeElements'
 import {Button} from "../IGS_ButtonElements";
 import {ServicesCard} from "../../Services/ServiceElements";
@@ -76,6 +76,7 @@ const Youtube = ({lightBg, id, imgStart, topLine, lightText, headline, darkText,
 
         <YoutubeContainer lightBg={lightBg} id={id}>
             <IGS_YoutubeH1>Sessions</IGS_YoutubeH1>
+            <IGS_hr/>
 <Carousel responsive={responsive}
 swipeable={true}
   draggable={true}
@@ -83,7 +84,7 @@ swipeable={true}
   responsive={responsive}
   ssr={true} // means to render carousel on server-side.
   infinite={true}
-  autoPlay={ true }
+  autoPlay={ false }
   focusOnSelect={true}
   className="pak "
   sliderClass='slid'
@@ -95,7 +96,7 @@ swipeable={true}
   containerClass="carousel-container"
   dotListClass="custom-dot-list-style"
   itemClass="carousel-item-padding-40-px"
-  renderDotsOutside={false}>
+  renderDotsOutside={true}>
 
 
                 <YoutubeWrapper>
@@ -116,10 +117,10 @@ swipeable={true}
                                 </BtnWrap>
                             </TextWrapper>
                             <ImgWrap>
-                            <YouTube videoId="wHihLrcZF0o" opts={opts} />;
+                            <YouTube videoId="wHihLrcZF0o" opts={opts} />
                             </ImgWrap>
                             <ImgWrap2>
-                            <YouTube videoId="wHihLrcZF0o" opts={opts2} />;
+                            <YouTube videoId="wHihLrcZF0o" opts={opts2} />
                             </ImgWrap2>
                 </YoutubeWrapper>
             
@@ -140,10 +141,10 @@ swipeable={true}
                                 </BtnWrap>
                             </TextWrapper>
                             <ImgWrap>
-                            <YouTube videoId="lkSed-_qnxw" opts={opts} />;
+                            <YouTube videoId="lkSed-_qnxw" opts={opts} />
                             </ImgWrap>
                             <ImgWrap2>
-                            <YouTube videoId="lkSed-_qnxw" opts={opts2} />;
+                            <YouTube videoId="lkSed-_qnxw" opts={opts2} />
                             </ImgWrap2>
                 </YoutubeWrapper>
             
@@ -163,13 +164,14 @@ swipeable={true}
                                 </BtnWrap>
                             </TextWrapper>
                             <ImgWrap>
-                            <YouTube videoId="77lB8WgJa28" opts={opts} />;
+                            <YouTube videoId="77lB8WgJa28" opts={opts} />
                             </ImgWrap>
                             <ImgWrap2>
-                            <YouTube videoId="77lB8WgJa28" opts={opts2} />;
+                            <YouTube videoId="77lB8WgJa28" opts={opts2} />
                             </ImgWrap2>
                 </YoutubeWrapper>
 </Carousel>
+            <IGS_hr/>
 </YoutubeContainer>
 
  )

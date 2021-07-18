@@ -17,8 +17,8 @@ position: relative;
 `
 export const IGS_YoutubeH1 = styled.h1`
   font-size: 2.5rem;
-  color: #664aa6;
-  margin-top: 0%;
+  color: #fff;
+  padding-bottom: 40px;
   text-align: center;
   @media screen and (max-width: 480px) {
     font-size: 2rem;
@@ -33,7 +33,7 @@ export const YoutubeWrapper = styled.div`
   max-width: 50%;
   margin-right: auto;
   margin-left: auto;
-  padding: 0 24px;
+  padding: 40px 24px;
   justify-content: center;
 `
 export const YoutubeRow = styled.div`
@@ -59,7 +59,7 @@ export const TextWrapper = styled.div`
   }
 `
 export const TopLine = styled.p`
-  color: #C6182F;
+  color: #fff;
   font-size: 11px;
   line-height: 16px;
   font-weight: 700;
@@ -68,11 +68,11 @@ export const TopLine = styled.p`
 `
 
 export const Heading = styled.h1`
-  font-size: 20px;
+  font-size: 30px;
   line-height: 1.1;
   text-align: left;
   font-weight: 600px;
-  color: #664AA6;
+  color: #fff;
 
   @media screen and (max-width: 480px) {
     font-size: 32px;
@@ -80,24 +80,31 @@ export const Heading = styled.h1`
 `
 
 export const Subtitle  = styled.p`
-  font-size: 10px;
+  font-size: 15px;
   line-height: 24px;
-  color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
+  color: #fff;
 `
 
 export const Content = styled.p`
   position: relative;
   margin-bottom: 35px;
-  top:200%;
-  font-size: 8px;
+  top:160%;
+  font-size: 12px;
   line-height: 24px;
-  color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
+  color: #fff;
+`
+export const IGS_hr = styled.hr`
+  position: absolute;
+  width: 1680px;
+  height: 0px;
+  left: 5%;
+  border: 2px solid #FFFFFF;
+  border-radius: 2px;
 `
 
 export const Speaker  = styled.div`
   float: left;
   position: absolute;
-  
   align-content: center;
   height: 250px;
   width: 250px;
@@ -106,7 +113,7 @@ export const Speaker  = styled.div`
 `
 export const Speakerbio  = styled.div`
   float: right;
-  right: 0;
+  right: 5%;
   top: 100%;
   position: absolute;
   align-content: center;
@@ -124,7 +131,7 @@ export const BtnWrap = styled.div`
 `;
 export const ImgWrap = styled.div`
   position: relative;
-  top:-80%;
+  top:-40%;
   left:50%;
   max-width: 455px;
   height: 100%;
