@@ -2,6 +2,7 @@ import React from 'react'
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
 import { IGS_FooterContainer, IGS_FooterWrap, IGS_FooterLinkWrapper, IGS_FooterLinkItems, IGS_FooterLinkContainer, IGS_FooterLinkTitle, IGS_FooterLink, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights } from './IGS_FooterElements'
 import { animateScroll as scroll } from 'react-scroll';
+import {NavLogo} from "../IGS_Navbar/NavbarElements";
 
 const IGS_Footer = () => {
   const toggleHome = () => {
@@ -14,8 +15,9 @@ const IGS_Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
-              <img src="https://i.ibb.co/HrjPjh5/bwppoc.png"/>
-              <img src="https://i.ibb.co/7gNf1WP/igsbw.png"/>
+              <img src="https://i.ibb.co/ngkty7R/ppocbw.pnggg" style={{width:150, marginTop: -7, marginLeft: -100}} />
+
+              <img src="https://i.ibb.co/7gNf1WP/igsbw.png" style={{width:150, marginTop: -7, marginLeft: 70}} />
             </SocialLogo>
             <WebsiteRights>
               PPOC © {new Date().getFullYear()} All rights reserved.

@@ -126,20 +126,22 @@ swipeable={true}
             
           
                 <YoutubeWrapper>
-                            <TextWrapper>
-                                <Speaker>
-                                    <img src="https://i.ibb.co/RQVmwZz/Group-33.png" style={{}} />
-                                </Speaker>
+                        <TextWrapper>
+                            <Speaker>
+                                <ServicesIcon src={Icon1}/>
+                            </Speaker>
+                            <Speakerbio>
                                 <TopLine lightText={lightText}>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{subtitle}</Subtitle>
-                                <Content lightText={lightText}>{description}</Content>
-                                <BtnWrap>
-                                    <Button to='#' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
-                                         Know More {hover ? <ArrowForward /> : <ArrowRight/>}
-                                    </Button>
-                                </BtnWrap>
-                            </TextWrapper>
+                            </Speakerbio>
+                            <Content lightText={lightText}>{description}</Content>
+                            <BtnWrap>
+                                <Button to='#' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+                                    Know More {hover ? <ArrowForward /> : <ArrowRight/>}
+                                </Button>
+                            </BtnWrap>
+                        </TextWrapper>
                             <ImgWrap>
                             <YouTube videoId="lkSed-_qnxw" opts={opts} />
                             </ImgWrap>
@@ -149,20 +151,22 @@ swipeable={true}
                 </YoutubeWrapper>
             
                 <YoutubeWrapper>
-                            <TextWrapper>
-                                <Speaker>
-                                    <img src="https://i.ibb.co/zxtxY7C/Group-63.png" style={{}} />
-                                </Speaker>
+                        <TextWrapper>
+                            <Speaker>
+                                <ServicesIcon src={Icon1}/>
+                            </Speaker>
+                            <Speakerbio>
                                 <TopLine lightText={lightText}>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{subtitle}</Subtitle>
-                                <Content lightText={lightText}>{description}</Content>
-                                <BtnWrap>
-                                    <Button to='#' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
-                                         Know More {hover ? <ArrowForward /> : <ArrowRight/>}
-                                    </Button>
-                                </BtnWrap>
-                            </TextWrapper>
+                            </Speakerbio>
+                            <Content lightText={lightText}>{description}</Content>
+                            <BtnWrap>
+                                <Button to='#' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+                                    Know More {hover ? <ArrowForward /> : <ArrowRight/>}
+                                </Button>
+                            </BtnWrap>
+                        </TextWrapper>
                             <ImgWrap>
                             <YouTube videoId="77lB8WgJa28" opts={opts} />
                             </ImgWrap>
