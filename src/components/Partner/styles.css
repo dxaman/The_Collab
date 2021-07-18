@@ -1,11 +1,29 @@
-.car{
-    width: 70%;
+.car2{
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     z-index:2;
+    height: 50%;
+    padding:10%;
     
   }
+  
+hr {
+    border: 1px solid #664AA6;
+    width:80%;
+}
 
+  .sponcer_bigimg1{
+      align-content: center;
+      width:200px;
+      height: 200px;
+      padding:2px;
+  }
+  .sponcer_bigimg1:hover{
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+    cursor:pointer;
+  }
 
 .react-multi-carousel-list {
     display: flex;

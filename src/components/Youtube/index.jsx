@@ -48,10 +48,10 @@ const Youtube = ({lightBg, id, imgStart, topLine, lightText, headline, darkText,
                                 </BtnWrap>
                             </TextWrapper>
                             <ImgWrap>
-                            <YouTube videoId="77lB8WgJa28" opts={opts} />;
+                            <YouTube videoId="77lB8WgJa28" opts={opts} />
                             </ImgWrap>
                             <ImgWrap2>
-                            <YouTube videoId="77lB8WgJa28" opts={opts2} />;
+                            <YouTube videoId="77lB8WgJa28" opts={opts2} />
                             </ImgWrap2>
                 </YoutubeWrapper>
             </YoutubeContainer>

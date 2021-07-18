@@ -3,22 +3,24 @@ import styled from 'styled-components';
 export const YoutubeContainer = styled.div`
   color: #fff;
   z-index: 101;
-  background: ${({lightBg}) => (lightBg ? '#f9f9f9' : 'linear-gradient(to right, #B08CCB, #38218F)')};
-
+  background: ${({lightBg}) => (lightBg ? 'white' : 'linear-gradient(to right, #B08CCB, #38218F)')};
+  height: 500px;
   @media screen and  (max-width: 768px) {
     padding: 100px 0;
+    height:800px;
   }
 `
 export const YoutubeWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 860px;
   width: 100%auto;
   max-width: 1100px;
   margin-right: auto;
+  height:500px;
   margin-left: auto;
   padding: 0 24px;
   justify-content: center;
+  
 `
 export const YoutubeRow = styled.div`
   display: grid;
@@ -32,12 +34,12 @@ export const YoutubeRow = styled.div`
 `
 export const TextWrapper = styled.div`
   position: relative;
-  top:100%;
+  top:10%;
   max-width: 40%;
   padding: 5px;
   //padding-bottom: 60px;
   @media screen and (max-width: 768px) {
-    top: 50%;
+    top: -30%;
     max-width:100%;
     text-align: center;
   }
@@ -80,7 +82,7 @@ export const BtnWrap = styled.div`
 `;
 export const ImgWrap = styled.div`
   position: relative;
-  top:-0%;
+  top:-80%;
   left:50%;
   max-width: 455px;
   height: 100%;
@@ -96,7 +98,7 @@ export const ImgWrap2 = styled.div`
   max-width: 455px;
   height: 100%;
     left :0;
-    top:44%;
+    top:0;
   }
 `;
 export const Img = styled.img`
