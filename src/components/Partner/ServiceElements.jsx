@@ -2,7 +2,8 @@ import styled from 'styled-components'
 
 export const ServicesContainer = styled.div`
 position:relative;
-  height: 1000px;
+  padding-bottom:1%;
+  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,11 +11,11 @@ position:relative;
   background: linear-gradient(to right, #B08CCB, #38218F);
 
   @media screen and (max-width: 1000px) {
-    height: 3200px;
+    height: 600px;
   }
 
   @media screen and (max-width: 480px) {
-    height: 3200px;
+    height: 600px;
   }
  `
 export const ServicesWrapper = styled.div`
@@ -56,7 +57,7 @@ border-radius: 16px;
 
 
   &:hover {
-    transform: scale(1.25);
+    transform: scale(1.05);
     transition: all 0.2s ease-in-out;
     cursor:pointer;
   }
@@ -89,4 +90,6 @@ export const ServicesP = styled.p`
   padding-bottom: 20%;
   color: white;
 `
+
+
 

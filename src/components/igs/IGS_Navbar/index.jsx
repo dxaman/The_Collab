@@ -36,28 +36,29 @@ const Navbar = ({ toggle }) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to='about'
+              <NavLinks to='igs'
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
               >About Us</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='events'
+              <NavLinks to='youtube'
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >Competitions</NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks to='services'
-              smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >Events</NavLinks>
+              >Videos</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to='team'
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >Our Team</NavLinks>
+              >Speakers</NavLinks>
             </NavItem>
+            <NavItem>
+              <NavLinks to='IGS_Services'
+              smooth={true} duration={500} spy={true} exact='true' offset={-80}
+              >Events</NavLinks>
+            </NavItem>
+            
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to='/signin'>Opine Matters</NavBtnLink>
+            <NavBtnLink to='/Opine'>Opine Matters</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

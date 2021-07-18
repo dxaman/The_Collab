@@ -12,7 +12,7 @@ import Team from '../components/Team';
 import Sidebar from '../components/SideBar'
 import Ending from "../components/Ending";
 import Youtube from "../components/Youtube";
-import Pakistan from '../components/igs/IGS_about'
+import Slider from '../components/Slider'
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -30,9 +30,11 @@ const Home = () => {
       <Decor/>
       <Events/>
       <Services />
-      <Team/>
+      <Slider/>
+      {/* <Team/> */}
       <Ending/>
       <Youtube {...YoutubeOne}/>
+      
       <Footer />
     </>
   )
