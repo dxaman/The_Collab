@@ -1,14 +1,30 @@
 import React, {useState} from 'react'
-import { YoutubeContainer, YoutubeWrapper, YoutubeRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap,ImgWrap2, Img } from './YoutubeElements'
-import {Button} from "../ButtonElements";
-import {ServicesCard} from "../Services/ServiceElements";
-import {ArrowForward, ArrowRight, HeroBtnWrapper} from "../Hero/HeroElements";
+import {
+    YoutubeContainer,
+    YoutubeWrapper,
+    YoutubeRow,
+    Column1,
+    Column2,
+    TextWrapper,
+    TopLine,
+    Heading,
+    Subtitle,
+    BtnWrap,
+    ImgWrap,
+    ImgWrap2,
+    Img,
+    Content, Speaker, IGS_YoutubeH1
+} from './YoutubeElements'
+import {Button} from "../IGS_ButtonElements";
+import {ServicesCard} from "../../Services/ServiceElements";
+import {ArrowForward, ArrowRight, HeroBtnWrapper} from "../../Hero/HeroElements";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import  './styles.css'
 
 
 import YouTube from 'react-youtube';
+import {IGS_ServicesH1} from "../IGS_Services/IGS_ServiceElements";
 
 const responsive = {
   superLargeDesktop: {
@@ -31,7 +47,7 @@ const responsive = {
 };
 
 
-const Youtube = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, alt, img, primary, dark, dark2 }) => {
+const Youtube = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, subtitle, buttonLabel, alt, img, primary, dark, dark2 }) => {
     const [hover, setHover] = useState(false);
    
 
@@ -55,9 +71,9 @@ const Youtube = ({lightBg, id, imgStart, topLine, lightText, headline, darkText,
         },
       };
       return (
-      
-        <YoutubeContainer lightBg={lightBg} id={id}>    
-        
+
+        <YoutubeContainer lightBg={lightBg} id={id}>
+            <IGS_YoutubeH1>Sessions</IGS_YoutubeH1>
 <Carousel responsive={responsive}  
 swipeable={true}
   draggable={true}
@@ -78,12 +94,17 @@ swipeable={true}
   dotListClass="custom-dot-list-style"
   itemClass="carousel-item-padding-40-px"
   renderDotsOutside={false}>
- 
- 
+
+
                 <YoutubeWrapper>
                             <TextWrapper>
+                                <Speaker>
+                                    <img src="https://i.ibb.co/RQVmwZz/Group-33.png" style={{}} />
+                                </Speaker>
+                                <TopLine lightText={lightText}>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
-                                <Subtitle darkText={darkText}>{description}</Subtitle>
+                                <Subtitle darkText={darkText}>{subtitle}</Subtitle>
+                                <Content lightText={lightText}>{description}</Content>
                                 <BtnWrap>
                                     <Button to='#' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
                                          Know More {hover ? <ArrowForward /> : <ArrowRight/>}
@@ -101,8 +122,13 @@ swipeable={true}
           
                 <YoutubeWrapper>
                             <TextWrapper>
+                                <Speaker>
+                                    <img src="https://i.ibb.co/RQVmwZz/Group-33.png" style={{}} />
+                                </Speaker>
+                                <TopLine lightText={lightText}>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
-                                <Subtitle darkText={darkText}>{description}</Subtitle>
+                                <Subtitle darkText={darkText}>{subtitle}</Subtitle>
+                                <Content lightText={lightText}>{description}</Content>
                                 <BtnWrap>
                                     <Button to='#' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
                                          Know More {hover ? <ArrowForward /> : <ArrowRight/>}
@@ -119,8 +145,13 @@ swipeable={true}
             
                 <YoutubeWrapper>
                             <TextWrapper>
+                                <Speaker>
+                                    <img src="https://i.ibb.co/RQVmwZz/Group-33.png" style={{}} />
+                                </Speaker>
+                                <TopLine lightText={lightText}>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
-                                <Subtitle darkText={darkText}>{description}</Subtitle>
+                                <Subtitle darkText={darkText}>{subtitle}</Subtitle>
+                                <Content lightText={lightText}>{description}</Content>
                                 <BtnWrap>
                                     <Button to='#' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
                                          Know More {hover ? <ArrowForward /> : <ArrowRight/>}
@@ -134,10 +165,6 @@ swipeable={true}
                             <YouTube videoId="77lB8WgJa28" opts={opts2} />;
                             </ImgWrap2>
                 </YoutubeWrapper>
-            
-       
-        
-  
 </Carousel>
 </YoutubeContainer>
 

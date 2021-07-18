@@ -3,11 +3,11 @@ import styled from 'styled-components';
 export const YoutubeContainer = styled.div`
 position: relative;
   color: #fff;
-  padding-top:5%;
-  padding-bottom:5%;
+  padding-top:4%;
+  padding-bottom:2%;
   z-index: 101;
 
-  background: ${({lightBg}) => (lightBg ? '#white' : 'linear-gradient(to right, #B08CCB, #38218F)')};
+  background: linear-gradient(90deg, #2F3E41 10.31%, #273132 35.06%, #1E2422 71.4%, #1B1F1C 99.48%);;
 
   @media screen and  (max-width: 768px) {
     padding: 100px 0;
@@ -15,6 +15,16 @@ position: relative;
     
   }
 `
+export const IGS_YoutubeH1 = styled.h1`
+  font-size: 2.5rem;
+  color: #664aa6;
+  margin-top: 0%;
+  text-align: center;
+  @media screen and (max-width: 480px) {
+    font-size: 2rem;
+  }  
+`
+
 export const YoutubeWrapper = styled.div`
   display: grid;
   z-index: 1;
@@ -49,20 +59,18 @@ export const TextWrapper = styled.div`
   }
 `
 export const TopLine = styled.p`
-  color: #01bf71;
-  font-size: 16px;
+  color: #C6182F;
+  font-size: 11px;
   line-height: 16px;
   font-weight: 700;
   letter-spacing: 1.4px;
   text-transform: uppercase;
-  margin-bottom: 16px;
 `
 
 export const Heading = styled.h1`
-  align-content: center;
-  margin-bottom: 24px;
-  font-size: 48px;
+  font-size: 20px;
   line-height: 1.1;
+  text-align: left;
   font-weight: 600px;
   color: #664AA6;
 
@@ -70,13 +78,30 @@ export const Heading = styled.h1`
     font-size: 32px;
   }
 `
+
 export const Subtitle  = styled.p`
-  align-content: center;
-  margin-bottom: 35px;
-  font-size: 18px;
+  font-size: 10px;
   line-height: 24px;
   color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
 `
+
+export const Content = styled.p`
+  margin-bottom: 35px;
+  font-size: 8px;
+  line-height: 24px;
+  color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
+`
+
+export const Speaker  = styled.div`
+  align-content: center;
+  height: 100px;
+  width:100px
+  left: 117px;
+  top: 1823px;
+  border-radius: 16px;
+  //background-image: src('https://i.ibb.co/RQVmwZz/Group-33.png');
+`
+
 export const BtnWrap = styled.div`
   display:flex;
   justify-content: flex-start;

@@ -37,7 +37,7 @@ export const VideoBg = styled.video`
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  background-image: url('https://i.ibb.co/2N17Rqd/Frame-3-1.png')
+  background-image: url('https://i.ibb.co/df8znyf/Frame-3.png')
 `
 export const TattiBg = styled.div`
   position: absolute;

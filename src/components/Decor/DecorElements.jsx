@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const decor1 = styled.div`
   position: absolute;
-  height: 1525.1356201171875px;
+  height: 1025.1356201171875px;
   width: 1680px;
   left: 1214px;
   top: 1980px;
@@ -18,7 +18,7 @@ export const Bg = styled.div`
   position: absolute;
   z-index: 1;
   left: 1214px;
-  top: 1980px;
+  top: 1580px;
   overflow: hidden;
   @media screen and (max-width: 768px) {
     left: 0px;

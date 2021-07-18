@@ -4,7 +4,7 @@ export const AboutContainer = styled.div`
   color: #fff;
   z-index: 101;
   background: ${({lightBg}) => (lightBg ? '#f9f9f9' : 'linear-gradient(to right, #B08CCB, #38218F)')};
-
+  
   @media screen and  (max-width: 768px) {
     padding: 100px 0;
   }
@@ -12,7 +12,7 @@ export const AboutContainer = styled.div`
 export const AboutWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 860px;
+  height: 650px;
   width: 100%auto;
   max-width: 1100px;
   margin-right: auto;
@@ -32,7 +32,7 @@ export const AboutRow = styled.div`
 `
 export const TextWrapper = styled.div`
   position: relative;
-  top:100%;
+  top:55%;
   max-width: 80%;
   padding-top: 0;
   //padding-bottom: 60px;
@@ -77,7 +77,7 @@ export const BtnWrap = styled.div`
 `;
 export const ImgWrap = styled.div`
   position: relative;
-  top: 8%;
+  top: -33%;
   left:95%;
   max-width: 455px;
   height: 100%;

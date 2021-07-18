@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { AboutContainer, AboutWrapper, AboutRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './AboutElements'
-import {Button} from "../../ButtonElements";
+import {Button} from "../IGS_ButtonElements";
 import {ServicesCard} from "../../Services/ServiceElements";
 import {ArrowForward, ArrowRight, HeroBtnWrapper,HeroContent2,HeroH2} from "../../Hero/HeroElements";
 

@@ -161,7 +161,7 @@ export const SocialHandle = styled.div`
   align-content: center;
   height: 5%;
   width: 20%;
-  top: 250%;
+  top: 200%;
   left: 60%;
   border-radius: 0px;
   margin-left: 70%;

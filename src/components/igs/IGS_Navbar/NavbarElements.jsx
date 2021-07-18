@@ -75,11 +75,11 @@ export const NavLinks = styled(LinkS)`
   font-size: 1.2rem;
 
   &.active {
-    border-bottom: 3px solid #ff6c00
+    border-bottom: 3px solid #C6182F
   }
   &:hover {
     font-size: 1.4rem;
-    color: #ff6c00
+    color: #C6182F
   }
 `
 export const NavBtn = styled.nav`
@@ -92,7 +92,7 @@ export const NavBtn = styled.nav`
 `
 export const NavBtnLink = styled(LinkR)`
 border-radius: 10px;
-background: #ff6c00;
+background: #C6182F;
 white-space: nowrap;
 padding: 10px 22px;
 color: white;

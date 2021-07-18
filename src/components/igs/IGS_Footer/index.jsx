@@ -15,6 +15,7 @@ const IGS_Footer = () => {
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
               <img src="https://i.ibb.co/HrjPjh5/bwppoc.png"/>
+              <img src="https://i.ibb.co/7gNf1WP/igsbw.png"/>
             </SocialLogo>
             <WebsiteRights>
               PPOC © {new Date().getFullYear()} All rights reserved.

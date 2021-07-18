@@ -1,6 +1,6 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Icon1 from '../../images/elon.jpg'
+import Icon1 from '../../../images/elon.jpg'
 
 import {ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon,ServicesH2, ServicesP} from './ServiceElements'
 import  './styles.css'

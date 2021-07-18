@@ -12,7 +12,7 @@ export const AboutContainer = styled.div`
 export const AboutWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 860px;
+  height: 600px;
   width: 100%auto;
   max-width: 1100px;
   margin-right: auto;
@@ -56,7 +56,7 @@ export const Heading = styled.h1`
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600px;
-  color: #664AA6;
+  color: #402893;
 
   @media screen and (max-width: 480px) {
     font-size: 32px;

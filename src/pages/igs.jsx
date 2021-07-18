@@ -1,11 +1,11 @@
 import React, {useState} from 'react'
 
 
-import {YoutubeOne} from '../components/YoutubeIGS/Data';
+import {YoutubeOne} from '../components/igs/IGS_Youtube/Data';
 
 
 
-import Youtube from "../components/YoutubeIGS";
+import Youtube from "../components/igs/IGS_Youtube";
 
 
 import Aboute from "../components/igs/IGS_about";
@@ -17,7 +17,8 @@ import IGS_Hero from "../components/igs/IGS_Hero";
 import IGS_Footer from "../components/igs/IGS_Footer";
 import IGS_Services from "../components/igs/IGS_Services";
 import ScrollToTop from '../components/ScrollToTop'
-import Slider from '../components/Speaker'
+import Slider from '../components/igs/Speaker'
+import Decor from "../components/Decor";
 
 
 
@@ -32,17 +33,16 @@ const Home = () => {
     <>
      <Sidebar isOpen={isOpen} toggle={toggle} />
       <ScrollToTop />
-     
+     <Decor/>
         <NavBar/>
         
       
         <IGS_Hero />
       <Aboute {...AboutOne}/>
-    
-     
       <Youtube {...YoutubeOne}/>
-      <Slider/>
+
       <IGS_Services/>
+        <Slider/>
         <IGS_Footer/>
       
       
