@@ -5,7 +5,7 @@ position: relative;
   color: #fff;
   padding-top:4%;
   padding-bottom:2%;
-  z-index: 101;
+  z-index: 0;
 
   background: linear-gradient(90deg, #2F3E41 10.31%, #273132 35.06%, #1E2422 71.4%, #1B1F1C 99.48%);;
 
