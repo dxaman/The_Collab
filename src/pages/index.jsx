@@ -13,6 +13,7 @@ import Sidebar from '../components/SideBar'
 import Ending from "../components/Ending";
 import Youtube from "../components/Youtube";
 import Slider from '../components/Slider'
+import Partner from '../components/Partner'
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -32,7 +33,7 @@ const Home = () => {
       <Services />
       <Slider/>
       {/* <Team/> */}
-      <Ending/>
+      <Partner/>
       <Youtube {...YoutubeOne}/>
       
       <Footer />

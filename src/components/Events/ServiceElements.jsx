@@ -103,7 +103,7 @@ left: 50%;
   top:56%;
   border-top: 3px solid #ff6c00;
   border-bottom: 0;
-  left: 19%;
+  left: 17%;
   width: 300px;
   height: 0px;
   

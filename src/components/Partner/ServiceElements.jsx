@@ -8,7 +8,7 @@ position:relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right, #B08CCB, #38218F);
+  background: white;
 
   @media screen and (max-width: 1000px) {
     height: 600px;
@@ -71,7 +71,7 @@ export const ServicesIcon = styled.img`
 `
 export const ServicesH1 = styled.h1`
   font-size: 2.5rem;
-  color: white;
+  color: #664aa6;
   margin-bottom: 64px;
 
   @media screen and (max-width: 480px) {

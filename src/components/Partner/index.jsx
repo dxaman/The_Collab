@@ -1,14 +1,6 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Icon1 from '../../images/pp.jpg'
-import Icon2 from '../../images/tt.jpg'
-import Icon3 from '../../images/aa2.jpg'
-import Icon4 from '../../images/nn.jpg'
-import Icon5 from '../../images/11.jpg'
-import Icon6 from '../../images/22.png'
-import Icon7 from '../../images/33.jpeg'
-import Icon8 from '../../images/aa.jpg'
-import {ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon,ServicesH2, ServicesP} from './ServiceElements'
+import {ServicesContainer, ServicesH1} from './ServiceElements'
 import  './styles.css'
 
 const Slider = () => {
@@ -22,95 +14,63 @@ const Slider = () => {
         },
         desktop: {
           breakpoint: { max: 3000, min: 1024 },
-          items: 5
+          items: 6
         },
         tablet: {
           breakpoint: { max: 1024, min: 464 },
-          items: 1
+          items: 2
         },
         mobile: {
           breakpoint: { max: 464, min: 0 },
-          items: 1
+          items: 2
         }
       };
     return (
-        <ServicesContainer id='team'>
-        <ServicesH1>The Team</ServicesH1>
+        <ServicesContainer id='partner'>
+        <ServicesH1>Past Partners</ServicesH1>
         
-        
+  <hr/>      
 <Carousel responsive={responsive}  
 swipeable={true}
   draggable={true}
-  showDots={true}
+  showDots={false}
   responsive={responsive}
   ssr={true} // means to render carousel on server-side.
   infinite={true}
   autoPlay={ true }
   focusOnSelect={true}
-  className="car "
+  className="car2 "
   sliderClass='slid'
-  autoPlaySpeed={2000}
+  autoPlaySpeed={3000}
   centerMode={false}
   keyBoardControl={true}
-  customTransition="transform 500ms ease-in-out"
-  transitionDuration={500}
+  customTransition="transform 3000ms linear"
+  transitionDuration={200}
   containerClass="carousel-container"
   dotListClass="custom-dot-list-style"
   itemClass="carousel-item-padding-40-px"
   renderDotsOutside={false}>
  
-        <ServicesCard>
-          <ServicesIcon src={Icon1}/>
-          <ServicesH2>Aman Dixit</ServicesH2>
-          <ServicesP>Senior Web Manager</ServicesP>
-         
-        </ServicesCard>
-        <ServicesCard>
-        <ServicesIcon src={Icon2}/>
-          <ServicesH2>Tanishq Gupta</ServicesH2>
-          <ServicesP>Junior Web Manager</ServicesP>
-          
-        </ServicesCard>
-        <ServicesCard>
-          <ServicesIcon src={Icon4}/>
-          <ServicesH2>Nikhil </ServicesH2>
-          <ServicesP>Overall Coordinator</ServicesP>
-         
-        </ServicesCard>
-        <ServicesCard>
-        <ServicesIcon src={Icon3}/>
-          <ServicesH2>Aditya Rao</ServicesH2>
-          <ServicesP>Overall Coordinator</ServicesP>
-          
-        </ServicesCard>
-        <ServicesCard>
-          <ServicesIcon src={Icon5}/>
-          <ServicesH2>Sunny Kumar Bhagat</ServicesH2>
-          <ServicesP>Policy Research</ServicesP>
-         
-        </ServicesCard>
-        <ServicesCard>
-        <ServicesIcon src={Icon6}/>
-          <ServicesH2>Abhinav Raj Singh</ServicesH2>
-          <ServicesP>Finance and Marketing</ServicesP>
-          
-        </ServicesCard>
-        <ServicesCard>
-        <ServicesIcon src={Icon8}/>
-          <ServicesH2>Narendra Damu</ServicesH2>
-          <ServicesP>Finance and Marketing</ServicesP>
-          
-        </ServicesCard>
-        <ServicesCard>
-          <ServicesIcon src={Icon7}/>
-          <ServicesH2>Gaurav Dadhich</ServicesH2>
-          <ServicesP>Design</ServicesP>
-         
-        </ServicesCard>
+ 
+ <img src="https://i.ibb.co/gtwSgFC/prs.png" className="sponcer_bigimg1" alt="Parterns_img"/>
+<img src="https://i.ibb.co/R7H0cJd/CSTEP-Logo-Color.png"  className="sponcer_bigimg1"alt="Parterns_img"/>
+<img src="https://i.ibb.co/QMbrXjh/School-Of-Politics.png" className="sponcer_bigimg1"  alt="Parterns_img"/>
+<img src="https://i.ibb.co/k1CNFr6/Bala-Janagraha.png"  className="sponcer_bigimg1" alt="Parterns_img"/>
+<img src="https://i.ibb.co/sgh2fFc/class-sathi.png" className="sponcer_bigimg1" alt="Parterns_img"/>
+<img src="https://startupxplore.com/uploads/ff8080816ca837ec016ca9da915c00dc-large.png"  className="sponcer_bigimg1"alt="Parterns_img"/>
+<img src="https://i1.wp.com/iasdelhi.org/wp-content/uploads/2018/06/forumIAS_logo.png" className="sponcer_bigimg1" alt="Parterns_img"/>
+<img src="https://i.ibb.co/Ypx07jS/unnamed.jpg" alt="Parterns_img" className="sponcer_bigimg1"/>
+<img src="https://i.ibb.co/vhgbx4t/Taghive.png" className="sponcer_bigimg1" alt="Parterns_img"/>
+<img src="https://i.ibb.co/F75RcvW/Jarvis-Logo-2-X2-ft.png" className="sponcer_bigimg1"  alt="Parterns_img"/>
+<img src="https://i.ibb.co/FBRyDsG/moolya.png" className="sponcer_bigimg1" alt="Parterns_img"/>
+<img src="https://i.ibb.co/sWKHtXS/C3s-India-Default-Image.jpg" alt="Parterns_img" className="sponcer_bigimg1"/>
+<img src="https://i.ibb.co/sQ6gqJf/wp-favicon3-1.png"  className="sponcer_bigimg1" alt="Parterns_img"/>
+
        
         
   
 </Carousel>
+<hr/>
 </ServicesContainer>
  )
 }
