@@ -1,5 +1,5 @@
 .pak{
-    width: 70%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     z-index:2;
@@ -43,10 +43,12 @@
 }
 
 .react-multiple-carousel__arrow:hover {
+    z-index: 1000;
     background: rgba(0, 0, 0, 0.8)
 }
 
 .react-multiple-carousel__arrow::before {
+    z-index: 1000;
     font-size: 20px;
     color: #fff;
     display: block;

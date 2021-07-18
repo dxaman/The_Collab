@@ -30,7 +30,7 @@ export const YoutubeWrapper = styled.div`
   z-index: 1;
   height: 500px;
   width: 100%auto;
-  max-width: 1100px;
+  max-width: 50%;
   margin-right: auto;
   margin-left: auto;
   padding: 0 24px;
@@ -49,9 +49,9 @@ export const YoutubeRow = styled.div`
 export const TextWrapper = styled.div`
   position: relative;
   top: 20%;
-  max-width: 40%;
+  max-width: 60%;
+  left:-20%;
   padding: 5px;
-  //padding-bottom: 60px;
   @media screen and (max-width: 768px) {
     top: 10%;
     max-width:100%;
@@ -86,19 +86,32 @@ export const Subtitle  = styled.p`
 `
 
 export const Content = styled.p`
+  position: relative;
   margin-bottom: 35px;
+  top:200%;
   font-size: 8px;
   line-height: 24px;
   color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
 `
 
 export const Speaker  = styled.div`
+  float: left;
+  position: absolute;
+  
   align-content: center;
-  height: 100px;
-  width:100px
-  left: 117px;
-  top: 1823px;
+  height: 250px;
+  width: 250px;
   border-radius: 16px;
+  //background-image: src('https://i.ibb.co/RQVmwZz/Group-33.png');
+`
+export const Speakerbio  = styled.div`
+  float: right;
+  right: 0;
+  top: 100%;
+  position: absolute;
+  align-content: center;
+  height: 250px;
+  width: 250px;
   //background-image: src('https://i.ibb.co/RQVmwZz/Group-33.png');
 `
 

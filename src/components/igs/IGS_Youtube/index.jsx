@@ -13,7 +13,7 @@ import {
     ImgWrap,
     ImgWrap2,
     Img,
-    Content, Speaker, IGS_YoutubeH1
+    Content, Speaker, IGS_YoutubeH1, Speakerbio
 } from './YoutubeElements'
 import {Button} from "../IGS_ButtonElements";
 import {ServicesCard} from "../../Services/ServiceElements";
@@ -25,6 +25,8 @@ import  './styles.css'
 
 import YouTube from 'react-youtube';
 import {IGS_ServicesH1} from "../IGS_Services/IGS_ServiceElements";
+import Icon1 from "../../../images/elon.jpg";
+import {ServicesIcon} from "../Speaker/ServiceElements";
 
 const responsive = {
   superLargeDesktop: {
@@ -74,7 +76,7 @@ const Youtube = ({lightBg, id, imgStart, topLine, lightText, headline, darkText,
 
         <YoutubeContainer lightBg={lightBg} id={id}>
             <IGS_YoutubeH1>Sessions</IGS_YoutubeH1>
-<Carousel responsive={responsive}  
+<Carousel responsive={responsive}
 swipeable={true}
   draggable={true}
   showDots={true}
@@ -99,11 +101,13 @@ swipeable={true}
                 <YoutubeWrapper>
                             <TextWrapper>
                                 <Speaker>
-                                    <img src="https://i.ibb.co/RQVmwZz/Group-33.png" style={{}} />
+                                    <ServicesIcon src={Icon1}/>
                                 </Speaker>
-                                <TopLine lightText={lightText}>{topLine}</TopLine>
-                                <Heading lightText={lightText}>{headline}</Heading>
-                                <Subtitle darkText={darkText}>{subtitle}</Subtitle>
+                                <Speakerbio>
+                                    <TopLine lightText={lightText}>{topLine}</TopLine>
+                                    <Heading lightText={lightText}>{headline}</Heading>
+                                    <Subtitle darkText={darkText}>{subtitle}</Subtitle>
+                                </Speakerbio>
                                 <Content lightText={lightText}>{description}</Content>
                                 <BtnWrap>
                                     <Button to='#' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
@@ -146,7 +150,7 @@ swipeable={true}
                 <YoutubeWrapper>
                             <TextWrapper>
                                 <Speaker>
-                                    <img src="https://i.ibb.co/RQVmwZz/Group-33.png" style={{}} />
+                                    <img src="https://i.ibb.co/zxtxY7C/Group-63.png" style={{}} />
                                 </Speaker>
                                 <TopLine lightText={lightText}>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>

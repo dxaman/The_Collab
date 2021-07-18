@@ -19,6 +19,7 @@ import IGS_Services from "../components/igs/IGS_Services";
 import ScrollToTop from '../components/ScrollToTop'
 import Slider from '../components/igs/Speaker'
 import Decor from "../components/Decor";
+import IGS_Decor from "../components/igs/IGS_Decor";
 
 
 
@@ -33,7 +34,7 @@ const Home = () => {
     <>
      <Sidebar isOpen={isOpen} toggle={toggle} />
       <ScrollToTop />
-     <Decor/>
+     <IGS_Decor/>
         <NavBar/>
         
       
