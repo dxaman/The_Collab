@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
 
-import {YoutubeOne} from '../components/igs/IGS_Youtube/Data';
+import {YoutubeOne, YoutubeTwo, YoutubeThree} from '../components/igs/IGS_Youtube/Data';
 
 
 
@@ -36,17 +36,12 @@ const Home = () => {
       <ScrollToTop />
      <IGS_Decor/>
         <NavBar/>
-        
-      
         <IGS_Hero />
       <Aboute {...AboutOne}/>
-      <Youtube {...YoutubeOne}/>
-
+      <Youtube/>
       <IGS_Services/>
         <Slider/>
         <IGS_Footer/>
-      
-      
     </>
   )
 }

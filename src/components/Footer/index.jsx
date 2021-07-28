@@ -1,6 +1,21 @@
 import React from 'react'
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
-import { FooterContainer, FooterWrap, FooterLinkWrapper, FooterLinkItems, FooterLinkContainer, FooterLinkTitle, FooterLink, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights } from './FooterElements'
+import {
+  FooterContainer,
+  FooterWrap,
+  FooterLinkWrapper,
+  FooterLinkItems,
+  FooterLinkContainer,
+  FooterLinkTitle,
+  FooterLink,
+  SocialIconLink,
+  SocialIcons,
+  SocialLogo,
+  SocialMedia,
+  SocialMediaWrap,
+  WebsiteRights,
+  Contact, Contactdiv
+} from './FooterElements'
 import { animateScroll as scroll } from 'react-scroll';
 
 const Footer = () => {
@@ -18,7 +33,11 @@ const Footer = () => {
             </SocialLogo>
             <WebsiteRights>
               PPOC © {new Date().getFullYear()} All rights reserved.
+              <Contactdiv>
+                <Contact>Nikhil - nkg@gmail.com/+9953374024</Contact> <Contact>Nikhil - nkg@gmail.com/+9953374024</Contact>
+              </Contactdiv>
             </WebsiteRights>
+
             <SocialIcons>
               <SocialIconLink href='//www.facebook.com/sos.iitk' target='_blank' arial-label='Facebook'>
                 <FaFacebook />
@@ -37,6 +56,7 @@ const Footer = () => {
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>
+
         </SocialMedia>
       </FooterWrap>
     </FooterContainer>

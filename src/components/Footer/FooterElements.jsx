@@ -99,3 +99,12 @@ export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
 `
+export const Contact = styled.text`
+  align-items: center;
+  color: #428bca;
+`
+export const Contactdiv = styled.div`
+  max-width: 1000px;
+  width: 100%;
+  align-items: center;
+`

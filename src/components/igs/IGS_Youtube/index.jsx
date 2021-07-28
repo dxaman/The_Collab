@@ -27,6 +27,7 @@ import YouTube from 'react-youtube';
 import {IGS_ServicesH1} from "../IGS_Services/IGS_ServiceElements";
 import Icon1 from "../../../images/elon.jpg";
 import {ServicesIcon} from "../Speaker/ServiceElements";
+import {YoutubeOne,YoutubeTwo, YoutubeThree} from "./Data";
 
 const responsive = {
   superLargeDesktop: {
@@ -49,7 +50,7 @@ const responsive = {
 };
 
 
-const Youtube = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, subtitle, buttonLabel, alt, img, primary, dark, dark2 }) => {
+const Youtube = () => {
     const [hover, setHover] = useState(false);
    
 
@@ -74,7 +75,7 @@ const Youtube = ({lightBg, id, imgStart, topLine, lightText, headline, darkText,
       };
       return (
 
-        <YoutubeContainer lightBg={lightBg} id={id}>
+        <YoutubeContainer lightBg='true'>
             <IGS_YoutubeH1>Sessions</IGS_YoutubeH1>
             <IGS_hr/>
 <Carousel responsive={responsive}
@@ -105,11 +106,11 @@ swipeable={true}
                                     <ServicesIcon src={Icon1}/>
                                 </Speaker>
                                 <Speakerbio>
-                                    <TopLine lightText={lightText}>{topLine}</TopLine>
-                                    <Heading lightText={lightText}>{headline}</Heading>
-                                    <Subtitle darkText={darkText}>{subtitle}</Subtitle>
+                                    {/*<TopLine lightText={YoutubeOne.lightText}>{YoutubeOne.topLine}</TopLine>*/}
+                                    <Heading lightText={YoutubeOne.lightText}>{YoutubeOne.headline}</Heading>
+                                    <Subtitle darkText={YoutubeOne.darkText}>{YoutubeOne.subtitle}</Subtitle>
                                 </Speakerbio>
-                                <Content lightText={lightText}>{description}</Content>
+                                <Content lightText={YoutubeOne.lightText}>{YoutubeOne.description}</Content>
                                 <BtnWrap>
                                     <Button to='#' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
                                          Know More {hover ? <ArrowForward /> : <ArrowRight/>}
@@ -123,44 +124,43 @@ swipeable={true}
                             <YouTube videoId="wHihLrcZF0o" opts={opts2} />
                             </ImgWrap2>
                 </YoutubeWrapper>
-            
-          
+
+
                 <YoutubeWrapper>
-                        <TextWrapper>
-                            <Speaker>
-                                <ServicesIcon src={Icon1}/>
-                            </Speaker>
-                            <Speakerbio>
-                                <TopLine lightText={lightText}>{topLine}</TopLine>
-                                <Heading lightText={lightText}>{headline}</Heading>
-                                <Subtitle darkText={darkText}>{subtitle}</Subtitle>
-                            </Speakerbio>
-                            <Content lightText={lightText}>{description}</Content>
-                            <BtnWrap>
-                                <Button to='#' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
-                                    Know More {hover ? <ArrowForward /> : <ArrowRight/>}
-                                </Button>
-                            </BtnWrap>
-                        </TextWrapper>
-                            <ImgWrap>
-                            <YouTube videoId="lkSed-_qnxw" opts={opts} />
-                            </ImgWrap>
-                            <ImgWrap2>
-                            <YouTube videoId="lkSed-_qnxw" opts={opts2} />
-                            </ImgWrap2>
+                    <TextWrapper>
+                        <Speaker>
+                            <ServicesIcon src={Icon1}/>
+                        </Speaker>
+                        <Speakerbio>
+                            {/*<TopLine lightText={YoutubeTwo.lightText}>{YoutubeTwo.topLine}</TopLine>*/}
+                            <Heading lightText={YoutubeTwo.lightText}>{YoutubeTwo.headline}</Heading>
+                            <Subtitle darkText={YoutubeTwo.darkText}>{YoutubeTwo.subtitle}</Subtitle>
+                        </Speakerbio>
+                        <Content lightText={YoutubeTwo.lightText}>{YoutubeTwo.description}</Content>
+                        <BtnWrap>
+                            <Button to='#' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+                                Know More {hover ? <ArrowForward /> : <ArrowRight/>}
+                            </Button>
+                        </BtnWrap>
+                    </TextWrapper>
+                    <ImgWrap>
+                        <YouTube videoId="wHihLrcZF0o" opts={opts} />
+                    </ImgWrap>
+                    <ImgWrap2>
+                        <YouTube videoId="wHihLrcZF0o" opts={opts2} />
+                    </ImgWrap2>
                 </YoutubeWrapper>
-            
+
                 <YoutubeWrapper>
                         <TextWrapper>
                             <Speaker>
                                 <ServicesIcon src={Icon1}/>
                             </Speaker>
                             <Speakerbio>
-                                <TopLine lightText={lightText}>{topLine}</TopLine>
-                                <Heading lightText={lightText}>{headline}</Heading>
-                                <Subtitle darkText={darkText}>{subtitle}</Subtitle>
+                                <Heading lightText={YoutubeThree.lightText}>{YoutubeThree.headline}</Heading>
+                                <Subtitle darkText={YoutubeThree.darkText}>{YoutubeThree.subtitle}</Subtitle>
                             </Speakerbio>
-                            <Content lightText={lightText}>{description}</Content>
+                            <Content lightText={YoutubeThree.lightText}>{YoutubeThree.description}</Content>
                             <BtnWrap>
                                 <Button to='#' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
                                     Know More {hover ? <ArrowForward /> : <ArrowRight/>}
