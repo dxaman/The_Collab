@@ -70,6 +70,7 @@ export const SocialMediaWrap = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
   max-width: 1100px;
   margin: 40px auto 0 auto;
 
@@ -101,10 +102,14 @@ export const SocialIconLink = styled.a`
 `
 export const Contact = styled.text`
   align-items: center;
-  color: #428bca;
+  color: #fff;
+  font-size:13px;
 `
 export const Contactdiv = styled.div`
   max-width: 1000px;
-  width: 100%;
+  position: absolute;
+  top: -40%;
+  left: 750px;
+  width: 30%;
   align-items: center;
 `

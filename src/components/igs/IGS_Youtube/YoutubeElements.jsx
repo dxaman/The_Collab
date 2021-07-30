@@ -89,7 +89,7 @@ export const Content = styled.p`
   position: relative;
   margin-bottom: 35px;
   top:160%;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 24px;
   color: #fff;
 `

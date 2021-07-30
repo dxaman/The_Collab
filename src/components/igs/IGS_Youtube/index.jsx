@@ -27,7 +27,7 @@ import YouTube from 'react-youtube';
 import {IGS_ServicesH1} from "../IGS_Services/IGS_ServiceElements";
 import Icon1 from "../../../images/elon.jpg";
 import {ServicesIcon} from "../Speaker/ServiceElements";
-import {YoutubeOne,YoutubeTwo, YoutubeThree} from "./Data";
+import {YoutubeOne,YoutubeTwo, YoutubeThree, YoutubeFour} from "./Data";
 
 const responsive = {
   superLargeDesktop: {
@@ -103,7 +103,7 @@ swipeable={true}
                 <YoutubeWrapper>
                             <TextWrapper>
                                 <Speaker>
-                                    <ServicesIcon src={Icon1}/>
+                                    <ServicesIcon src={'https://www.stern.nyu.edu/faculty/static/photos/vacharya.jpg'}/>
                                 </Speaker>
                                 <Speakerbio>
                                     {/*<TopLine lightText={YoutubeOne.lightText}>{YoutubeOne.topLine}</TopLine>*/}
@@ -129,7 +129,7 @@ swipeable={true}
                 <YoutubeWrapper>
                     <TextWrapper>
                         <Speaker>
-                            <ServicesIcon src={Icon1}/>
+                            <ServicesIcon src={'https://starsunfolded.com/wp-content/uploads/2020/12/Saurabh-Dwivedi.jpg'}/>
                         </Speaker>
                         <Speakerbio>
                             {/*<TopLine lightText={YoutubeTwo.lightText}>{YoutubeTwo.topLine}</TopLine>*/}
@@ -154,7 +154,7 @@ swipeable={true}
                 <YoutubeWrapper>
                         <TextWrapper>
                             <Speaker>
-                                <ServicesIcon src={Icon1}/>
+                                <ServicesIcon src={'https://thediplomat.com/wp-content/uploads/2014/10/sizes/td-story-s-1/thediplomat_2014-10-07_18-28-29.jpg'}/>
                             </Speaker>
                             <Speakerbio>
                                 <Heading lightText={YoutubeThree.lightText}>{YoutubeThree.headline}</Heading>
@@ -173,6 +173,30 @@ swipeable={true}
                             <ImgWrap2>
                             <YouTube videoId="77lB8WgJa28" opts={opts2} />
                             </ImgWrap2>
+                </YoutubeWrapper>
+
+                <YoutubeWrapper>
+                    <TextWrapper>
+                        <Speaker>
+                            <ServicesIcon src={'https://images.outlookindia.com/public/uploads/articles/2019/7/31/Derek_20181227_350_630_630_630_571_855.jpg'}/>
+                        </Speaker>
+                        <Speakerbio>
+                            <Heading lightText={YoutubeFour.lightText}>{YoutubeFour.headline}</Heading>
+                            <Subtitle darkText={YoutubeFour.darkText}>{YoutubeFour.subtitle}</Subtitle>
+                        </Speakerbio>
+                        <Content lightText={YoutubeFour.lightText}>{YoutubeFour.description}</Content>
+                        <BtnWrap>
+                            <Button to='#' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+                                Know More {hover ? <ArrowForward /> : <ArrowRight/>}
+                            </Button>
+                        </BtnWrap>
+                    </TextWrapper>
+                    <ImgWrap>
+                        <YouTube videoId="wHihLrcZF0o" opts={opts} />
+                    </ImgWrap>
+                    <ImgWrap2>
+                        <YouTube videoId="wHihLrcZF0o" opts={opts2} />
+                    </ImgWrap2>
                 </YoutubeWrapper>
 </Carousel>
             <IGS_hr/>

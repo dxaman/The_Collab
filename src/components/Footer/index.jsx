@@ -33,12 +33,15 @@ const Footer = () => {
             </SocialLogo>
             <WebsiteRights>
               PPOC © {new Date().getFullYear()} All rights reserved.
-              <Contactdiv>
-                <Contact>Nikhil - nkg@gmail.com/+9953374024</Contact> <Contact>Nikhil - nkg@gmail.com/+9953374024</Contact>
-              </Contactdiv>
+
             </WebsiteRights>
 
             <SocialIcons>
+              <Contactdiv>
+                <Contact>Nikhil - nkg@gmail.com/+9953374024</Contact>
+                <br/>
+                <Contact>Nikhil - nkg@gmail.com/+9953374024</Contact>
+              </Contactdiv>
               <SocialIconLink href='//www.facebook.com/sos.iitk' target='_blank' arial-label='Facebook'>
                 <FaFacebook />
               </SocialIconLink>

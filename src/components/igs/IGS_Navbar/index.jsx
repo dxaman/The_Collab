@@ -28,9 +28,8 @@ const Navbar = ({ toggle }) => {
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
         <NavLogo to='/' onClick={toggleHome}>
-            <img src="https://i.ibb.co/RQVmwZz/Group-33.png" style={{width:150, marginTop: -7, marginLeft: -250}} />
-
-            <img src="https://i.ibb.co/zxtxY7C/Group-63.png" style={{width:150, marginTop: -7, marginLeft: 70}} />
+            {/*<img src="https://i.ibb.co/RQVmwZz/Group-33.png" style={{width:150, marginTop: -7, marginLeft: -250}} />*/}
+            <img src="https://i.ibb.co/zxtxY7C/Group-63.png" style={{width:150, marginTop: -7}} />
           </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
