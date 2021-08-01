@@ -8,7 +8,7 @@ position:relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right, #B08CCB, #38218F);
+  background: #f9f9f9;
 
   @media screen and (max-width: 1000px) {
     height: 600px;
@@ -61,7 +61,6 @@ border-radius: 16px;
     transition: all 0.2s ease-in-out;
     cursor:pointer;
   }
-  
 `
 export const ServicesIcon = styled.img`
   height: 230px;
@@ -72,7 +71,7 @@ export const ServicesIcon = styled.img`
 `
 export const ServicesH1 = styled.h1`
   font-size: 2.5rem;
-  color: white;
+  color: #664aa6;
   margin-bottom: 64px;
 
   @media screen and (max-width: 480px) {
@@ -82,14 +81,14 @@ export const ServicesH1 = styled.h1`
 export const ServicesH2 = styled.h2`
   font-size: 1rem;
   margin-bottom: 10px;
-  color:white;
+  color:black;
 `
 
 export const ServicesP = styled.p`
   font-size: 1rem;
   text-align: center;
   padding-bottom: 20%;
-  color: white;
+  color: black;
 `
 
 

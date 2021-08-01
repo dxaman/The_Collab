@@ -11,8 +11,7 @@ position: relative;
 
   @media screen and  (max-width: 768px) {
     padding: 100px 0;
-    top:-300px;
-    
+        
   }
 `
 export const IGS_YoutubeH1 = styled.h1`
@@ -110,6 +109,9 @@ export const Speaker  = styled.div`
   width: 250px;
   border-radius: 16px;
   //background-image: src('https://i.ibb.co/RQVmwZz/Group-33.png');
+  @media screen and (max-width: 700px) {
+    left:15%;
+  }
 `
 export const Speakerbio  = styled.div`
   float: right;

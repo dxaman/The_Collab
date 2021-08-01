@@ -7,7 +7,6 @@
   }
 
 
-
 .react-multi-carousel-list {
     display: flex;
     align-items: center;
@@ -31,11 +30,12 @@
 .react-multiple-carousel__arrow {
     position: absolute;
     outline: 0;
+    top:85%;
     transition: all .5s;
     border-radius: 35px;
     z-index: 1000;
     border: 0;
-    background: rgba(247, 244, 244, 0.2);
+    background: rgba(14, 13, 13, 0.5);
     min-width: 43px;
     min-height: 43px;
     opacity: 1;
@@ -93,11 +93,10 @@
 }
 
 .react-multi-carousel-dot button {
-    /*display: inline-block;*/
-    display: none;
-    width: 5px;
+    display: inline-block;
+    width: 40px;
     height: 5px;
-    border-radius: 100%;
+    border-radius: 0;
     opacity: 1;
     padding: 5px 5px 5px 5px;
     box-shadow: none;
@@ -118,15 +117,14 @@
         width: 20px;
     }
     .car{
-        width: 70%;
+        width: 50%;
         margin-left: auto;
         margin-right: auto;
         z-index:2;
         
       }
       .react-multiple-carousel__arrow--left {
-        left: calc(3.5% + 1px);
-        display:none;
+        left: calc(3.5% + 1px)
     }
 }
 @media only screen and (max-width: 600px){
@@ -134,19 +132,14 @@
         width: 20px;
     }
     .car{
-        width: 70%;
+        width: 50%;
         margin-left: auto;
         margin-right: auto;
         z-index:2;
         
       }
-      .react-multiple-carousel__arrow--right {
-        display:none;
-    }
-      
       .react-multiple-carousel__arrow--left {
-        left: calc(3.5% + 1px);
-        display:none;
+        left: calc(3.5% + 1px)
     }
 }
 @media only screen and (max-width: 425px){
@@ -155,14 +148,14 @@
         width: 20px;
     }
     .car{
-        width: 70%;
+        width: 50%;
         margin-left: auto;
         margin-right: auto;
         z-index:2;
         
       }
       .react-multiple-carousel__arrow--left {
-        display:none;
+        left: calc(3.5% + 1px)
     }
 }
 

@@ -3,7 +3,7 @@ import {Link} from 'react-scroll'
 
 export const Button = styled(Link)`
   border-radius: 10px;
-  background: ${({primary}) => (primary ?  '#ff6c00' : '#ff6c00')};
+  background: ${({primary}) => (primary ?  '#808080' : '#808080')};
   white-space: nowrap;
   padding: ${({big}) =>  (big ? '14px  48px' : '12px 30px')};
   color: ${({dark}) =>  (dark ? '#fff' : '#fff')};
@@ -18,7 +18,7 @@ export const Button = styled(Link)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: ${({primary}) => (primary ?  '#38218F' : '#B08CCB')};
+    background: ${({primary}) => (primary ?  '#808080' : '#808080')};
   }
   
 `
@@ -27,7 +27,8 @@ position: absolute;
   top: 90%;
   border-radius: 0 0 10px 10px;
   width: 100%;
-  background: ${({primary}) => (primary ?  '#ff6c00' : '#ff6c00')};
+  ${'' /* background: ${({primary}) => (primary ?  '#ff6c00' : '#ff6c00')}; */}
+  background: ${({primary}) => (primary ?  '#808080' : '#808080')};
   white-space: nowrap;
   padding: ${({big}) =>  (big ? '14px  48px' : '12px 30px')};
   color: ${({dark}) =>  (dark ? '#fff' : '#fff')};
@@ -42,7 +43,8 @@ position: absolute;
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: ${({primary}) => (primary ?  '#38218F' : '#664aa6')};
+    ${'' /* background: ${({primary}) => (primary ?  '#38218F' : '#664aa6')}; */}
+    background: ${({primary}) => (primary ?  '#808080' : '#808080')};
 
   }
 

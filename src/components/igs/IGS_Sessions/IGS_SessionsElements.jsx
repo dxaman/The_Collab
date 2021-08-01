@@ -8,6 +8,7 @@ export const IGS_SessionsContainer = styled.div`
   @media screen and  (max-width: 768px) {
     display: none;
     padding: 100px 0;
+
   }
 `
 export const IGS_SessionsWrapper = styled.div`

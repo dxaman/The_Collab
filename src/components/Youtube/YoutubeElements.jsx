@@ -35,13 +35,16 @@ export const YoutubeRow = styled.div`
 export const TextWrapper = styled.div`
   position: relative;
   top:10%;
-  max-width: 40%;
+  max-width: 50%;
   padding: 5px;
+  left:-5%;
   //padding-bottom: 60px;
+  text-align: justify;
   @media screen and (max-width: 768px) {
     top: -30%;
+    left:0;
     max-width:100%;
-    text-align: center;
+    text-align: justify;
   }
 `
 export const TopLine = styled.p`
@@ -55,15 +58,16 @@ export const TopLine = styled.p`
 `
 
 export const Heading = styled.h1`
-  align-content: center;
+  text-align: left;
   margin-bottom: 24px;
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600px;
   color: #664AA6;
 
-  @media screen and (max-width: 480px) {
-    font-size: 32px;
+  @media screen and (max-width: 760px) {
+    
+    text-align: center;
   }
 `
 export const Subtitle  = styled.p`
@@ -82,7 +86,7 @@ export const BtnWrap = styled.div`
 `;
 export const ImgWrap = styled.div`
   position: relative;
-  top:-80%;
+  top:-70%;
   left:50%;
   max-width: 455px;
   height: 100%;

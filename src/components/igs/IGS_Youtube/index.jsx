@@ -96,7 +96,7 @@ swipeable={true}
   transitionDuration={500}
   containerClass="carousel-container"
   dotListClass="custom-dot-list-style"
-  itemClass="carousel-item-padding-40-px"
+  itemClass="carousel-item-padding-80-px"
   renderDotsOutside={true}>
 
 
@@ -111,11 +111,7 @@ swipeable={true}
                                     <Subtitle darkText={YoutubeOne.darkText}>{YoutubeOne.subtitle}</Subtitle>
                                 </Speakerbio>
                                 <Content lightText={YoutubeOne.lightText}>{YoutubeOne.description}</Content>
-                                <BtnWrap>
-                                    <Button to='#' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
-                                         Know More {hover ? <ArrowForward /> : <ArrowRight/>}
-                                    </Button>
-                                </BtnWrap>
+                                
                             </TextWrapper>
                             <ImgWrap>
                             <YouTube videoId="wHihLrcZF0o" opts={opts} />
@@ -137,11 +133,7 @@ swipeable={true}
                             <Subtitle darkText={YoutubeTwo.darkText}>{YoutubeTwo.subtitle}</Subtitle>
                         </Speakerbio>
                         <Content lightText={YoutubeTwo.lightText}>{YoutubeTwo.description}</Content>
-                        <BtnWrap>
-                            <Button to='#' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
-                                Know More {hover ? <ArrowForward /> : <ArrowRight/>}
-                            </Button>
-                        </BtnWrap>
+                       
                     </TextWrapper>
                     <ImgWrap>
                         <YouTube videoId="wHihLrcZF0o" opts={opts} />
@@ -161,11 +153,7 @@ swipeable={true}
                                 <Subtitle darkText={YoutubeThree.darkText}>{YoutubeThree.subtitle}</Subtitle>
                             </Speakerbio>
                             <Content lightText={YoutubeThree.lightText}>{YoutubeThree.description}</Content>
-                            <BtnWrap>
-                                <Button to='#' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
-                                    Know More {hover ? <ArrowForward /> : <ArrowRight/>}
-                                </Button>
-                            </BtnWrap>
+                            
                         </TextWrapper>
                             <ImgWrap>
                             <YouTube videoId="77lB8WgJa28" opts={opts} />
@@ -185,11 +173,7 @@ swipeable={true}
                             <Subtitle darkText={YoutubeFour.darkText}>{YoutubeFour.subtitle}</Subtitle>
                         </Speakerbio>
                         <Content lightText={YoutubeFour.lightText}>{YoutubeFour.description}</Content>
-                        <BtnWrap>
-                            <Button to='#' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
-                                Know More {hover ? <ArrowForward /> : <ArrowRight/>}
-                            </Button>
-                        </BtnWrap>
+                      
                     </TextWrapper>
                     <ImgWrap>
                         <YouTube videoId="wHihLrcZF0o" opts={opts} />
