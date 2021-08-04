@@ -1,8 +1,9 @@
 import React, {useState} from 'react'
-import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight , TattiBg, TattiBg2, TattiBg3, SocialHandle} from './HeroElements'
+import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper2, ArrowForward, ArrowRight , TattiBg, TattiBg2, TattiBg3, SocialHandle} from './HeroElements'
 import { Button } from '../ButtonElements'
 import {SocialIconLink, SocialIcons} from "../Footer/FooterElements";
 import {FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube} from "react-icons/fa";
+import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavLinks, NavItem, NavBtn, NavBtnLink2 } from '../Navbar/NavbarElements'
 
 const Hero = () => {
   const [hover, setHover] = useState(false);
@@ -22,11 +23,9 @@ const Hero = () => {
       <HeroContent>
         <HeroH1> Public Policy And Opinion Cell</HeroH1>
         <HeroP>"There's Tremendous Gap Between Public Opinion and Public Policy"<br></br><br></br>-Noam Chomsky</HeroP>
-        <HeroBtnWrapper>
-          <Button to='about' onMouseEnter={onHover} onMouseLeave={onHover} primary='False' dark='false'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+        <HeroBtnWrapper2 to='/igs'  onMouseEnter={onHover} onMouseLeave={onHover} smooth={true} duration={500} spy={true} exact='true' offset={-80}>
             Indian Governance Summit {hover ? <ArrowForward /> : <ArrowRight/>}
-          </Button>
-        </HeroBtnWrapper>
+        </HeroBtnWrapper2>
           <SocialHandle>
           <SocialIcons>
               <SocialIconLink href='//www.facebook.com/sos.iitk' target='_blank' arial-label='Facebook'>

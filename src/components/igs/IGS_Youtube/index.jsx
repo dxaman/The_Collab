@@ -67,7 +67,7 @@ const Youtube = () => {
       };
       const opts2 = {
         height: '250',
-        width: '350',
+        width: '300',
         playerVars: {
           // https://developers.google.com/youtube/player_parameters
           autoplay: 0,
@@ -85,7 +85,7 @@ swipeable={true}
   responsive={responsive}
   ssr={true} // means to render carousel on server-side.
   infinite={true}
-  autoPlay={ false }
+  autoPlay={ true }
   focusOnSelect={true}
   className="pak "
   sliderClass='slid'

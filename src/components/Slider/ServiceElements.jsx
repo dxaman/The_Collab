@@ -61,6 +61,10 @@ border-radius: 16px;
     transition: all 0.2s ease-in-out;
     cursor:pointer;
   }
+  @media screen and (max-width: 786px) {
+     width: 228.9px;
+     left: 12%;
+  }
   
 `
 export const ServicesIcon = styled.img`
@@ -68,7 +72,7 @@ export const ServicesIcon = styled.img`
   width: 230px;
   margin-bottom: 10px;
   border-radius: 10px 40px 10px 40px;
-
+  
 `
 export const ServicesH1 = styled.h1`
   font-size: 2.5rem;

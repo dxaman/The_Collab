@@ -128,21 +128,26 @@
 @media only screen and (max-width: 600px){
     
     .car{
-        width: 50%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
         z-index:2;
         
       }
       .react-multiple-carousel__arrow--left {
-        left: calc(3.5% + 1px)
+        left: calc(3.5% + 1px);
+        display: none;
+    }
+    .react-multiple-carousel__arrow--right {
+        left: calc(3.5% + 1px);
+        display: none;
     }
 }
 @media only screen and (max-width: 425px){
     /*Small smartphones [325px -> 425px]*/
     
     .car{
-        width: 50%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
         z-index:2;

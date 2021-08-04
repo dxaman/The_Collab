@@ -88,7 +88,7 @@ export const IGS_HeroContent = styled.div`
   max-width: 1200px;
   top: 45%;
   position: absolute;
-  padding: 20px 100px;
+  padding: 30px 100px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;

@@ -100,7 +100,7 @@ left: 50%;
   padding:0;
   height: 350px;
   @media screen and (max-width: 786px) {
-  top:56%;
+  top:54%;
   border-top: 3px solid #ff6c00;
   border-bottom: 0;
   left: 17%;

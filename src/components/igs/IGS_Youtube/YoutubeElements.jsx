@@ -58,7 +58,7 @@ export const TextWrapper = styled.div`
   @media screen and (max-width: 768px) {
     top: 10%;
     max-width:100%;
-    left:-22%;
+    left:-28%;
     text-align: center;
     align-items: center;
     align-content: center;
@@ -124,6 +124,7 @@ export const IGS_hr = styled.hr`
   @media screen and (max-width: 700px) {
     width: 400px;
     margin-top: 10px;
+    left:2.5%;
   }
 `
 
@@ -136,7 +137,7 @@ export const Speaker  = styled.div`
   border-radius: 16px;
   //background-image: src('https://i.ibb.co/RQVmwZz/Group-33.png');
   @media screen and (max-width: 700px) {
-    left:15%;
+    
     top:-80%;
   }
 `
@@ -152,8 +153,8 @@ export const Speakerbio  = styled.div`
   @media screen and (max-width: 700px) {
     float:none;
     right:0;
-    left:15%;
-    top:60%;
+    left:0;
+    top:50%;
   }
 `
 
@@ -181,7 +182,7 @@ export const ImgWrap2 = styled.div`
     position: relative;
   max-width: 455px;
   height: 100%;
-    left :-42%;
+    left :-40%;
     top:84%;
     padding-left:10%;
   }
