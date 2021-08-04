@@ -84,12 +84,17 @@ export const TattiBg3 = styled.div`
 
 export const IGS_HeroContent = styled.div`
   z-index: 3;
+  background-color: #c6182f;
   max-width: 1200px;
+  top: 45%;
   position: absolute;
-  padding: 8px 24px;
+  padding: 20px 100px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+ 
+  
 `
 export const IGS_HeroContent2 = styled.div`
   z-index: 3;
@@ -103,11 +108,13 @@ export const IGS_HeroContent2 = styled.div`
 `
 export const IGS_HeroH1 = styled.h1`
   color: #fff;
+  
   font-size: 48px;
   text-align: center;
 
   @media screen and (max-width: 768px) {
-    font-size: 40px
+    width: 160%;
+    font-size: 34px
   }
   @media screen and (max-width: 480px) {
     font-size: 32px
@@ -130,11 +137,14 @@ export const IGS_HeroP = styled.p`
   margin-top: 24px;
   color: #fff;
   font-size: 24px;
+  
   text-align: center;
-  max-width: 600px;
-
+  
+  
   @media screen and (max-width: 768px) {
-    font-size: 24px
+    font-size: 22px;
+    width: 150%;
+    
   }
   @media screen and (max-width: 480px) {
     font-size: 18px
@@ -162,7 +172,7 @@ export const SocialHandle = styled.div`
   height: 5%;
   width: 20%;
   top: 250%;
-  left: 60%;
+  left: 50%;
   border-radius: 0px;
   margin-left: 70%;
   @media screen and (max-width: 756px) {

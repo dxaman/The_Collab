@@ -9,11 +9,10 @@ const Sidebar = ({isOpen,toggle}) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to='about' onClick={toggle}>About Us</SidebarLink>
-          <SidebarLink to='events' onClick={toggle}>Competitions</SidebarLink>
-          <SidebarLink to='services' onClick={toggle}>Events</SidebarLink>
-          <SidebarLink to='team' onClick={toggle}>Our Team</SidebarLink>
-          <SidebarLink to='youtube' onClick={toggle}>Videos</SidebarLink>
+          <SidebarLink to='igs' onClick={toggle}>About Us</SidebarLink>
+          <SidebarLink to='sessions' onClick={toggle}>Sessions</SidebarLink>
+          <SidebarLink to='IGS_Services' onClick={toggle}>Events</SidebarLink>
+          <SidebarLink to='speakers' onClick={toggle}>Speakers</SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
           <SidebarRoute to='/Opine'>Opine Matters</SidebarRoute>

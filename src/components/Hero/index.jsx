@@ -23,8 +23,8 @@ const Hero = () => {
         <HeroH1> Public Policy And Opinion Cell</HeroH1>
         <HeroP>"There's Tremendous Gap Between Public Opinion and Public Policy"<br></br><br></br>-Noam Chomsky</HeroP>
         <HeroBtnWrapper>
-          <Button to='about' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
-            Know More {hover ? <ArrowForward /> : <ArrowRight/>}
+          <Button to='about' onMouseEnter={onHover} onMouseLeave={onHover} primary='False' dark='false'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+            Indian Governance Summit {hover ? <ArrowForward /> : <ArrowRight/>}
           </Button>
         </HeroBtnWrapper>
           <SocialHandle>

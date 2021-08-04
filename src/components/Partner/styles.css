@@ -97,7 +97,7 @@ hr {
 
 .react-multi-carousel-dot-list {
     position: absolute;
-    bottom: 0;
+    /* bottom: 0;
     display: flex;
     left: 0;
     right: 0;
@@ -106,12 +106,12 @@ hr {
     padding: 0;
     margin: 0;
     list-style: none;
-    text-align: center
+    text-align: center */
 }
 
 .react-multi-carousel-dot button {
     display: inline-block;
-    width: 40px;
+    /* width: 40px;
     height: 5px;
     border-radius: 0;
     opacity: 1;
@@ -125,14 +125,12 @@ hr {
     margin: 0;
     margin-right: 6px;
     outline: 0;
-    cursor: pointer;
+    cursor: pointer; */
   
 }
 @media only screen and (max-width: 1200px){
     /*Tablets [601px -> 1200px]*/
-    .react-multi-carousel-dot button {
-        width: 20px;
-    }
+    
     .car{
         width: 50%;
         margin-left: auto;
@@ -145,9 +143,7 @@ hr {
     }
 }
 @media only screen and (max-width: 600px){
-    .react-multi-carousel-dot button {
-        width: 20px;
-    }
+    
     .car{
         width: 50%;
         margin-left: auto;
@@ -161,9 +157,7 @@ hr {
 }
 @media only screen and (max-width: 425px){
     /*Small smartphones [325px -> 425px]*/
-    .react-multi-carousel-dot button {
-        width: 20px;
-    }
+    
     .car{
         width: 50%;
         margin-left: auto;

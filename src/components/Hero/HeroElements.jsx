@@ -166,7 +166,7 @@ export const SocialHandle = styled.div`
   border-radius: 0px;
   margin-left: 70%;
   @media screen and (max-width: 756px) {
-    top: 230%;
+    top: 200%;
     left: -45%;
   }
 `

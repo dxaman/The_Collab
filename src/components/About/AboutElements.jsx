@@ -85,6 +85,7 @@ export const ImgWrap = styled.div`
     left:20%;
     top:29%;
     max-width: 300px;
+    display: none;
   }
 `;
 export const Img = styled.img`

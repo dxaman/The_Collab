@@ -28,7 +28,7 @@ const Slider = () => {
         }
       };
     return (
-        <ServicesContainer id='team'>
+        <ServicesContainer id='speakers'>
         <ServicesH1>Past Speakers</ServicesH1>
         
         
@@ -51,7 +51,7 @@ swipeable={true}
   containerClass="carousel-container"
   dotListClass="custom-dot-list-style"
   itemClass="carousel-item-padding-40-px"
-  renderDotsOutside={false}>
+  renderDotsOutside={true}>
  
         <ServicesCard>
           <ServicesIcon src={'https://www.stern.nyu.edu/faculty/static/photos/vacharya.jpg'}/>

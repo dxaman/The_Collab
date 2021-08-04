@@ -67,7 +67,7 @@ const Youtube = () => {
       };
       const opts2 = {
         height: '250',
-        width: '400',
+        width: '350',
         playerVars: {
           // https://developers.google.com/youtube/player_parameters
           autoplay: 0,
@@ -75,7 +75,7 @@ const Youtube = () => {
       };
       return (
 
-        <YoutubeContainer lightBg='true'>
+        <YoutubeContainer lightBg='true' id='sessions'>
             <IGS_YoutubeH1>Sessions</IGS_YoutubeH1>
             <IGS_hr/>
 <Carousel responsive={responsive}

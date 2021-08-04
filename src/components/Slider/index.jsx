@@ -9,7 +9,6 @@ import Icon6 from '../../images/22.png'
 import Icon7 from '../../images/33.jpeg'
 import Icon8 from '../../images/aa.jpg'
 import {ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon,ServicesH2, ServicesP} from './ServiceElements'
-import  './styles.css'
 
 const Slider = () => {
     
@@ -57,7 +56,7 @@ swipeable={true}
   containerClass="carousel-container"
   dotListClass="custom-dot-list-style"
   itemClass="carousel-item-padding-40-px"
-  renderDotsOutside={false}>
+  renderDotsOutside={true}>
  
         <ServicesCard>
           <ServicesIcon src={Icon1}/>

@@ -5,10 +5,10 @@ import { FaTimes } from 'react-icons/fa'
 
 export const SidebarContainer = styled.aside`
   position: fixed;
-  z-index: 9990;
+  z-index: 999;
   width: 100%;
   height: 100%;
-  background: black;
+  background: #0d0d0d;
   display: grid;
   align-items: center;
   top: 0;
@@ -19,29 +19,27 @@ export const SidebarContainer = styled.aside`
 `
 
 export const CloseIcon = styled(FaTimes)`
-  color: #fff;
+  color: #c6182f;
 `
 export const Icon = styled.div`
   position: absolute;
   top: 1.2rem;
   right: 1.5rem;
-  background: black;
+  background-color: black;
   font-size: 2rem;
   cursor: pointer;
   outline: none;
-  z-index: 9990;
+  color: black;
 `
 export const SidebarWrapper = styled.div`
-  color: #fff;
-  z-index: 9990;
+  color: #c6182f;
 `
 export const SidebarMenu = styled.ul`
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 80px);
   text-align: center;
-  z-index: 9990;
-
+  color: #c6182f;
   @media  screen and (max-width: 480px) {
     grid-template-rows: repeat(6, 60px);
   }
@@ -56,22 +54,20 @@ export const SidebarLink = styled(LinkS)`
   transition: 02s ease-in-out;
   text-decoration: none;
   color: #fff;
-  z-index: 9990;
   cursor: pointer;
 
   &:hover {
-    color: #ff6c00;
+    color: #c6182f;
     transition: 0.2s ease-in-out;
   }
 `
 export const SideBtnWrap = styled.div`
   display: flex;
   justify-content: center;
-  z-index: 9990;
 `
 export const SidebarRoute = styled(LinkR)`
   border-radius: 50px;
-  background: #ff6c00;
+  background: #c6182f;
   white-space: nowrap;
   padding: 16px 64px;
   color: #010606;
@@ -82,7 +78,6 @@ export const SidebarRoute = styled(LinkR)`
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   color: white;
-  z-index: 9990;
 
   &:hover {
     transition: all 0.2s ease-in-out;

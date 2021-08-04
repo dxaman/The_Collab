@@ -31,8 +31,8 @@ const Navbar = ({ toggle }) => {
             {/*<img src="https://i.ibb.co/RQVmwZz/Group-33.png" style={{width:150, marginTop: -7, marginLeft: -250}} />*/}
             <img src="https://i.ibb.co/zxtxY7C/Group-63.png" style={{width:150, marginTop: -7}} />
           </NavLogo>
-          <MobileIcon onClick={toggle}>
-            <FaBars />
+          <MobileIcon onClick={toggle} >
+            <FaBars color='#c6182f'/>
           </MobileIcon>
           <NavMenu>
             <NavItem>
@@ -41,20 +41,21 @@ const Navbar = ({ toggle }) => {
               >About Us</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='youtube'
+              <NavLinks to='sessions'
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >Videos</NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks to='team'
-              smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >Speakers</NavLinks>
+              >Sessions</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to='IGS_Services'
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
               >Events</NavLinks>
             </NavItem>
+            <NavItem>
+              <NavLinks to='speakers'
+              smooth={true} duration={500} spy={true} exact='true' offset={-80}
+              >Speakers</NavLinks>
+            </NavItem>
+           
             
           </NavMenu>
           <NavBtn>

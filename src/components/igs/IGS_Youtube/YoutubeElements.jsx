@@ -6,6 +6,7 @@ position: relative;
   padding-top:4%;
   padding-bottom:2%;
   z-index: 0;
+  
 
   background: linear-gradient(90deg, #2F3E41 10.31%, #273132 35.06%, #1E2422 71.4%, #1B1F1C 99.48%);;
 
@@ -34,6 +35,9 @@ export const YoutubeWrapper = styled.div`
   margin-left: auto;
   padding: 40px 24px;
   justify-content: center;
+  @media screen and (max-width: 700px) {
+  
+  } 
 `
 export const YoutubeRow = styled.div`
   display: grid;
@@ -54,7 +58,11 @@ export const TextWrapper = styled.div`
   @media screen and (max-width: 768px) {
     top: 10%;
     max-width:100%;
+    left:-22%;
     text-align: center;
+    align-items: center;
+    align-content: center;
+    auto-align: center;
   }
 `
 export const TopLine = styled.p`
@@ -72,9 +80,12 @@ export const Heading = styled.h1`
   text-align: left;
   font-weight: 600px;
   color: #fff;
+  margin-top: 15px;
 
-  @media screen and (max-width: 480px) {
-    font-size: 32px;
+  @media screen and (max-width: 700px) {
+    font-size: 25px;
+    text-align: center;
+
   }
 `
 
@@ -82,15 +93,26 @@ export const Subtitle  = styled.p`
   font-size: 15px;
   line-height: 24px;
   color: #fff;
+  @media screen and (max-width: 700px) {
+  
+  position:absolute;
+  }
 `
 
 export const Content = styled.p`
   position: relative;
   margin-bottom: 35px;
   top:160%;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #fff;
+  margin-top: 5%;
+  @media screen and (max-width: 700px) {
+  top:110%;
+  max-width: 90%;
+  font-size: 14px;
+  text-align: justify;
+  }
 `
 export const IGS_hr = styled.hr`
   position: absolute;
@@ -99,6 +121,10 @@ export const IGS_hr = styled.hr`
   left: 5%;
   border: 2px solid #FFFFFF;
   border-radius: 2px;
+  @media screen and (max-width: 700px) {
+    width: 400px;
+    margin-top: 10px;
+  }
 `
 
 export const Speaker  = styled.div`
@@ -111,6 +137,7 @@ export const Speaker  = styled.div`
   //background-image: src('https://i.ibb.co/RQVmwZz/Group-33.png');
   @media screen and (max-width: 700px) {
     left:15%;
+    top:-80%;
   }
 `
 export const Speakerbio  = styled.div`
@@ -122,6 +149,12 @@ export const Speakerbio  = styled.div`
   height: 250px;
   width: 250px;
   //background-image: src('https://i.ibb.co/RQVmwZz/Group-33.png');
+  @media screen and (max-width: 700px) {
+    float:none;
+    right:0;
+    left:15%;
+    top:60%;
+  }
 `
 
 export const BtnWrap = styled.div`
@@ -148,8 +181,9 @@ export const ImgWrap2 = styled.div`
     position: relative;
   max-width: 455px;
   height: 100%;
-    left :0;
-    top:44%;
+    left :-42%;
+    top:84%;
+    padding-left:10%;
   }
 `;
 export const Img = styled.img`
