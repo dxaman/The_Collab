@@ -75,10 +75,10 @@ export const TopLine = styled.p`
 `
 
 export const Heading = styled.h1`
-  font-size: 30px;
+  font-size: 25px;
   line-height: 1.1;
   text-align: left;
-  font-weight: 600px;
+  //font-weight: 600px;
   color: #fff;
   margin-top: 15px;
 
@@ -102,8 +102,8 @@ export const Subtitle  = styled.p`
 export const Content = styled.p`
   position: relative;
   margin-bottom: 35px;
-  top:160%;
-  font-size: 16px;
+  top:127%;
+  font-size: 14px;
   line-height: 24px;
   color: #fff;
   margin-top: 5%;
@@ -144,11 +144,11 @@ export const Speaker  = styled.div`
 export const Speakerbio  = styled.div`
   float: right;
   right: 5%;
-  top: 100%;
+  top: 80%;
   position: absolute;
   align-content: center;
   height: 250px;
-  width: 250px;
+  width: 255px;
   //background-image: src('https://i.ibb.co/RQVmwZz/Group-33.png');
   @media screen and (max-width: 700px) {
     float:none;

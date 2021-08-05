@@ -31,50 +31,67 @@ const Services = () => {
         <ServicesCard>
           <ServicesIcon src={Icon1}/>
           <ServicesH2>Aman Dixit</ServicesH2>
-          <ServicesP>Senior Web Manager</ServicesP>
-         
+          <ServicesP>Web</ServicesP>
         </ServicesCard>
+
         <ServicesCard>
         <ServicesIcon src={Icon2}/>
           <ServicesH2>Tanishq Gupta</ServicesH2>
-          <ServicesP>Junior Web Manager</ServicesP>
-          
+          <ServicesP>Web</ServicesP>
         </ServicesCard>
+
         <ServicesCard>
           <ServicesIcon src={Icon4}/>
           <ServicesH2>Nikhil </ServicesH2>
           <ServicesP>Overall Coordinator</ServicesP>
-         
         </ServicesCard>
+
         <ServicesCard>
         <ServicesIcon src={Icon3}/>
           <ServicesH2>Aditya Rao</ServicesH2>
           <ServicesP>Overall Coordinator</ServicesP>
-          
         </ServicesCard>
+
         <ServicesCard>
           <ServicesIcon src={Icon5}/>
           <ServicesH2>Sunny Kumar Bhagat</ServicesH2>
           <ServicesP>Policy Research</ServicesP>
-         
         </ServicesCard>
+
         <ServicesCard>
         <ServicesIcon src={Icon6}/>
           <ServicesH2>Abhinav Raj Singh</ServicesH2>
           <ServicesP>Finance and Marketing</ServicesP>
-          
         </ServicesCard>
+
         <ServicesCard>
-        <ServicesIcon src={Icon8}/>
-          <ServicesH2>Narendra Damu</ServicesH2>
-          <ServicesP>Finance and Marketing</ServicesP>
-          
+        <ServicesIcon src={'https://i.ibb.co/WDqRmwq/SHUBHI-KANT-POLICY-RESEARCH.jpg'}/>
+          <ServicesH2>Shubhi Kant</ServicesH2>
+          <ServicesP>Policy Research</ServicesP>
         </ServicesCard>
+
         <ServicesCard>
           <ServicesIcon src={Icon7}/>
           <ServicesH2>Gaurav Dadhich</ServicesH2>
           <ServicesP>Design</ServicesP>
-         
+        </ServicesCard>
+
+        <ServicesCard>
+          <ServicesIcon src={'https://i.ibb.co/RhgKj1Q/Purushottam-Ojha-DESIGN.jpg'}/>
+          <ServicesH2>Purushottam Ojha</ServicesH2>
+          <ServicesP>Design</ServicesP>
+        </ServicesCard>
+
+        <ServicesCard>
+          <ServicesIcon src={'https://i.ibb.co/7bc0hKw/Narendra-Damu-MARKETING-AND-FINANCES.jpg'}/>
+          <ServicesH2>Narendra Damu</ServicesH2>
+          <ServicesP>Marketing and Finances</ServicesP>
+        </ServicesCard>
+
+        <ServicesCard>
+          <ServicesIcon src={'https://i.ibb.co/YhkNv2H/Devang-UNIYAL-EVENTS.jpg'}/>
+          <ServicesH2>Devang Uniyal</ServicesH2>
+          <ServicesP>Events</ServicesP>
         </ServicesCard>
        
       </ServicesWrapper>

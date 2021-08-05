@@ -156,10 +156,10 @@ swipeable={true}
                             
                         </TextWrapper>
                             <ImgWrap>
-                            <YouTube videoId="77lB8WgJa28" opts={opts} />
+                            <YouTube videoId="wHihLrcZF0o" opts={opts} />
                             </ImgWrap>
                             <ImgWrap2>
-                            <YouTube videoId="77lB8WgJa28" opts={opts2} />
+                            <YouTube videoId="wHihLrcZF0o" opts={opts2} />
                             </ImgWrap2>
                 </YoutubeWrapper>
 
