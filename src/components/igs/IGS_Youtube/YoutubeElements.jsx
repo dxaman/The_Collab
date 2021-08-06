@@ -108,9 +108,9 @@ export const Content = styled.p`
   color: #fff;
   margin-top: 5%;
   @media screen and (max-width: 700px) {
-  top:110%;
+  top:120%;
   max-width: 90%;
-  font-size: 14px;
+  font-size: 10px;
   text-align: justify;
   }
 `
@@ -137,8 +137,10 @@ export const Speaker  = styled.div`
   border-radius: 16px;
   //background-image: src('https://i.ibb.co/RQVmwZz/Group-33.png');
   @media screen and (max-width: 700px) {
-    
-    top:-80%;
+    height: 200px;
+    float:none;
+    width: 200px;
+    top:-50%;
   }
 `
 export const Speakerbio  = styled.div`
@@ -153,8 +155,9 @@ export const Speakerbio  = styled.div`
   @media screen and (max-width: 700px) {
     float:none;
     right:0;
+    height: 190px;
     left:0;
-    top:50%;
+    top:70%;
   }
 `
 
