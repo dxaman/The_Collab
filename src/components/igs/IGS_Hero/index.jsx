@@ -22,7 +22,7 @@ const IGS_Hero = () => {
       </IGS_HeroBg>
       <IGS_HeroContent>
       <IGS_HeroH1> Indian Governance Summit</IGS_HeroH1>
-  <IGS_HeroP>"There's Tremendous Gap Between Public Opinion and Public Policy"</IGS_HeroP>
+  {/*<IGS_HeroP>"There's Tremendous Gap Between Public Opinion and Public Policy"</IGS_HeroP>*/}
       
     <SocialHandle>
      <SocialIcons>
