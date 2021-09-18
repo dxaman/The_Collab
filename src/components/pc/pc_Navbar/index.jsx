@@ -29,7 +29,7 @@ const Navbar = ({ toggle }) => {
         <NavbarContainer>
         <NavLogo to='/' onClick={toggleHome}>
             {/*<img src="https://i.ibb.co/RQVmwZz/Group-33.png" style={{width:150, marginTop: -7, marginLeft: -250}} />*/}
-            <img src="https://i.ibb.co/mRqTx0n/Group-64.png" style={{width:150, marginTop: -7}} />
+            <img src="https://i.ibb.co/mRqTx0n/Group-64.png" alt="" style={{width:150, marginTop: -7}} />
           </NavLogo>
           <MobileIcon onClick={toggle} >
             <FaBars color='#402893'/>
