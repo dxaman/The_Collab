@@ -20,6 +20,7 @@ import Slider from '../components/igs/Speaker'
 import Decor from "../components/Decor";
 import IGS_Decor from "../components/igs/IGS_Decor";
 import Sidebar from "../components/SideBarIGS";
+import Workshop from "../components/pc/pc_workshop/pages/workshop";
 
 
 
@@ -33,11 +34,12 @@ const Home = () => {
   return (
     <>
  <Aboute {...AboutOne}/>
+ <Workshop/>
     </>
   )
 }
 
-export default Home
+export default Home ;
 
 
 
