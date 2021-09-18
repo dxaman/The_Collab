@@ -11,15 +11,16 @@ import Youtube from "../components/igs/IGS_Youtube";
 import Aboute from "../components/pc/pc_about";
 import {AboutOne} from '../components/igs/IGS_about/Data';
 
-import NavBar from "../components/igs/IGS_Navbar";
-import IGS_Hero from "../components/igs/IGS_Hero";
+import NavBar from "../components/pc/pc_Navbar";
+import Pc_Hero from "../components/pc/pc_Hero";
 import IGS_Footer from "../components/igs/IGS_Footer";
-import IGS_Services from "../components/igs/IGS_Services";
+import Pc_Services from "../components/pc/pc_Competition";
 import ScrollToTop from '../components/ScrollToTop'
 import Slider from '../components/igs/Speaker'
 import Decor from "../components/Decor";
 import IGS_Decor from "../components/igs/IGS_Decor";
-import Sidebar from "../components/SideBarIGS";
+import Sidebar from "../components/pc/SidebarPc";
+import Partner from "../components/pc/pc_Partners"
 
 
 
@@ -32,7 +33,14 @@ const Home = () => {
 
   return (
     <>
+    
+   <Sidebar isOpen={isOpen} toggle={toggle} />
+    <NavBar toggle={toggle}/>
+    <Pc_Hero />
  <Aboute {...AboutOne}/>
+ <Pc_Services/> 
+ <Partner/>
+ 
     </>
   )
 }
