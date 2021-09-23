@@ -1,11 +1,11 @@
 import React, {useState} from 'react'
 
 
-import {YoutubeOne, YoutubeTwo, YoutubeThree} from '../components/igs/IGS_Youtube/Data';
+// import {YoutubeOne, YoutubeTwo, YoutubeThree} from '../components/pc/pc_Youtube/Data';
 
 
 
-import Youtube from "../components/igs/IGS_Youtube";
+import Youtube from "../components/pc/pc_Youtube";
 
 
 import Aboute from "../components/pc/pc_about";
@@ -32,7 +32,8 @@ const Home = () => {
 
   return (
     <>
- <Aboute {...AboutOne}/>
+ {/* <Aboute {...AboutOne}/> */}
+ <Youtube />
     </>
   )
 }
