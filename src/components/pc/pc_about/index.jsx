@@ -20,7 +20,7 @@ const Aboute = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, 
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
                                     <Button to='#' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
-                                        Know More {hover ? <ArrowForward /> : <ArrowRight/>}
+                                        Broucher {hover ? <ArrowForward /> : <ArrowRight/>}
                                     </Button>
                                 </BtnWrap>
                             </TextWrapper>
