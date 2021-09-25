@@ -14,6 +14,7 @@ import Ending from "../components/Ending";
 import Youtube from "../components/Youtube";
 import Slider from '../components/Slider'
 import Partner from '../components/Partner'
+import AboveFooter from '../components/AboveFooter/AboveFooter';
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -35,7 +36,7 @@ const Home = () => {
       {/* <Team/> */}
       <Partner/>
       <Youtube {...YoutubeOne}/>
-      
+      <AboveFooter/>
       <Footer />
     </>
   )
