@@ -132,7 +132,7 @@ swipeable={true}
                             <Heading lightText={YoutubeTwo.lightText}>{YoutubeTwo.headline}</Heading>
                             <Subtitle darkText={YoutubeTwo.darkText}>{YoutubeTwo.subtitle}</Subtitle>
                         </Speakerbio>
-                        <Content lightText={YoutubeTwo.lightText}>{YoutubeTwo.description}</Content>
+                        <Content lightText={YoutubeTwo.lightText}><br/>{YoutubeTwo.description}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Content>
                        
                     </TextWrapper>
                     <ImgWrap>
