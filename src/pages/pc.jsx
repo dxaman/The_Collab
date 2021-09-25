@@ -19,7 +19,7 @@ import ScrollToTop from '../components/ScrollToTop'
 import Slider from '../components/igs/Speaker'
 import Decor from "../components/Decor";
 import IGS_Decor from "../components/igs/IGS_Decor";
-
+import PC_Footer from "../components/pc/pc_footer"
 // import Sidebar from "../components/SideBarIGS";
 import Workshop from "../components/pc/pc_workshop/pages/workshop";
 
@@ -47,8 +47,9 @@ const Home = () => {
 
  <Pc_Services/> 
  <Workshop/>
+   <Youtube/>
  <Partner/>
- 
+ <PC_Footer />
 
     </>
   )
