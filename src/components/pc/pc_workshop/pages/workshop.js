@@ -17,9 +17,11 @@ const Workshop = () => {
           </div>
 
           <div className="col-md-5 col-sm-12">
+
             <div className="right">
                <Rightbox/>
             </div>
+
           </div>
         </div>
       </div>
