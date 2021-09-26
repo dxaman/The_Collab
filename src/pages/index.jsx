@@ -10,6 +10,7 @@ import Services from '../components/Services';
 import Events from '../components/Events';
 import Team from '../components/Team';
 import Sidebar from '../components/SideBar'
+import Social from '../components/SocialMedia'
 import Ending from "../components/Ending";
 import Youtube from "../components/Youtube";
 import Slider from '../components/Slider'
@@ -31,6 +32,7 @@ const Home = () => {
       <About {...AboutOne}/>
       <Decor/>
       <Events/>
+      <Social/>
       <Services />
       <Slider/>
       {/* <Team/> */}
