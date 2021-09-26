@@ -52,13 +52,13 @@ export const YoutubeRow = styled.div`
 export const TextWrapper = styled.div`
   position: relative;
   top: 20%;
-  max-width: 60%;
-  left:-20%;
+  max-width: 70%;
+  left:-35%;
   padding: 5px;
   @media screen and (max-width: 768px) {
-    top: 10%;
+    top: 2%;
     max-width:100%;
-    left:-28%;
+    left:0%;
     text-align: center;
     align-items: center;
     align-content: center;
@@ -93,15 +93,16 @@ export const Subtitle  = styled.p`
   font-size: 15px;
   line-height: 24px;
   color: #fff;
+  // text-align:center;
   @media screen and (max-width: 700px) {
-  
-  position:absolute;
+    text-align:center;
+  // position:absolute;
   }
 `
 
 export const Content = styled.p`
   position: relative;
-  margin-bottom: 35px;
+  margin-bottom: 45px;
   top:127%;
   font-size: 14px;
   line-height: 24px;
@@ -145,8 +146,8 @@ export const Speaker  = styled.div`
 `
 export const Speakerbio  = styled.div`
   float: right;
-  right: 5%;
-  top: 80%;
+  right: -20%;
+  top: 50%;
   position: absolute;
   align-content: center;
   height: 250px;
@@ -185,8 +186,8 @@ export const ImgWrap2 = styled.div`
     position: relative;
   max-width: 455px;
   height: 100%;
-    left :-40%;
-    top:84%;
+    left :-15%;
+    top:90%;
     padding-left:10%;
   }
 `;
