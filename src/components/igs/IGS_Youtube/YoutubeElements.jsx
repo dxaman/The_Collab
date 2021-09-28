@@ -141,7 +141,7 @@ export const Speaker  = styled.div`
     height: 200px;
     float:none;
     width: 200px;
-    top:-50%;
+    top:-75%;
   }
 `
 export const Speakerbio  = styled.div`
@@ -158,7 +158,7 @@ export const Speakerbio  = styled.div`
     right:0;
     height: 190px;
     left:0;
-    top:70%;
+    top:50%;
   }
 `
 

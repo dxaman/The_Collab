@@ -168,13 +168,14 @@ export const SocialHandle = styled.div`
   align-content: center;
   height: 5%;
   width: 20%;
-  top: 250%;
-  left: 50%;
+  top: 190%;
+  left: 40%;
   border-radius: 0px;
-  margin-left: 70%;
+  margin-left: 50%;
   @media screen and (max-width: 756px) {
     top: 230%;
-    left: -45%;
+    
+    left: -25%;
   }
 `
 
