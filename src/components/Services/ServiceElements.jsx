@@ -44,7 +44,7 @@ position : relative;
   justify-content: flex-start;
   align-items: center;
   border-radius: 10px;
-  max-height: 400px;
+  max-height: 490px;
   padding:  30px;
   transition: all 0.2s ease-in-out;
   background: #F9F9F9;
@@ -55,6 +55,7 @@ width: 350px;
 left: 0px;
 top: 0px;
 border-radius: 16px;
+text-align: center;
 
 
   &:hover {
@@ -73,13 +74,14 @@ export const ServicesH1 = styled.h1`
   font-size: 2.5rem;
   color: #664aa6;
   margin-bottom: 64px;
+  font-weight: bold;
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;
   }  
 `
 export const ServicesH2 = styled.h2`
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-bottom: 10px;
 `
 

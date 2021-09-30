@@ -187,13 +187,8 @@
   display: block;
   overflow: auto;
   height: 100%;
-  background: linear-gradient(
-    90deg,
-    #2f3e41 10.31%,
-    #273132 35.06%,
-    #1e2422 71.4%,
-    #1b1f1c 99.48%
-  );
+  background: linear-gradient(234.33deg, #38218F -1.43%, #B18DCB 173.26%);
+  
 }
 .YoutubeWrapper {
   display: flex;

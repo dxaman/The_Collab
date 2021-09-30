@@ -11,22 +11,24 @@ import {ServicesContainer, ServicesH1, ServicesWrapper,ServicesCard,Boxx, Servic
 
 const Services = () => {
   return (
-    <ServicesContainer id='services'>
+    <ServicesContainer id='socialMedia'>
+      <centre>
       <ServicesH1>Social Medias</ServicesH1>
 
-      <Boxx>
-       <>
-          <iframe max-width="100%" height={440} src="https://www.instagram.com/p/CUMsyK-rbfb/embed" frameBorder={0} />
+<Boxx>
+ <>
+    <iframe max-width="100%" title="ig" height={440} src="https://www.instagram.com/p/CUMsyK-rbfb/embed" frameBorder={0} />
 
-          </>
-      
-          
-      <div style={{marginLeft: "150px"}} >
-      <TweetEmbed id="692527862369357824"  />
-      </div>
-       </Boxx>
-        
+    </>
+
     
+<div style={{marginLeft: "150px"}} >
+<TweetEmbed id="692527862369357824"  />
+</div>
+ </Boxx>
+  
+
+      </centre>
     
     </ServicesContainer>
     

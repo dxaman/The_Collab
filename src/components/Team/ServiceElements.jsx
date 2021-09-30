@@ -44,11 +44,11 @@ position : relative;
   justify-content: flex-start;
   align-items: center;
   border-radius: 10px;
-  max-height: 340px;
+  max-height: 380px;
   padding:  30px;
   transition: all 0.2s ease-in-out;
   background: none;
-height: 375px;
+height: 385px;
 width: 250px;
 left: 0px;
 top: 0px;
@@ -71,6 +71,7 @@ export const ServicesIcon = styled.img`
 export const ServicesH1 = styled.h1`
   font-size: 2.5rem;
   color: white;
+  font-weight:bold;
   margin-bottom: 64px;
 
   @media screen and (max-width: 480px) {
