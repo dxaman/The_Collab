@@ -5,6 +5,8 @@ export const IGS_YoutubeH1 = styled.h1`
   padding-bottom: 10px;
   padding-top: 5px;
   text-align: center;
+  margin-top: 50px;
+  font-weight: bold;
   @media screen and (max-width: 480px) {
     font-size: 2rem;
   }

@@ -107,7 +107,7 @@ export const IGS_HeroContent2 = styled.div`
 `
 export const IGS_HeroH1 = styled.h1`
   color: #664AA6;
-  
+  font-weight: bold;
   font-size: 64px;
 
   @media screen and (max-width: 768px) {

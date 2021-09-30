@@ -9,7 +9,7 @@ import Youtube from "../components/pc/pc_Youtube";
 
 
 import Aboute from "../components/pc/pc_about";
-import {AboutOne} from '../components/igs/IGS_about/Data';
+import {AboutOne} from '../components/pc/pc_about/Data';
 
 import NavBar from "../components/pc/pc_Navbar";
 import Pc_Hero from "../components/pc/pc_Hero";
@@ -49,9 +49,10 @@ const Home = () => {
 
 
 
- <Pc_Services/> 
+ 
+ <Youtube/>
  <Workshop/>
-   <Youtube/>
+   <Pc_Services/> 
  <Partner/>
  <PC_Footer />
 

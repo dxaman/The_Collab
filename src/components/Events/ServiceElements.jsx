@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const ServicesContainer = styled.div`
   position:relative;
-  height: 600px;
+  height: 630px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,13 +44,13 @@ position : relative;
   justify-content: flex-start;
   align-items: center;
   border-radius: 10px;
-  max-height: 400px;
+  max-height: 450px;
   padding:  30px;
   transition: all 0.2s ease-in-out;
   background: #0c0c0c03;
 box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
 border-radius: 16px;
-height: 375px;
+height: 445px;
 width: 350px;
 left: 0px;
 top: 0px;
@@ -73,6 +73,7 @@ export const ServicesIcon = styled.img`
 export const ServicesH1 = styled.h1`
   font-size: 2.5rem;
   color: white;
+  font-weight:bold;
   margin-bottom: 64px;
 
   @media screen and (max-width: 480px) {

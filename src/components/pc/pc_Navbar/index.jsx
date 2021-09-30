@@ -46,7 +46,7 @@ const Navbar = ({ toggle }) => {
               >Speakers</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='IGS_Services'
+              <NavLinks to='workshop'
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
               >Workshop</NavLinks>
             </NavItem>

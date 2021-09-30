@@ -13,7 +13,7 @@ const AboveFooter = () => {
           </h4>  
           <center><div className="button-container">
               <button class='kmcs' onClick={() => setIskm((val)=>!val)}>Know More</button>
-              <button class='kmcs' onClick={() => setIscs((val)=>!val)}>Contact Us</button>
+              <button class='kmcs2' onClick={() => setIscs((val)=>!val)}>Contact Us</button>
           </div></center>
           {
               iskm ? (

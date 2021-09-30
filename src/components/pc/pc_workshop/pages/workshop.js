@@ -8,7 +8,7 @@ const Workshop = () => {
   return (
     <>
      <h1>Workshop </h1>
-      <div className="main_box shadow-lg p-3 mb-5 bg-body rounded containers">
+      <div className="main_box shadow-lg p-3 mb-5 bg-body rounded containers id='workshop'">
         <div className="row">
           <div className="col-md-7 col-sm-12">
             <div className="scroll">   

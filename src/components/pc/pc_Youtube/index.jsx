@@ -61,7 +61,7 @@ const Youtube = () => {
   };
   return (
     <div className="YoutubeContainer" lightBg="true" id="sessions">
-      <IGS_YoutubeH1>Speaker</IGS_YoutubeH1>
+      <IGS_YoutubeH1>Speakers</IGS_YoutubeH1>
 
       <IGS_hr />
 
@@ -94,7 +94,7 @@ const Youtube = () => {
                 <img
                   src={
                     "https://www.stern.nyu.edu/faculty/static/photos/vacharya.jpg"
-                  }
+                  }  alt=""
                 />
               </div>
               <div className="Speakerbio">
@@ -105,7 +105,7 @@ const Youtube = () => {
                   {YoutubeOne.name}
                 </Heading>
                 <h4>
-                  {YoutubeOne.job},{YoutubeOne.role}
+                  {YoutubeOne.job} {YoutubeOne.role}
                 </h4>
               </div>
             </div>
@@ -148,7 +148,7 @@ const Youtube = () => {
                 <img
                   src={
                     "https://starsunfolded.com/wp-content/uploads/2020/12/Saurabh-Dwivedi.jpg"
-                  }
+                  }  alt=""
                 />
               </div>
               <div className="Speakerbio">
@@ -159,7 +159,7 @@ const Youtube = () => {
                   {YoutubeTwo.name}
                 </Heading>
                 <h4>
-                  {YoutubeTwo.job},{YoutubeTwo.role}
+                  {YoutubeTwo.job} {YoutubeTwo.role}
                 </h4>
               </div>
             </div>
@@ -202,7 +202,7 @@ const Youtube = () => {
                 <img
                   src={
                     "https://thediplomat.com/wp-content/uploads/2014/10/sizes/td-story-s-1/thediplomat_2014-10-07_18-28-29.jpg"
-                  }
+                  }  alt=""
                 />
               </div>
               <div className="Speakerbio">
@@ -213,7 +213,7 @@ const Youtube = () => {
                   {YoutubeThree.name}
                 </Heading>
                 <h4>
-                  {YoutubeThree.job},{YoutubeThree.role}
+                  {YoutubeThree.job} {YoutubeThree.role}
                 </h4>
               </div>
             </div>
@@ -256,7 +256,7 @@ const Youtube = () => {
                 <img
                   src={
                     "https://images.outlookindia.com/public/uploads/articles/2019/7/31/Derek_20181227_350_630_630_630_571_855.jpg"
-                  }
+                  } alt=""
                 />
               </div>
               <div className="Speakerbio">
@@ -267,7 +267,7 @@ const Youtube = () => {
                   {YoutubeFour.name}
                 </Heading>
                 <h4>
-                  {YoutubeFour.job},{YoutubeFour.role}
+                  {YoutubeFour.job} {YoutubeFour.role}
                 </h4>
               </div>
             </div>
