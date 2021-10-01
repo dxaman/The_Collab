@@ -14,7 +14,7 @@ const Services = () => {
           <ServicesIcon src={Icon1}/>
           <ServicesH2>E Samvaad</ServicesH2>
           <ServicesP>An enthralling event which revolves around the discussion on contemporary issues and accentuates the students to peep into the happenings related to Politics, Geographic, Socioeconomic etc  occurring globally or nationally and participate into such  brainstorming sessions and voice their respective opinions.</ServicesP>
-          <Button2 to = '#'>
+          <Button2 to = 'www.google.com'>
           Learn More
           </Button2>
         </ServicesCard>

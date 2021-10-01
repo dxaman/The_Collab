@@ -99,7 +99,7 @@ const Youtube = () => {
               </div>
               <div className="Speakerbio">
                 <TopLine className="Heading" lightText={YoutubeOne.lightText}>
-                  Topic-{YoutubeOne.topic}
+                  {YoutubeOne.topic}
                 </TopLine>
                 <Heading className="Subtitle" darkText={YoutubeOne.darkText}>
                   {YoutubeOne.name}
@@ -153,7 +153,7 @@ const Youtube = () => {
               </div>
               <div className="Speakerbio">
                 <TopLine className="Heading" lightText={YoutubeTwo.lightText}>
-                  Topic-{YoutubeTwo.topic}
+                  {YoutubeTwo.topic}
                 </TopLine>
                 <Heading className="Subtitle" darkText={YoutubeTwo.darkText}>
                   {YoutubeTwo.name}
@@ -207,7 +207,7 @@ const Youtube = () => {
               </div>
               <div className="Speakerbio">
                 <TopLine className="Heading" lightText={YoutubeThree.lightText}>
-                  Topic-{YoutubeThree.topic}
+                  {YoutubeThree.topic}
                 </TopLine>
                 <Heading className="Subtitle" darkText={YoutubeThree.darkText}>
                   {YoutubeThree.name}
@@ -261,7 +261,7 @@ const Youtube = () => {
               </div>
               <div className="Speakerbio">
                 <TopLine className="Heading" lightText={YoutubeFour.lightText}>
-                  Topic-{YoutubeFour.topic}
+                  {YoutubeFour.topic}
                 </TopLine>
                 <Heading className="Subtitle" darkText={YoutubeFour.darkText}>
                   {YoutubeFour.name}
