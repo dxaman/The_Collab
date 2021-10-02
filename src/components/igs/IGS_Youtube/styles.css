@@ -1,20 +1,20 @@
-.pak{
+.pak {
+    max-width: 100%;
     width: 100%;
     margin-left: auto;
+    padding: 5px;
     margin-right: auto;
-    z-index:2;
-    
+    z-index: 2;
   }
-
-.react-multi-carousel-list {
+  
+  .react-multi-carousel-list {
     display: flex;
     align-items: center;
     overflow: hidden;
-    position: relative
-}
-
-.react-multi-carousel-track {
-    
+    position: relative;
+  }
+  
+  .react-multi-carousel-track {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -23,14 +23,15 @@
     position: relative;
     transform-style: preserve-3d;
     backface-visibility: hidden;
-    will-change: transform, transition
-}
-
-.react-multiple-carousel__arrow {
+    will-change: transform, transition;
+    /* overflow: auto; */
+  }
+  
+  .react-multiple-carousel__arrow {
     position: absolute;
     outline: 0;
     top: 90%;
-    transition: all .5s;
+    transition: all 0.5s;
     border-radius: 35px;
     z-index: 1000;
     border: 0;
@@ -38,16 +39,15 @@
     min-width: 43px;
     min-height: 43px;
     opacity: 1;
-    cursor: pointer
-    
-}
-
-.react-multiple-carousel__arrow:hover {
+    cursor: pointer;
+  }
+  
+  .react-multiple-carousel__arrow:hover {
     z-index: 1000;
-    background: rgba(0, 0, 0, 0.8)
-}
-
-.react-multiple-carousel__arrow::before {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  .react-multiple-carousel__arrow::before {
     z-index: 1000;
     font-size: 20px;
     color: #fff;
@@ -55,34 +55,35 @@
     font-family: revicons;
     text-align: center;
     z-index: 2;
-    position: relative
-}
-
-.react-multiple-carousel__arrow:disabled {
+    position: relative;
+  }
+  
+  .react-multiple-carousel__arrow:disabled {
     cursor: default;
-    background: rgba(0, 0, 0, 0.5)
-}
-
-.react-multiple-carousel__arrow--left {
-    left: calc(10% - 13px)
-}
-
-.react-multiple-carousel__arrow--left::before {
-    content: "\e824"
-}
-
-.react-multiple-carousel__arrow--right {
-    right: calc(1% + 1px)
-}
-
-.react-multiple-carousel__arrow--right::before {
-    content: "\e825"
-}
-
-.react-multi-carousel-dot-list {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .react-multiple-carousel__arrow--left {
+    left: calc(2% - 13px);
+  }
+  
+  .react-multiple-carousel__arrow--left::before {
+    content: "\e824";
+  }
+  
+  .react-multiple-carousel__arrow--right {
+    right: calc(2% + 1px);
+  }
+  
+  .react-multiple-carousel__arrow--right::before {
+    content: "\e825";
+  }
+  
+  .react-multi-carousel-dot-list {
     position: absolute;
     bottom: 0;
     display: flex;
+    max-width: 80%;
     left: 0;
     right: 0;
     justify-content: center;
@@ -90,10 +91,10 @@
     padding: 0px;
     margin-bottom: 50px;
     list-style: none;
-    text-align: center
-}
-
-.react-multi-carousel-dot button {
+    text-align: center;
+  }
+  
+  .react-multi-carousel-dot button {
     display: inline-block;
     width: 10px;
     height: 10px;
@@ -101,156 +102,187 @@
     opacity: 1;
     padding: 5px 5px 5px 5px;
     box-shadow: none;
-    transition: background .5s;
-    border-width: 0.0px;
+    transition: background 0.5s;
+    border-width: 0px;
     border-style: solid;
     border-color: grey;
-    padding:0;
+    padding: 0;
     margin: 0;
     margin-right: 6px;
     outline: 0;
     cursor: pointer;
-  
-}
-@media only screen and (max-width: 1200px){
+  }
+  @media only screen and (max-width: 1200px) {
     /*Tablets [601px -> 1200px]*/
-    .pak{
-        width: 80%;
-        height: 500px;
-        
-      }
-      .react-multiple-carousel__arrow--left {
-        left: calc(3.5% + 1px)
+    .pak {
+      width: 90%;
+      height: 800px;
+    }
+    .react-multiple-carousel__arrow--left {
+      left: calc(1% + 1px);
     }
     .react-multiple-carousel__arrow {
-       
-        top: 60%; 
-        
+      top: 60%;
     }
-}
-@media only screen and (max-width: 600px){
-    
-    .pak{
-        width: 80%;
-        height: 800px;
-
-        
-      }
-      .react-multiple-carousel__arrow--left {
-        left: calc(3.5% + 1px)
+  }
+  @media only screen and (max-width: 900px) {
+    .pak {
+      width: 90%;
+      /* height: 800px; */
+    }
+    .react-multiple-carousel__arrow--left {
+      left: calc(1.5% + 1px);
     }
     .react-multiple-carousel__arrow {
-       
-        top: 60%; 
-        
+      top: 60%;
     }
-    .carousel-item-padding-80-px{
-        padding-left: 200px;
+    .carousel-item-padding-80-px {
+      padding-left: 15px;
     }
-}
-@media only screen and (max-width: 425px){
+  }
+  @media only screen and (max-width: 425px) {
     /*Small smartphones [325px -> 425px]*/
-    
-    .pak{
-        width: 80%;
-        height: 1000px;
-        
-      }
-      .react-multiple-carousel__arrow--left {
-        left: calc(3.5% + 1px)
+  
+    .pak {
+      width: 90%;
+      height: 1000px;
+    }
+    .react-multiple-carousel__arrow--left {
+      left: calc(1% + 1px);
     }
     .react-multiple-carousel__arrow {
-       
-        top: 60%; 
-        
+      top: 60%;
     }
-}
-
-.react-multi-carousel-dot button:hover:active {
-    background: #C6182F
-}
-
-.react-multi-carousel-dot--active button {
-    background: #C6182F
-}
-
-.react-multi-carousel-item {
+  }
+  
+  .react-multi-carousel-dot button:hover:active {
+    background: #c6182f;
+  }
+  
+  .react-multi-carousel-dot--active button {
+    background: #c6182f;
+  }
+  
+  .react-multi-carousel-item {
     transform-style: preserve-3d;
-    backface-visibility: hidden
-}
-
-@media all and (-ms-high-contrast:none),
-(-ms-high-contrast:active) {
+    backface-visibility: hidden;
+  }
+  
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
     .react-multi-carousel-item {
-        flex-shrink: 0 !important
+      flex-shrink: 0 !important;
     }
-
+  
     .react-multi-carousel-track {
-        overflow: visible !important
+      overflow: visible !important;
     }
-}
-
-.cont{
+  }
+  /*style for carousel*/
+  .YoutubeContainer {
+    position: relative;
+    color: #fff;
+    padding-top: 4% 2% 2% 2%;
+    margin-bottom: 20px;
+    /* z-index: 0; */
+    display: block;
+    overflow: auto;
+    height: 100%;
+    background: linear-gradient(234.33deg, #38218F -1.43%, #B18DCB 173.26%);
+    
+  }
+  .YoutubeWrapper {
     display: flex;
-    flex-direction: row;
+    z-index: 1;
+    width: 100%;
+    padding: 40px 24px;
+    justify-content: center;
     flex-wrap: wrap;
-    justify-content:center;
-    margin-top: 50px;
-    border-top: 3px solid white;
-    border-bottom: 3px solid white;
-}
-.left{
-    width: 600px;
-}
-.up{
+    text-align: center;
+  }
+  .Speaker img {
+    align-content: center;
+    height: 200px;
+    width: 180px;
+    border-radius: 16px;
+  }
+  .TextWrapper {
+    /* position: relative; */
+  
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 40px;
-    align-items: flex-end;
-}
-.below{
-    margin-top: 10px;
-}
-.text{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    letter-spacing: 1px;
-    word-spacing: 0.4px;
-    color: #000000;
-    font-weight: normal;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
-    color: whitesmoke;
-}
-.right{
-    width: 600px;
-    padding-top: 40px;
-    padding-left: 50px;
-    padding-bottom: 40px;
-}
-.textTit{
-    display: flex;
+    flex: 53%;
+    padding: 10px;
+    justify-content: center;
     flex-direction: column;
-    align-items: baseline;
-    margin-left: 30px;
-}
-#tit1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    color: whitesmoke;
-}
-#tit2{
-    margin-top: auto;
-    font-size: 35px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
-    color: whitesmoke;
-}
-#tit3{
-    margin-top: auto;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 22px;
-    color: whitesmoke;
-}
+  }
+  .YoutubeImg {
+    flex: 45%;
+    width: 100%;
+    margin: 8px;
+  }
+  
+  .info {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+  
+  .Content {
+    text-align: left;
+  }
+  .Speaker {
+    flex: 30%;
+    position: relative;
+    padding: 5px;
+  }
+  .Speakerbio {
+    flex: 68%;
+    padding: 5px;
+    text-align: left;
+  }
+  
+  .ImgWrap {
+    width: 100%;
+    height: 0;
+    position: relative;
+    padding-top: 67%; /* 9 / 16 * 100 */
+  }
+  .ImgWrap > iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+  }
+  /* responsiveness for 900px*/
+  @media screen and (max-width: 900px) {
+    .YoutubeWrapper {
+      flex-direction: column;
+      padding: 15px;
+      margin-top: 20px;
+    }
+    .TextWrapper {
+      flex: 100%;
+      /* text-align: center;
+          align-items: center;
+          align-content: center; */
+      /* auto-align: center; */
+    }
+    .YoutubeImg {
+      flex: 100%;
+      text-align: center;
+      align-items: center;
+      align-content: center;
+    }
+    .Speaker img {
+      align-content: center;
+      height: 160px;
+      width: 140px;
+      border-radius: 16px;
+    }
+  }
+  

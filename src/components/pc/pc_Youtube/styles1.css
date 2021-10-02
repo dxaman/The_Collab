@@ -224,8 +224,12 @@
   display: flex;
   flex-wrap: wrap;
   /* flex-direction: row; */
-  text-align: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
 }
+
 .Content {
   text-align: left;
 }
@@ -237,6 +241,7 @@
 .Speakerbio {
   flex: 68%;
   padding: 5px;
+  text-align: left;
 }
 
 .ImgWrap {
