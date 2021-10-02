@@ -35,7 +35,7 @@ export const TextWrapper = styled.div`
   top:55%;
   max-width: 80%;
   padding-top: 0;
-  //padding-bottom: 60px;
+  ${'' /* padding-bottom: 60px; */}
   @media screen and (max-width: 768px) {
     top: 20%;
     max-width:100%;
@@ -78,8 +78,8 @@ export const BtnWrap = styled.div`
 `;
 export const ImgWrap = styled.div`
   position: relative;
-  top: -33%;
-  left:95%;
+  top: -44%;
+  right:-110%;
   max-width: 455px;
   height: 100%;
   @media screen and (max-width: 768px) {

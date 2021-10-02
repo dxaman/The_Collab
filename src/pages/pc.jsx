@@ -32,6 +32,7 @@ import Partner from "../components/pc/pc_Partners"
 
 
 
+
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)
 
@@ -41,7 +42,7 @@ const Home = () => {
 
   return (
     <>
-    
+    <ScrollToTop />
    <Sidebar isOpen={isOpen} toggle={toggle} />
     <NavBar toggle={toggle}/>
     <Pc_Hero />

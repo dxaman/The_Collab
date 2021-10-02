@@ -3,6 +3,7 @@ import { FaBars } from 'react-icons/fa'
 import {IconContext} from 'react-icons/lib'
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavLinks, NavItem, NavBtn, NavBtnLink } from './NavbarElements'
 import { animateScroll as scroll } from 'react-scroll';
+import  './navstyle.css'
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false)
@@ -61,7 +62,8 @@ const Navbar = ({ toggle }) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to='/Opine'>Opine Matters</NavBtnLink>
+            <a href = "https://www.blogger.com/profile/05197863151050865456" class="opine">Opine Matters</a>
+            
           </NavBtn>
         </NavbarContainer>
       </Nav>

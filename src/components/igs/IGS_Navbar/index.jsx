@@ -59,7 +59,7 @@ const Navbar = ({ toggle }) => {
             
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to='/Opine'>Opine Matters</NavBtnLink>
+             <a href = "https://www.blogger.com/profile/05197863151050865456" class="opineRed">Opine Matters</a>
           </NavBtn>
         </NavbarContainer>
       </Nav>

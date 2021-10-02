@@ -16,6 +16,23 @@ export const ServicesContainer = styled.div`
     height: 2000px;
   }
  `
+ export const SocialHandle = styled.div`
+ transition: all 0.2s ease-in-out;
+ z-index: 2;
+  &:hover {
+    transform: scale(1.25);
+    transition: all 0.2s ease-in-out;
+    cursor:pointer;
+  }
+
+  @media screen and (max-width: 1000px) {
+    height: 2000px;
+  }
+
+  @media screen and (max-width: 480px) {
+    height: 2000px;
+  }
+ `
 export const magnify=styled.div`
 transform: scale(2.5);
 ` 
@@ -42,7 +59,15 @@ export const Boxx = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
+ @media screen and (max-width: 1000px) {
+      grid-template-columns: 1fr 1fr;
+  }
 
+    @media screen and (max-width: 786px) {
+      grid-template-columns: 1fr;
+      padding: 0 20px;
+      grid-gap: 60px;
+  }
 `
 export const ServicesCard = styled.div`
 position : relative;

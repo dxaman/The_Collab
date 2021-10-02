@@ -7,7 +7,7 @@ import TweetEmbed from 'react-tweet-embed'
 import InstagramEmbed from 'react-instagram-embed';
  
 
-import {ServicesContainer, ServicesH1, ServicesWrapper,ServicesCard,Boxx, ServicesIcon, ServicesH2, ServicesP} from './ServiceElements'
+import {ServicesContainer, ServicesH1, ServicesWrapper,ServicesCard,Boxx, ServicesIcon, ServicesH2, ServicesP, SocialHandle} from './ServiceElements'
 
 const Services = () => {
   return (
@@ -17,14 +17,17 @@ const Services = () => {
 
 <Boxx>
  <>
-    <iframe max-width="100%" title="ig" height={440} src="https://www.instagram.com/p/CUMsyK-rbfb/embed" frameBorder={0} />
+  <SocialHandle>
+    <iframe max-width="100%" title="ig" height={440} src="https://www.instagram.com/p/CUZ3r5rvJqw/embed" frameBorder={0} />
+    </SocialHandle>
 
     </>
 
-    
+  <SocialHandle>  
 <div style={{marginLeft: "150px"}} >
-<TweetEmbed id="692527862369357824"  />
+<TweetEmbed id="1441750799764262917"  />
 </div>
+</SocialHandle>
  </Boxx>
   
 

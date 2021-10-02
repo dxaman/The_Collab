@@ -3,6 +3,7 @@ import { YoutubeContainer, YoutubeWrapper, YoutubeRow, Column1, Column2, TextWra
 import {ButtonG} from "../ButtonElements";
 import {ServicesCard} from "../Services/ServiceElements";
 import {ArrowForward, ArrowRight, HeroBtnWrapper} from "../Hero/HeroElements";
+import  './navstyle.css'
 
 
 
@@ -42,9 +43,9 @@ const Youtube = ({lightBg, id, imgStart, topLine, lightText, headline, darkText,
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
-                                    <ButtonG to='#' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+                                    <a href="https://www.youtube.com/channel/UCL6N8QXTgLIdj2SzxYhHrag" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80} class="goto">
                                          Know More {hover ? <ArrowForward /> : <ArrowRight/>}
-                                    </ButtonG>
+                                    </a>
                                 </BtnWrap>
                             </TextWrapper>
                             <ImgWrap>

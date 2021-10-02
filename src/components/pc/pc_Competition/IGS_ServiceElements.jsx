@@ -53,13 +53,14 @@ position : relative;
   height: 600px;
   width: 350px;
   left: 0px;
-  top: 0px;
+  top: -20%;
   border-radius: 16px;
   text-align: center;
+  
 
 
   &:hover {
-    transform: scale(1.25);
+    transform: scale(1.15);
     transition: all 0.2s ease-in-out;
     cursor:pointer;
   }

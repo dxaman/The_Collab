@@ -51,14 +51,14 @@ position : relative;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
   border-radius: 16px;
   height: 470px;
-  width: 350px;
+  width: 300px;
   left: 0px;
   top: 0px;
   border-radius: 16px;
 
 
   &:hover {
-    transform: scale(1.25);
+    transform: scale(1.1);
     transition: all 0.2s ease-in-out;
     cursor:pointer;
   }
@@ -84,7 +84,7 @@ export const IGS_ServicesH2 = styled.h2`
 `
 
 export const IGS_ServicesP = styled.p`
-  font-size: 1rem;
+  font-size: 0.98rem;
   text-align: center;
   padding-bottom: 20%;
 `

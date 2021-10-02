@@ -1,4 +1,4 @@
-import {decor1, Bg, Bglate} from "./DecorElements";
+import {decor1,Bg, Bg2, Bglate} from "./DecorElements";
 import {Img} from "../About/AboutElements";
 
 
@@ -11,6 +11,9 @@ const Decor = () => {
         <Bglate>
             <Img src={'https://i.ibb.co/DgkHT9G/leftbg2.png'}/>
         </Bglate>
+         {/* <Bg2>
+            <Img src={'https://i.ibb.co/7kQDYdd/kuchnai.png'}/>
+        </Bg2> */}
         </>
     )
 }

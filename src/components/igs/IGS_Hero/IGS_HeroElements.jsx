@@ -171,8 +171,8 @@ export const SocialHandle = styled.div`
   align-content: center;
   height: 5%;
   width: 20%;
-  top: 250%;
-  left: 50%;
+  top: 300%;
+  left: -30%;
   border-radius: 0px;
   margin-left: 70%;
   @media screen and (max-width: 756px) {

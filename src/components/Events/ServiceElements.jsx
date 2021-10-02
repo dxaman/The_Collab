@@ -43,11 +43,13 @@ position : relative;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  
+  text-align: center;
   border-radius: 10px;
   max-height: 450px;
   padding:  30px;
   transition: all 0.2s ease-in-out;
-  background: #0c0c0c03;
+  background: white;
 box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
 border-radius: 16px;
 height: 445px;
@@ -59,7 +61,7 @@ z-index:2;
 
 
   &:hover {
-    transform: scale(1.25);
+    transform: scale(1.1);
     transition: all 0.2s ease-in-out;
     cursor:pointer;
   }
@@ -67,7 +69,9 @@ z-index:2;
 export const ServicesIcon = styled.img`
   height: 80px;
   width: 80px;
+  
   margin-bottom: 10px;
+  align-items: center;
 
 `
 export const ServicesH1 = styled.h1`
@@ -83,14 +87,14 @@ export const ServicesH1 = styled.h1`
 export const ServicesH2 = styled.h2`
   font-size: 1.2rem;
   margin-bottom: 10px;
-  color: white;
+  color: black;
 `
 
 export const ServicesP = styled.p`
   font-size: 0.9rem;
   text-align: center;
   padding-bottom: 20%;
-  color: white;
+  color: black;
 `
 export const Line = styled.hr`
 position: absolute;
