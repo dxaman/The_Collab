@@ -24,7 +24,7 @@ const Services = () => {
     </>
 
   <SocialHandle>  
-<div style={{marginLeft: "150px"}} >
+<div class="twitter" >
 <TweetEmbed id="1441750799764262917"  />
 </div>
 </SocialHandle>

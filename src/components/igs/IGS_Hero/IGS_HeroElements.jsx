@@ -93,7 +93,9 @@ export const IGS_HeroContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
- 
+  @media screen and (max-width: 480px) {
+    width: 85%;
+  }
   
 `
 export const IGS_HeroContent2 = styled.div`

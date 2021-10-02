@@ -13,7 +13,7 @@ export const ServicesContainer = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    height: 2000px;
+    height: 1500px;
   }
  `
  export const SocialHandle = styled.div`
@@ -30,7 +30,7 @@ export const ServicesContainer = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    height: 2000px;
+    height: 500px;
   }
  `
 export const magnify=styled.div`
@@ -59,6 +59,7 @@ export const Boxx = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap:wrap;
  @media screen and (max-width: 1000px) {
       grid-template-columns: 1fr 1fr;
   }

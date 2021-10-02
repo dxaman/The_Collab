@@ -92,7 +92,10 @@ export const IGS_HeroContent = styled.div`
   border-radius: 10px;
   display: flex;
   flex-direction: column;
- 
+  @media screen and (max-width: 480px) {
+    padding: 30px 30px;
+    width: 90%;
+  }
   
 `
 export const IGS_HeroContent2 = styled.div`
