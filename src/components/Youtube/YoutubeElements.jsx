@@ -42,8 +42,8 @@ export const TextWrapper = styled.div`
   text-align: justify;
   @media screen and (max-width: 768px) {
     top: -30%;
-    left:0;
-    max-width:100%;
+    left:17px;
+    max-width:90%;
     text-align: justify;
   }
 `

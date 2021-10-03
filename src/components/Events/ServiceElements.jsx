@@ -19,7 +19,7 @@ export const ServicesContainer = styled.div`
  `
 export const ServicesWrapper = styled.div`
     max-width: 2000px;
-    margin: 0 auto;
+    margin: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -111,7 +111,13 @@ left: 50%;
   left: 17%;
   width: 300px;
   height: 0px;
-  
+  @media screen and (max-width: 480px) {
+    top:53%;
+    border-top: 3px solid #ff6c00;
+    border-bottom: 0;
+    left: 10%;
+    width: 300px;
+    height: 0px;
   }
 `
 

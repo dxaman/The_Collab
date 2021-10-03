@@ -13,7 +13,7 @@ export const IGS_ServicesContainer = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    height: 2000px;
+    height: 1600px;
   }
  `
 export const IGS_ServicesWrapper = styled.div`
@@ -51,7 +51,7 @@ position : relative;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
   border-radius: 16px;
   height: 600px;
-  width: 350px;
+  width: 320px;
   left: 0px;
   top: -20%;
   border-radius: 16px;

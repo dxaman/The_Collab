@@ -13,7 +13,7 @@ export const IGS_ServicesContainer = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    height: 2000px;
+    height: 2400px;
   }
  `
 export const IGS_ServicesWrapper = styled.div`
