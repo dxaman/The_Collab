@@ -32,6 +32,7 @@ const Home = () => {
 
   return (
     <>
+
    <Sidebar isOpen={isOpen} toggle={toggle} />
       <NavBar toggle={toggle}/>
       <ScrollToTop />
