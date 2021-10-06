@@ -187,6 +187,9 @@
   display: block;
   overflow: auto;
   height: 100%;
+  
+}
+#sessionspc{  
   background: linear-gradient(234.33deg, #38218F -1.43%, #B18DCB 173.26%);
   
 }
@@ -286,4 +289,8 @@
     width: 140px;
     border-radius: 16px;
   }
+}
+.styles_scroll-to-top__2A70v{
+  background: #ff8800;
+  z-index: 5;
 }
