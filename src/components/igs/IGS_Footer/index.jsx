@@ -2,13 +2,18 @@ import React from 'react'
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
 import { IGS_FooterContainer, IGS_FooterWrap, IGS_FooterLinkWrapper, IGS_FooterLinkItems, IGS_FooterLinkContainer, IGS_FooterLinkTitle, IGS_FooterLink, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights } from './IGS_FooterElements'
 import { animateScroll as scroll } from 'react-scroll';
+import {  useState } from "react";
+
 import {NavLogo} from "../IGS_Navbar/NavbarElements";
 
 const IGS_Footer = () => {
   const toggleHome = () => {
     scroll.scrollToTop();
   }
-
+  const [showButton, setShowButton] = useState(false);
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <IGS_FooterContainer>
       <IGS_FooterWrap>
@@ -43,6 +48,7 @@ const IGS_Footer = () => {
         </SocialMedia>
       </IGS_FooterWrap>
     </IGS_FooterContainer>
+     
   )
 }
 

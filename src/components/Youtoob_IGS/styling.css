@@ -187,10 +187,12 @@
   display: block;
   overflow: auto;
   height: 100%;
-  background: linear-gradient(234.33deg, #38218F -1.43%, #B18DCB 173.26%);
   
 }
-
+#sessionsigs{  
+  background: linear-gradient(90deg, #2F3E41 10.31%, #273132 35.06%, #1E2422 71.4%, #1B1F1C 99.48%);
+  
+}
 .YoutubeWrapper {
   display: flex;
   z-index: 1;
@@ -286,4 +288,9 @@
     width: 140px;
     border-radius: 16px;
   }
+}
+.styles_scroll-to-top__2A70v{
+  background: #ff8800;
+  z-index: 5;
+
 }

@@ -1,11 +1,12 @@
 import React, {useState} from 'react'
+import ScrollTooTawp from "react-scroll-to-top";
 
 
 // import {YoutubeOne, YoutubeTwo, YoutubeThree} from '../components/pc/pc_Youtube/Data';
 
 
 
-import Youtube from "../components/pc/pc_Youtube";
+import Youtoobe from "../components/Youtube_PC";
 
 
 import Aboute from "../components/pc/pc_about";
@@ -42,7 +43,7 @@ const Home = () => {
 
   return (
     <>
-      
+      <ScrollTooTawp smooth color="#c6182f" />
 
     <ScrollToTop />
    <Sidebar isOpen={isOpen} toggle={toggle} />
@@ -53,7 +54,7 @@ const Home = () => {
 
 
  
- <Youtube/>
+ <Youtoobe/>
  <Workshop/>
    <Pc_Services/> 
  <Partner/>
