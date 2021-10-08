@@ -52,7 +52,7 @@ export const Tittle = styled.h1`
   }
 `;
 export const TopLine = styled.p`
-  color: #fff;
+  color: rgb(198, 181, 201);
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
