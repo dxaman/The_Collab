@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import ScrollToTop from "react-scroll-to-top";
 
 
 
@@ -36,7 +35,7 @@ const Home = () => {
   return (
     <>
     
-    <ScrollToTop smooth color="black" component={<MySVG />}/>
+
    <Sidebar isOpen={isOpen} toggle={toggle} />
       <NavBar toggle={toggle}/>
       <ScrollTooTawp />

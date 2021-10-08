@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import ScrollTooTawp from "react-scroll-to-top";
 
 
 // import {YoutubeOne, YoutubeTwo, YoutubeThree} from '../components/pc/pc_Youtube/Data';
@@ -20,12 +19,10 @@ import ScrollToTop from '../components/ScrollToTop'
 import Slider from '../components/igs/Speaker'
 import Decor from "../components/Decor";
 import IGS_Decor from "../components/igs/IGS_Decor";
-
+import Workshop from '../components/pc/pc_workshop/pages/workshop';
 import PC_Footer from "../components/pc/pc_footer"
 
 // import Sidebar from "../components/SideBarIGS";
-import Workshop from "../components/pc/pc_workshop/pages/workshop";
-
 import Sidebar from "../components/pc/SidebarPc";
 import Partner from "../components/pc/pc_Partners"
 
@@ -43,7 +40,6 @@ const Home = () => {
 
   return (
     <>
-      <ScrollTooTawp smooth color="#c6182f" />
 
     <ScrollToTop />
    <Sidebar isOpen={isOpen} toggle={toggle} />

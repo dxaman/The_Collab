@@ -31,13 +31,14 @@ export const WebsiteRights = styled.small`
 `;
 export const SocialIcons = styled.div`
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 240px;
+  justify-content: flex-start;
+  align-items: left;
+  
 `;
 export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
+  margin-left:10px
 `;
 export const Tittle = styled.h1`
   font-size: 24px;

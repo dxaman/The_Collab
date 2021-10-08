@@ -69,6 +69,7 @@ const PC_Footer = () => {
             >
               <FaInstagram />
             </SocialIconLink>
+            
             <SocialIconLink
               href="//www.youtube.com/channel/UCL6N8QXTgLIdj2SzxYhHrag/videos"
               target="_blank"
@@ -76,6 +77,15 @@ const PC_Footer = () => {
               className="youtube"
             >
               <FaYoutube />
+            </SocialIconLink>
+            
+            <SocialIconLink
+              href="//www.linkedin.com/company/sos-iitkanpur/"
+              target="_blank"
+              arial-label="Linkedin"
+              className="linkedin"
+            >
+              <FaLinkedin />
             </SocialIconLink>
             <SocialIconLink
               href="/"
@@ -85,14 +95,7 @@ const PC_Footer = () => {
             >
               <FaTwitter />
             </SocialIconLink>
-            <SocialIconLink
-              href="//www.linkedin.com/company/sos-iitkanpur/"
-              target="_blank"
-              arial-label="Linkedin"
-              className="linkedin"
-            >
-              <FaLinkedin />
-            </SocialIconLink>
+            
           </SocialIcons>
         </div>
         <div className="footer-section links">
