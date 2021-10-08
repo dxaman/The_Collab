@@ -20,3 +20,27 @@
     background: #38218f;
     color: white;
   }
+  .register{
+    position: absolute;
+    top: 90%;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+   
+    background:  '#808080';
+    white-space: nowrap;
+    padding: 14px  48px;
+    color:  '#fff';
+    font-size: '16px';
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+  }
+  .register:hover{
+    transition: all 0.2s ease-in-out;
+    background:  '#808080' ;
+  }
