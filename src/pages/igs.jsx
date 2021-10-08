@@ -10,7 +10,8 @@ import {YoutubeOne, YoutubeTwo, YoutubeThree} from '../components/igs/IGS_Youtub
 import Youtube from "../components/Youtoob_IGS";
 import Aboute from "../components/igs/IGS_about";
 import {AboutOne} from '../components/igs/IGS_about/Data';
-
+import IGS_Posters from '../components/igs/IGS_Posters';
+import IGS_PostersPartTwo from '../components/igs/IGS_PostersPartTwo'
 import NavBar from "../components/igs/IGS_Navbar";
 import IGS_Hero from "../components/igs/IGS_Hero";
 import IGS_Footer from "../components/igs/IGS_Footer";
@@ -44,6 +45,8 @@ const Home = () => {
       
         <IGS_Hero />
       <Aboute {...AboutOne}/>
+      <IGS_Posters/>
+      <IGS_PostersPartTwo/>
       <Youtube/>
       <IGS_Services/>
         <Slider/>
