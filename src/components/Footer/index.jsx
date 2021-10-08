@@ -106,23 +106,21 @@ const PC_Footer = () => {
             <Link to="../pc" className="link">
               <li>Policy Conclave</li>
             </Link>
-            <Link to="../../igs" className="link">
-              <li>link4</li>
-            </Link>
-            <Link to="../../igs" className="link">
-              <li>link5</li>
-            </Link>
+           
           </ul>
         </div>
         <div className="footer-section aboutus">
           <Tittle>Contact Us</Tittle>
-          <TopLine>Post :-</TopLine>
-          <TopLine>Name</TopLine>
+          <TopLine>Post :- Overall Coordinator Public Policy and Opinion Cell IIT Kanpur</TopLine>
+
+          
+          
+          <TopLine>Name :- Aditya K. Rao , Nikhil K. Singh</TopLine>
           <p>
-            <FaPhoneSquareAlt></FaPhoneSquareAlt> 1234567890
+            <FaPhoneSquareAlt></FaPhoneSquareAlt> +91 8826240462 , +91 7488746500
           </p>
           <p>
-            <HiOutlineMail></HiOutlineMail> info@example.com
+            <HiOutlineMail></HiOutlineMail> adikrao@iitk.ac.in , nikhilks@iitk.ac.in
           </p>
         </div>
       </div>

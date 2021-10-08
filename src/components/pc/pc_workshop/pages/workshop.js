@@ -84,7 +84,7 @@ class Workshop extends React.Component  {
                 <div class="right">
 
                     <img src={this.state.img} alt="img2" class="img-fluid" srcset="" id="author_img"
-                      style={{width:'100%',height:'auto',marginBottom:'20px'}}
+                      style={{width:'100%',height:'300px',marginBottom:'20px',margin:"auto"}}
                     />
                     <h3>{this.state.Head1}</h3>
                     <p class="author_name"  id="auth_rightSide_name">{this.state.Head2}</p>

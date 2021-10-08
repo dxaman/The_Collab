@@ -112,11 +112,16 @@ const PC_Footer = () => {
         <div className="footer-section aboutus">
           <Tittle>Contact Us</Tittle>
           <TopLine>Address : IIT Kanpur</TopLine>
+          <TopLine>Post :- Overall Coordinator Public Policy and Opinion Cell IIT Kanpur</TopLine>
+
+          
+          
+          <TopLine>Name :- Aditya K. Rao , Nikhil K. Singh</TopLine>
           <p>
-            <FaPhoneSquareAlt></FaPhoneSquareAlt> 1234567890
+            <FaPhoneSquareAlt></FaPhoneSquareAlt> +91 8826240462 , +91 7488746500
           </p>
           <p>
-            <HiOutlineMail></HiOutlineMail> info@example.com
+            <HiOutlineMail></HiOutlineMail> adikrao@iitk.ac.in , nikhilks@iitk.ac.in
           </p>
         </div>
       </div>
