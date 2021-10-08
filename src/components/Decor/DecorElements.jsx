@@ -17,7 +17,7 @@ export const decor1 = styled.div`
 export const Bg = styled.div`
   position: absolute;
   z-index: 1;
-  left: 1214px;
+  right: 0;
   top: 1580px;
   overflow: hidden;
   @media screen and (max-width: 768px) {
@@ -28,8 +28,20 @@ export const Bg = styled.div`
 export const Bglate = styled.div`
   position: absolute;
   z-index: 1;
-  right: 1214px;
-  top: 3000px;
+  left:0px;
+  top: 2500px;
+  width: 35%;
+  overflow: hidden;
+  @media screen and (max-width: 768px) {
+    left: 0px;
+    top: 3000px;
+  }
+`
+export const Bg2 = styled.div`
+  position: absolute;
+  z-index: 0;
+  right: 0;
+  top: 4500px;
   overflow: hidden;
   @media screen and (max-width: 768px) {
     left: 0px;

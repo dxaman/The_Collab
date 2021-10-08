@@ -13,7 +13,7 @@ export const IGS_ServicesContainer = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    height: 2000px;
+    height: 2400px;
   }
  `
 export const IGS_ServicesWrapper = styled.div`
@@ -22,8 +22,8 @@ export const IGS_ServicesWrapper = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
-    grid-gap: 50px;
-    padding: 0 50px;
+    grid-gap: 30px;
+    padding: 0 0px;
 
     @media screen and (max-width: 1000px) {
       grid-template-columns: 1fr 1fr;
@@ -44,21 +44,21 @@ position : relative;
   justify-content: flex-start;
   align-items: center;
   border-radius: 10px;
-  max-height: 400px;
+  max-height: 470px;
   padding:  30px;
   transition: all 0.2s ease-in-out;
   background: #F9F9F9;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
   border-radius: 16px;
-  height: 600px;
-  width: 350px;
+  height: 470px;
+  width: 300px;
   left: 0px;
   top: 0px;
   border-radius: 16px;
 
 
   &:hover {
-    transform: scale(1.25);
+    transform: scale(1.1);
     transition: all 0.2s ease-in-out;
     cursor:pointer;
   }
@@ -84,7 +84,7 @@ export const IGS_ServicesH2 = styled.h2`
 `
 
 export const IGS_ServicesP = styled.p`
-  font-size: 1rem;
+  font-size: 0.98rem;
   text-align: center;
   padding-bottom: 20%;
 `

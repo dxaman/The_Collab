@@ -1,0 +1,22 @@
+.goto{
+    border-radius: 10px;
+    background: #ff6c00;
+    white-space: nowrap;
+    padding: 12px 30px;
+    color:#fff;
+    font-size:16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    
+}
+.goto:hover {
+    transition: all 0.2s ease-in-out;
+    background: #38218f;
+    color: white;
+  }

@@ -4,8 +4,8 @@ export const IGS_ServicesContainer = styled.div`
   height: 800px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+  align-items: justify;
   background: white;
 
   @media screen and (max-width: 1000px) {
@@ -13,14 +13,14 @@ export const IGS_ServicesContainer = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    height: 2000px;
+    height: 1600px;
   }
  `
 export const IGS_ServicesWrapper = styled.div`
     max-width: 2000px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     grid-gap: 50px;
     padding: 0 50px;
@@ -51,18 +51,22 @@ position : relative;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
   border-radius: 16px;
   height: 600px;
-  width: 350px;
+  width: 320px;
   left: 0px;
-  top: 0px;
+  top: -20%;
   border-radius: 16px;
+  text-align: center;
+  
 
 
   &:hover {
-    transform: scale(1.25);
+    transform: scale(1.15);
     transition: all 0.2s ease-in-out;
     cursor:pointer;
   }
+
 `
+
 export const IGS_ServicesIcon = styled.img`
   height: 80px;
   width: 80px;
@@ -73,13 +77,15 @@ export const IGS_ServicesH1 = styled.h1`
   font-size: 2.5rem;
   color: #664aa6;
   margin-bottom: 64px;
+  
+  font-weight: bold;
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;
   }  
 `
 export const IGS_ServicesH2 = styled.h2`
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-bottom: 10px;
 `
 

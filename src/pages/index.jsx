@@ -10,11 +10,13 @@ import Services from '../components/Services';
 import Events from '../components/Events';
 import Team from '../components/Team';
 import Sidebar from '../components/SideBar'
+import Social from '../components/SocialMedia'
 import Ending from "../components/Ending";
 import Youtube from "../components/Youtube";
 import Slider from '../components/Slider'
 import Partner from '../components/Partner'
 import AboveFooter from '../components/AboveFooter/AboveFooter';
+import ScrollToTop from '../components/ScrollToTop'
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -25,12 +27,14 @@ const Home = () => {
 
   return (
     <>
+     <ScrollToTop />
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle}/>
       <Hero />
       <About {...AboutOne}/>
       <Decor/>
       <Events/>
+      <Social/>
       <Services />
       <Slider/>
       {/* <Team/> */}

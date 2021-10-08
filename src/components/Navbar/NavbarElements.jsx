@@ -111,9 +111,10 @@ text-decoration: none;
 `
 export const NavBtnLink2 = styled(LinkR)`
 position: absolute;
-  top: 90%;
+  top: 92.5%;
+  left:-10.3%;
   border-radius: 0 0 10px 10px;
-  width: 100%;
+  width: 120.8%;
   background: ${({primary}) => (primary ?  '#ff6c00' : '#ff6c00')};
   white-space: nowrap;
   padding: ${({big}) =>  (big ? '14px  48px' : '12px 30px')};
@@ -132,5 +133,17 @@ position: absolute;
     color: black;
     transition: all 0.2s ease-in-out;
     background: ${({primary}) => (primary ?  '#38218F' : '#fff')};
+}
+`
+export const NavBtnLink3 = styled(LinkR)`
+text-decoration: none;
+justify-content: center;
+  align-items: center;
+   outline: none;
+  border: none;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+ 
 }
 `

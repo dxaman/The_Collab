@@ -16,3 +16,8 @@
     color: #664AA6;
     background-color: white;
 }
+@media (max-width: 480px) {
+    .dialog-container{
+        width: 85%;
+    }
+}

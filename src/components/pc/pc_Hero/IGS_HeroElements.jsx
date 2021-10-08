@@ -92,7 +92,10 @@ export const IGS_HeroContent = styled.div`
   border-radius: 10px;
   display: flex;
   flex-direction: column;
- 
+  @media screen and (max-width: 480px) {
+    padding: 30px 30px;
+    width: 90%;
+  }
   
 `
 export const IGS_HeroContent2 = styled.div`
@@ -107,7 +110,7 @@ export const IGS_HeroContent2 = styled.div`
 `
 export const IGS_HeroH1 = styled.h1`
   color: #664AA6;
-  
+  font-weight: bold;
   font-size: 64px;
 
   @media screen and (max-width: 768px) {
@@ -168,13 +171,14 @@ export const SocialHandle = styled.div`
   align-content: center;
   height: 5%;
   width: 20%;
-  top: 250%;
-  left: 50%;
+  top: 190%;
+  left: 40%;
   border-radius: 0px;
-  margin-left: 70%;
+  margin-left: 50%;
   @media screen and (max-width: 756px) {
     top: 230%;
-    left: -45%;
+    
+    left: -25%;
   }
 `
 

@@ -15,10 +15,12 @@ export const Button = styled(Link)`
   justify-content: center;
   align-items: center;
   transition: all 0.2s ease-in-out;
+  text-decoration: none;
 
   &:hover {
     transition: all 0.2s ease-in-out;
     background: ${({ primary }) => (primary ? "#38218F" : "#B08CCB")};
+    color: white;
   }
 `;
 export const Button2 = styled(Link)`
@@ -40,10 +42,11 @@ export const Button2 = styled(Link)`
   justify-content: center;
   align-items: center;
   transition: all 0.2s ease-in-out;
-
+  text-decoration: none;
   &:hover {
     transition: all 0.2s ease-in-out;
     background: ${({ primary }) => (primary ? "#38218F" : "#664aa6")};
+    color: white;
   }
 `;
 export const Button3 = styled(Link)`

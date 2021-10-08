@@ -1,15 +1,16 @@
 import React, {useState} from 'react'
+import ScrollTooTawp from "react-scroll-to-top";
 
 
 // import {YoutubeOne, YoutubeTwo, YoutubeThree} from '../components/pc/pc_Youtube/Data';
 
 
 
-import Youtube from "../components/pc/pc_Youtube";
+import Youtoobe from "../components/Youtube_PC";
 
 
 import Aboute from "../components/pc/pc_about";
-import {AboutOne} from '../components/igs/IGS_about/Data';
+import {AboutOne} from '../components/pc/pc_about/Data';
 
 import NavBar from "../components/pc/pc_Navbar";
 import Pc_Hero from "../components/pc/pc_Hero";
@@ -32,6 +33,7 @@ import Partner from "../components/pc/pc_Partners"
 
 
 
+
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)
 
@@ -41,7 +43,9 @@ const Home = () => {
 
   return (
     <>
-    
+      <ScrollTooTawp smooth color="#c6182f" />
+
+    <ScrollToTop />
    <Sidebar isOpen={isOpen} toggle={toggle} />
     <NavBar toggle={toggle}/>
     <Pc_Hero />
@@ -49,9 +53,10 @@ const Home = () => {
 
 
 
- <Pc_Services/> 
+ 
+ <Youtoobe/>
  <Workshop/>
-   <Youtube/>
+   <Pc_Services/> 
  <Partner/>
  <PC_Footer />
 

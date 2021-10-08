@@ -38,7 +38,7 @@ export const YoutubeRow = styled.div`
 `
 export const TextWrapper = styled.div`
   position: relative;
-  top: 20%;
+  top: 0%;
   max-width: 40%;
   padding: 5px;
   //padding-bottom: 60px;

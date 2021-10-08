@@ -42,8 +42,8 @@ export const TextWrapper = styled.div`
   text-align: justify;
   @media screen and (max-width: 768px) {
     top: -30%;
-    left:0;
-    max-width:100%;
+    left:17px;
+    max-width:90%;
     text-align: justify;
   }
 `
@@ -63,6 +63,7 @@ export const Heading = styled.h1`
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600px;
+  font-weight: bold;
   color: #664AA6;
 
   @media screen and (max-width: 760px) {

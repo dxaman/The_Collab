@@ -137,7 +137,7 @@
     top: 60%;
   }
   .carousel-item-padding-80-px {
-    padding-left: 15px;
+    padding-left: 0px;
   }
 }
 @media only screen and (max-width: 425px) {
@@ -187,14 +187,10 @@
   display: block;
   overflow: auto;
   height: 100%;
-  background: linear-gradient(
-    90deg,
-    #2f3e41 10.31%,
-    #273132 35.06%,
-    #1e2422 71.4%,
-    #1b1f1c 99.48%
-  );
+  background: linear-gradient(234.33deg, #38218F -1.43%, #B18DCB 173.26%);
+  
 }
+
 .YoutubeWrapper {
   display: flex;
   z-index: 1;
@@ -203,6 +199,7 @@
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
+  
 }
 .Speaker img {
   align-content: center;
@@ -229,8 +226,12 @@
   display: flex;
   flex-wrap: wrap;
   /* flex-direction: row; */
-  text-align: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
 }
+
 .Content {
   text-align: left;
 }
@@ -242,6 +243,7 @@
 .Speakerbio {
   flex: 68%;
   padding: 5px;
+  text-align: left;
 }
 
 .ImgWrap {

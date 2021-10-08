@@ -1,13 +1,21 @@
 h4{
     text-align: center;
-    font-size: small;
+    font-size: smaller;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 30px;
 }
 button{
     margin: 20px;
-    margin-bottom: 30px;
     padding: 7px 25px;
-    border-radius: 5px;
     color: #664AA6;
+    box-shadow:  0 3px 10px rgb(0 0 0 / 0.2);;
     background-color: white;
     border-color: #664AA6;
     border-width: 1px;
@@ -15,4 +23,15 @@ button{
 .kmcs:hover{
     color: white;
     background-color: #664AA6;
+}
+.kmcs2:hover{
+    color: white;
+    background-color: #664AA6;
+}
+.kmcs{
+    margin-right: 20px;
+    border-radius: 6px;
+}
+.kmcs2{
+    border-radius: 6px;
 }
