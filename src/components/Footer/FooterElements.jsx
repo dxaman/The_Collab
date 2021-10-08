@@ -31,24 +31,21 @@ export const WebsiteRights = styled.small`
 `;
 export const SocialIcons = styled.div`
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 240px;
-
-  @media screen and (max-width: 480px) {
-    transform: translateY(10px);
-  }
-`
+  justify-content: flex-start;
+  align-items: left;
+  
+`;
 export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
+  margin-left:10px
 `;
 export const Tittle = styled.h1`
   font-size: 24px;
   line-height: 1.1;
   text-align: left;
   font-weight: 700;
-  color: #fff;
+  color: #e3e3e9; 
   margin-top: 15px;
 
   @media screen and (max-width: 700px) {
@@ -56,7 +53,7 @@ export const Tittle = styled.h1`
   }
 `;
 export const TopLine = styled.p`
-  color: #8e8e91;
+  color: white;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
