@@ -8,7 +8,7 @@ class Workshop extends React.Component  {
       para: "A two day workshop to understand one of the fundamental institutions in our democracy: the Parliament. The first session provided with an overview of who's who in the Parliament and the functions of the legislature. While the 2nd session focussed on how policymakers and citizens can follow the work of Parliament and engage with legislators for a healthy democracy.",
       Head1: "Introduction to Parliament",
       Head2: "Resource person: Ms. Mridula Raghvan, Program Officer, PRS Legislative Research",
-      img: 'https://static.dw.com/image/17886435_303.jpg'
+      img: 'https://media-exp1.licdn.com/dms/image/C5603AQHX78sPVnysog/profile-displayphoto-shrink_800_800/0/1621841064521?e=1639008000&v=beta&t=CvrKEAS5rZr21peqT4QM0-AlshgGz1OIubsNWa36ICA'
     };
   }
   changeFirst = () => {
