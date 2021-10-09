@@ -22,7 +22,7 @@ const IGS_Hero = () => {
       </IGS_HeroBg>
       <IGS_HeroContent>
       <IGS_HeroH1> Policy Conclave</IGS_HeroH1>
-//       <IGS_HeroH2>Have a tagline specific to PC here!</IGS_HeroH2>
+{/*<IGS_HeroH2>Have a tagline specific to PC here!</IGS_HeroH2>*/}
   {/*<IGS_HeroP>"There's Tremendous Gap Between Public Opinion and Public Policy"</IGS_HeroP>*/}
       
     <SocialHandle>
