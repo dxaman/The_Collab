@@ -78,7 +78,7 @@ swipeable={true}
 
     <ServicesCard>
         <ServicesIcon src={Icon3}/>
-        <ServicesH2>Aditya Rao</ServicesH2>
+        <ServicesH2>Aditya K Rao</ServicesH2>
         <ServicesP>Overall Coordinator</ServicesP>
     </ServicesCard>
 
@@ -124,6 +124,11 @@ swipeable={true}
         <ServicesP>Events</ServicesP>
     </ServicesCard>
         
+    <ServicesCard>
+        <ServicesIcon src={'https://i.ibb.co/tsbwRWS/arjun.jpg'}/>
+        <ServicesH2>Arjun Ajay</ServicesH2>
+        <ServicesP>Design</ServicesP>
+    </ServicesCard>
   
 </Carousel>
 </ServicesContainer>
