@@ -40,18 +40,18 @@ const Navbar = ({ toggle }) => {
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
               >About Us</NavLinks>
             </NavItem>
-            <NavItem>
-              <NavLinks to='sessions'
-              smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >Sessions</NavLinks>
-            </NavItem>
+//             <NavItem>
+//               <NavLinks to='sessions'
+//               smooth={true} duration={500} spy={true} exact='true' offset={-80}
+//               >Sessions</NavLinks>
+//             </NavItem>
             <NavItem>
               <NavLinks to='IGS_Services'
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >Events</NavLinks>
+              >IGS2021</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='speakers'
+              <NavLinks to='Speakers'
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
               >Speakers</NavLinks>
             </NavItem>
