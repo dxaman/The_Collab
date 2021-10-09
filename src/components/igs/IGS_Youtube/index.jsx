@@ -61,7 +61,7 @@ const Youtube = () => {
   };
   return (
     <div className="YoutubeContainer" lightBg="true" id="sessions">
-      <IGS_YoutubeH1>Speakers</IGS_YoutubeH1>
+      <IGS_YoutubeH1>Past Sessions</IGS_YoutubeH1>
 
       <IGS_hr />
 
