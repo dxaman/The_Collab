@@ -40,7 +40,7 @@ const Home = () => {
       {/* <Team/> */}
       <Partner/>
       <Youtube {...YoutubeOne}/>
-      <AboveFooter/>
+//       <AboveFooter/>
       <Footer />
     </>
   )
