@@ -10,6 +10,28 @@ const ConductionDetail = () => {
     };
     return <>
         <div className="accordion-container">
+            <div className="detailContainer">
+                <div className="detailContainerTop">
+                    <h2>Details about conduction</h2>
+                    <p>All the related info, including syllabus, sample questions, and deadlines, shall be updated well in advance on this website of Public Policy and Opinion Cell, IIT Kanpur. Please find the schedule for The Knowledge Hunt below:</p>
+                </div>
+                <div className="detailContainerBottom">
+                    <div className="detailContainerBottomLeft">
+                        <ul>
+                            <li><span className="detailHeading">Registrations Start: </span>15th January</li>
+                            <li><span className="detailHeading">Last Date for Registrations:</span>  4th February</li>
+                            <li><span className="detailHeading">Release of Sample Question Paper:</span>  26th January</li>
+                        </ul>
+                    </div>
+                    <div className="detailContainerBottomRight">
+                        <ul>
+                            <li><span className="detailHeading">Date and Time of The Knowledge Hunt:</span> 6th February</li>
+                            <li><span className="detailHeading">Result Declaration:</span>  10th February</li>
+                            <li><span className="detailHeading">Dates of Policy Conclave: </span>12th-14th February</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
             <Accordion defaultActiveKey="0" >
                 <Accordion.Item eventKey="0" className="active">
                     <Accordion.Header className={(currentActiveKey === "0") ? "active" : ""}>Pool A: Class VI-VIII</Accordion.Header>
@@ -234,6 +256,7 @@ const ConductionDetail = () => {
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
+            
         </div>
     </>
 }
