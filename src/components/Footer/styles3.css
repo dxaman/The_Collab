@@ -25,6 +25,10 @@
 .footer1 .footer-content h2 {
   color: #8e8e91;
 }
+.footer1 .footer-content ul{
+  list-style-type: none;
+  margin-left: -30px;
+}
 .footer1 .footer-content ul .link {
   display: block;
   color: #8e8e91;

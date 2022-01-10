@@ -1,8 +1,8 @@
 import { React, useState } from "react";
 
 import Accordion from 'react-bootstrap/Accordion';
-import './TheKnowledgeHunt.css';
-const Demo = () => {
+import './ConductionDetail.css';
+const ConductionDetail = () => {
     const [currentActiveKey, setCurrentActiveKey] = useState(null);
 
     const toggleActiveKey = (key) => {
@@ -88,7 +88,7 @@ const Demo = () => {
                 <Accordion.Item eventKey="1" className={currentActiveKey === "1" ? "active" : ""}>
                     <Accordion.Header>Pool B: Class IX-X</Accordion.Header>
                     <Accordion.Body>
-                    <h5>Social Science, Science and Maths NCERT book of class 6-8</h5>
+                        <h5>Social Science, Science and Maths NCERT book of class 6-8</h5>
                         <div className="subjects">
                             <div className="subject">
                                 <ul>
@@ -162,7 +162,7 @@ const Demo = () => {
                 <Accordion.Item eventKey="2" className={currentActiveKey === "2" ? "active" : ""}>
                     <Accordion.Header>Pool C: Class XI-XII - College</Accordion.Header>
                     <Accordion.Body>
-                    <h5>Social Science, Science and Maths NCERT book of class 6-8</h5>
+                        <h5>Social Science, Science and Maths NCERT book of class 6-8</h5>
                         <div className="subjects">
                             <div className="subject">
                                 <ul>
@@ -238,4 +238,4 @@ const Demo = () => {
     </>
 }
 
-export default Demo;
+export default ConductionDetail;
