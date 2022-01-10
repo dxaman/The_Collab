@@ -1,0 +1,88 @@
+.accordion-container {
+    background-color: black;
+    padding: 5%;
+    /* min-height: 100vh; */
+ 
+}
+
+
+.accordion-item{
+    border: none;
+}
+.accordion-button {
+    background: #535353;
+    color: white;
+    border: none !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background: #383838;
+    color: rgb(156, 156, 156);
+}
+
+.accordion-body {
+    background: #383838;
+    color: rgb(156, 156, 156);
+    padding-bottom: 20px;
+}
+
+
+.accordion-button:after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+  }
+.subjects {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.subject {
+    flex: 19%;
+    padding: 5px;
+}
+
+.subject:not(.last) {
+    border-right: 1px solid #DDDDDD;
+}
+
+.subject ul li {
+    list-style-type: none;
+}
+
+.subject ul .heading {
+    font-size: 1.1em;
+    color: rgb(206, 206, 206);
+}
+
+.subject ul li:not(heading) {
+    display: block;
+    color: rgb(156, 156, 156);
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 948px) {
+    .subjects {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .subject {
+        flex: 100%;
+        padding: 5px;
+
+    }
+
+    .subject:not(.last) {
+        border-right:none;
+    }
+}
+
+/* .accordion-button::after{
+    background: rgb(156, 156, 156);
+} */
