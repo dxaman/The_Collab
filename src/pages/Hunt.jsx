@@ -4,8 +4,8 @@ import Sidebar from '../components/SideBar'
 import Navbar from '../components/Navbar/NewNavbar'
 import bg_img from '../images/hunt_bg_img.png'
 import down_arrow from '../images/down_arrow.png'
-import ConductionDetail from '../components/TheKnowledgeHunt/ConductionDetail/ConductionDetail';
-import Register from '../components/TheKnowledgeHunt/Register/Register';
+// import ConductionDetail from '../components/TheKnowledgeHunt/ConductionDetail/ConductionDetail';
+// import Register from '../components/TheKnowledgeHunt/Register/Register';
 import './hunt_style.css'
 const Hunt = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -44,8 +44,8 @@ const Hunt = () => {
                 The Public Policy and Opinion Cell provides the campus community with a platform to discuss various events of national and international importance and thus explore the plethora of viewpoints that can be constructed on the same issue, leading to the growth of the intellect of its student members. The Public Policy and Opinion Cell will be organizing its annual policy summit “Policy Conclave” from 12- 14 February. The Policy Conclave was established with the aim of engaging students with the challenges of policy-making in contemporary society by fostering, creating, and scrutinizing potential policy solutions to a diverse range of issues including but not limited to Foreign Policy, Environment, Government, Health, Education, and Governance. Policy Conclave is the first of its kind of summit held at IIT Kanpur among all sister IITs
             </div>
         </section>
-        <Register />
-        <ConductionDetail />
+        {/* <Register />
+        <ConductionDetail /> */}
         </>
     )
 }
