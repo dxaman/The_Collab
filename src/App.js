@@ -6,6 +6,7 @@ import Igs from './pages/igs'
 import Pc from './pages/pc'
 import Que from "./pages/Que"
 import que_pages from './pages/Que';
+import Hunt from './pages/Hunt'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path='/igs' component={Igs} exact />
         <Route path='/pc' component={Pc} exact />
         <Route path='/que' component={que_pages} exact />
+        <Route path='/theknowledgehunt' component={Hunt} exact />
       </Switch>
     </Router>
   );
