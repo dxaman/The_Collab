@@ -9,7 +9,7 @@ import que_pages from './pages/Que';
 
 // import TheKnowledgeHunt from './pages/TheKnowledgeHunt';
 
-import Hunt from './pages/Hunt'
+// import Hunt from './pages/Hunt'
 
 
 
@@ -25,7 +25,7 @@ function App() {
 
          {/* <Route path='/theknowledgehunt' component={TheKnowledgeHunt} exact /> */}
 
-        <Route path='/theknowledgehunt' component={Hunt} exact />
+        {/* <Route path='/theknowledgehunt' component={Hunt} exact /> */}
 
       </Switch>
     </Router>
