@@ -1,0 +1,83 @@
+.RegisterDetail {
+
+    padding: 4% 2% 4% 2%;
+    /* margin: 5%; */
+}
+
+.registerheading {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 30px;
+    margin-left: 50px;
+    /* identical to box height, or 83% */
+    letter-spacing: -0.015em;
+    color: #C6182F;
+}
+
+.RegisterOption {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 20px 10px;
+}
+
+.OptionStep img {
+    width: 80%;
+    height: 80%;
+    margin-top: 80px;
+}
+
+.RegisterOptionLeft {
+    flex: 55%;
+    background: #F9F9F9;
+    border-radius: 10px;
+    padding: 20px 10px 20px 40px;
+    /* color: rgb(199, 88, 88); */
+}
+
+.RegisterOptionRight {
+    flex: 42%;
+    padding: 20px 10px 20px 40px;
+}
+
+.OptionStep {
+    margin-bottom: 5px;
+}
+
+.OptionStep p {
+    font-family: Segoe UI;
+    font-style: normal;
+
+}
+
+.RegisterOptionHeading {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+
+    /* identical to box height, or 83% */
+    letter-spacing: -0.015em;
+
+    color: #535353;
+}
+
+@media screen and (max-width: 948px) {
+    .RegisterOption {
+        flex-direction: column;
+
+    }
+
+    .RegisterOptionLeft {
+        flex: 100%;
+
+    }
+
+    .RegisterOptionRight {
+        flex: 100%;
+    }
+
+}
