@@ -16,10 +16,7 @@ const Hunt = () => {
     return (
         <>
         <ScrollToTop />
-        <Sidebar isOpen={isOpen} toggle={toggle} />
-        <div style={{marginTop: "80px"}}>
-            <Navbar toggle={toggle}/>
-        </div>
+        
         <section className="hunt_home">
         <div className="main">
             <h1>Knowledge Hunt</h1>

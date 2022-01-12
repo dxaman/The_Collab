@@ -19,7 +19,7 @@
     font-size: 35px;
     line-height: 50px;
     color: #C6182F;
-    text-align: left;
+    text-align:right;
 }
 
 .detailContainerBottom {
@@ -47,7 +47,7 @@
 .detailContainerBottom ul li{
     font-family: Segoe UI;
     font-style: normal;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 30px;
     padding: 5px;
     letter-spacing: -0.015em;
@@ -60,6 +60,7 @@
 .accordion-button {
     background: #535353;
     color: white;
+    font-size: 20px;
     border: none !important;
 }
 
