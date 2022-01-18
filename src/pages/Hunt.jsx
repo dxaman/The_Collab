@@ -2,7 +2,9 @@ import React, {useState} from 'react'
 import ScrollToTop from '../components/ScrollToTop'
 import Sidebar from '../components/SideBar'
 import Navbar from '../components/Navbar/NewNavbar'
-import bg_img from '../images/hunt_bg_img.png'
+import Group from '../images/Group.png'
+import Knowledge from '../images/knowledge.png'
+
 import down_arrow from '../images/down_arrow.png'
 import {ButtonR} from "../components/ButtonElements";
 // import ConductionDetail from '../components/TheKnowledgeHunt/ConductionDetail/ConductionDetail';
@@ -21,13 +23,31 @@ const Hunt = () => {
         
         <section className="hunt_home" >
         <div className="main">
-            <h1>Knowledge Hunt</h1>
-            The Knowledge Hunt is an initiative of Public Policy and Opinion Cell, IIT Kanpur to engage students at the grass-root level and strengthen the talent pool of our nation in the field of policy and governance.<br/><br/><br/>
-            <ButtonR to='register'              smooth={true} duration={500} spy={true} exact='true' offset={-80}>
-                                        How To Register? 
-                                    </ButtonR>
+            <div className='left_side'>
+                <div className='left_side_1'>
+                    <h3 className='heading_top'>THE</h3>
+                <img src={Knowledge} className='knowledge_img'  />
+                <h3 className='heading_hunt'>HUNT</h3>
+                </div>
+                <div className='left_side_2'>
+            <div>
+          <h3>The</h3>
+            </div>
+            <div>
+          <h3>Knowledge</h3>
+            </div>
+            <div>
+          <h3>Hunt</h3>
+          </div>
+               </div>     
+            </div>
+            The Knowledge Hunt is an initiative of Public Policy and Opinion Cell, IIT Kanpur to engage students at the grass-root level and strengthen the talent pool of our nation in the field of policy and governance.
+            <br/><br/><br/>
+            <ButtonR to='register' smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+             Register Now! 
+            </ButtonR>
         </div><br/>
-        <img src={bg_img} className="hunt_bg_img"/><br/>
+        <img src={Group} className="hunt_bg_img"/><br/>
         <div className="div_know_more">
         <a href="#pg2" className="know_more">Know More</a><br/>
         <a href="#pg2"><img src={down_arrow} className="down_arrow"></img></a>
