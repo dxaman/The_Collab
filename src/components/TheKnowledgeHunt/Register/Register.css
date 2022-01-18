@@ -81,6 +81,9 @@
     .RegisterOptionRight {
         flex: 100%;
     }
+    .KH{
+        float : none;
+    }
 
 }
 .KH{

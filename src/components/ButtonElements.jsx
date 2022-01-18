@@ -37,7 +37,7 @@ export const ButtonR = styled(Link)`
   align-items: center;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-  width: 30%;
+  width: 40%;
 
   &:hover {
     transition: all 0.2s ease-in-out;

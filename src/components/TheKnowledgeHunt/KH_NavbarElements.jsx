@@ -89,9 +89,7 @@ export const NavBtn = styled.nav`
   
   margin:20px;
 
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
+ 
 `
 export const NavBtnLink = styled(LinkR)`
 border-radius: 10px;

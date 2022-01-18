@@ -133,7 +133,7 @@ const PC_Footer = () => {
       <div className="footer-bottom">
         PPOC © {new Date().getFullYear()} All rights reserved.
       </div>
-      {showButton && (
+      {/* {showButton && (
         <button
           title="Back to top"
           onClick={scrollToTop}
@@ -141,7 +141,7 @@ const PC_Footer = () => {
         >
           &#8679;
         </button>
-      )}
+      )} */}
     </div>
   );
 };
