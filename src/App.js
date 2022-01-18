@@ -23,7 +23,7 @@ function App() {
         <Route path='/pc' component={Pc} exact />
         <Route path='/que' component={que_pages} exact />
 
-//         <Route path='/theknowledgehunt' component={TheKnowledgeHunt} exact />
+     {/* <Route path='/theknowledgehunt' component={TheKnowledgeHunt} exact /> */}
 
         <Route path='/theknowledgehunt' component={Hunt} exact />
 

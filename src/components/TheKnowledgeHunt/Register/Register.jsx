@@ -11,7 +11,7 @@ const Register = () => {
                     <h3 className="RegisterOptionHeading">Individual Registration.</h3>
                     <div className="OptionStep">
                         <h2 className="RegisterOptionHeading">1.</h2>
-                        <p>Go to <a style={{ color: "rgb(199, 88, 88)", textDecoration: "none" }} href="https://www.onlinesbi.com/sbicollect/icollecthome.html" target={"_blank"}>https://www.onlinesbi.com/sbicollect/icollecthome.html</a></p>
+                        <p>Go to <a style={{ color: "rgb(199, 88, 88)", textDecoration: "none" }} href="https://www.onlinesbi.com/sbicollect/" target={"_blank"}>https://www.onlinesbi.com/sbicollect</a></p>
                     </div>
                     <div className="OptionStep">
                         <h2 className="RegisterOptionHeading">2.</h2>
