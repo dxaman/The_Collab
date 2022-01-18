@@ -21,7 +21,7 @@ const Hunt = () => {
         <div className="main">
             <h1>Knowledge Hunt</h1>
             The Knowledge Hunt is an initiative of Public Policy and Opinion Cell, IIT Kanpur to engage students at the grass-root level and strengthen the talent pool of our nation in the field of policy and governance.<br/><br/><br/>
-            <a href="#" className="register_now">Register Now!</a>
+            <a href="#" className="register_now">How To Register?</a>
         </div><br/>
         <img src={bg_img} className="hunt_bg_img"/><br/>
         <div className="div_know_more">

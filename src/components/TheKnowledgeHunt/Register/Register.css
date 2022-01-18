@@ -33,12 +33,14 @@
     flex: 55%;
     background: #F9F9F9;
     border-radius: 10px;
+    margin :10px;
     padding: 20px 10px 20px 40px;
     /* color: rgb(199, 88, 88); */
 }
 
 .RegisterOptionRight {
     flex: 42%;
+    
     padding: 20px 10px 20px 40px;
 }
 
@@ -80,4 +82,29 @@
         flex: 100%;
     }
 
+}
+.KH{
+    
+    border-radius: 10px;
+    float : left;
+background: #C6182F;
+white-space: nowrap;
+padding: 10px 22px;
+color: white;
+font-size: 16px;
+outline: none;
+border: none;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+text-decoration: none;
+
+
+}
+.KH:hover {
+    transition: all 0.2s ease-in-out;
+    background:#38218f;
+    color: white;
+}
+.note{
+    color: red;
 }
