@@ -37,9 +37,9 @@ const Hunt = () => {
           <h3>Knowledge</h3>
             </div>
             <div>
-          <h3>Hunt</h3>
+          <h3> Hunt</h3>
           </div>
-               </div>     
+                </div>     
             </div>
             The Knowledge Hunt is an initiative of Public Policy and Opinion Cell, IIT Kanpur to engage students at the grass-root level and strengthen the talent pool of our nation in the field of policy and governance.
             <br/><br/><br/>
