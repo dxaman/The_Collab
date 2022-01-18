@@ -4,11 +4,13 @@ import Sidebar from '../components/SideBar'
 import Navbar from '../components/Navbar/NewNavbar'
 import bg_img from '../images/hunt_bg_img.png'
 import down_arrow from '../images/down_arrow.png'
+import {ButtonR} from "../components/ButtonElements";
 // import ConductionDetail from '../components/TheKnowledgeHunt/ConductionDetail/ConductionDetail';
 // import Register from '../components/TheKnowledgeHunt/Register/Register';
 import './hunt_style.css'
 const Hunt = () => {
     const [isOpen, setIsOpen] = useState(false)
+    
 
   const toggle = () =>{
     setIsOpen(!isOpen);
@@ -17,11 +19,13 @@ const Hunt = () => {
         <>
         <ScrollToTop />
         
-        <section className="hunt_home">
+        <section className="hunt_home" >
         <div className="main">
             <h1>Knowledge Hunt</h1>
             The Knowledge Hunt is an initiative of Public Policy and Opinion Cell, IIT Kanpur to engage students at the grass-root level and strengthen the talent pool of our nation in the field of policy and governance.<br/><br/><br/>
-            <a href="#" className="register_now">How To Register?</a>
+            <ButtonR to='register'              smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+                                        How To Register? 
+                                    </ButtonR>
         </div><br/>
         <img src={bg_img} className="hunt_bg_img"/><br/>
         <div className="div_know_more">

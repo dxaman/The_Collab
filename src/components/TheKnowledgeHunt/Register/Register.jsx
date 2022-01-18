@@ -6,7 +6,7 @@ import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavLinks, NavItem, 
 const Register = () => {
 
     return <>
-        <div className="RegisterDetail">
+        <div className="RegisterDetail" id='register'>
             <h2 className="registerheading">How to register</h2>
             <div className="RegisterOption">
                 <div className="RegisterOptionLeft">
