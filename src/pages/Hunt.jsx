@@ -108,7 +108,7 @@ const Hunt = () => {
         </section>
         {/* <Register />
         <ConductionDetail /> */}
-                    <Faq />
+                    {/* <Faq /> */}
 
         </>
     )

@@ -5,7 +5,7 @@ import NavBar from "../components/TheKnowledgeHunt/IGS_Navbar";
 import Hunt_Footer from "../components/TheKnowledgeHunt/Hunt_Footer";
 import Sidebar from "../components/SideBarIGS";
 import ConductionDetail from '../components/TheKnowledgeHunt/ConductionDetail/ConductionDetail';
-import Faqs from '../components/TheKnowledgeHunt/ConductionDetail_copy/ConductionDetail'  
+import Faq from '../components/TheKnowledgeHunt/Faq/faq'; 
 import Register from '../components/TheKnowledgeHunt/Register/Register';
 import Sponsors from '../components/TheKnowledgeHunt/Partner';
 import Hunt from './Hunt'
@@ -32,7 +32,7 @@ const Home = () => {
             <Prizes/>
             <Services/>
             <Sponsors/>
-            <Faqs/>
+            <Faq/>
             {/* <AboveFooter/> */}
              <Hunt_Footer /> 
         </>
