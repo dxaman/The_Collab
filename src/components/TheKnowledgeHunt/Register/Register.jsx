@@ -13,12 +13,14 @@ const Register = () => {
                     <h3 className="RegisterOptionHeading">1. Individual Registration.</h3>
                     <ul>
                     <div className="OptionStep">
+
                        
                        <li> <p>Click on your respective pool<br></br>
 <b>Pool A: 6-8 class</b><br></br>
 <b>Pool B: 9-10 class</b><br></br>
 <b>Pool C: 11-12 class and College students</b><br></br>
 You will be redirected to the corresponding Registration Form on Dare2Compete Platform.</p></li>
+
                     </div>
                     <div className="OptionStep">
                         <p>Login into Dare2Compete platform and fill the registration form.
