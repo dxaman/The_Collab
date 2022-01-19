@@ -72,6 +72,13 @@ export const IGS_hr = styled.hr`
     ${"" /* left:2.5%; */}
   }
 `;
+export const BtnWrap = styled.div`
+  display:flex;
+  justify-content: flex-start;
+  @media screen and (max-width: 800px) {
+    justify-content: center;
+  }
+`;
 // export const ImgWrap = styled.div`
 //   position: relative;
 //   max-width: 40%;

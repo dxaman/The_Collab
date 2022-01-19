@@ -76,8 +76,8 @@ export const IGS_ServicesIcon = styled.img`
 export const IGS_ServicesH1 = styled.h1`
   font-size: 2.5rem;
   color: #664aa6;
+  text-align: center;
   margin-bottom: 64px;
-  
   font-weight: bold;
 
   @media screen and (max-width: 480px) {

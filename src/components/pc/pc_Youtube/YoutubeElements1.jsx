@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link, Link as LinkR } from 'react-router-dom'
 export const IGS_YoutubeH1 = styled.h1`
   font-size: 2.5rem;
   color: #fff;
@@ -72,6 +73,31 @@ export const IGS_hr = styled.hr`
     ${"" /* left:2.5%; */}
   }
 `;
+export const HeroBtnWrapper2 = styled(Link)`
+ margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+  background: ${({primary}) => (primary ?  '#c6182f' : '#c6182f')};
+  white-space: nowrap;
+  padding: ${({big}) =>  (big ? '14px  48px' : '12px 30px')};
+  color: ${({dark}) =>  (dark ? '#fff' : '#fff')};
+  font-size:${({fontBig}) =>  (fontBig ? '20px' : '16px')};
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: ${({primary}) => (primary ?  '#38218F' : '#38218F')};
+  }
+`
 // export const ImgWrap = styled.div`
 //   position: relative;
 //   max-width: 40%;
