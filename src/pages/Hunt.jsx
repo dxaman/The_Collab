@@ -21,7 +21,7 @@ const Hunt = () => {
         <>
         <ScrollToTop />
         
-        <section className="hunt_home" >
+        <section className="hunt_home" id="hunt-home">
         <div className="main">
             <div className='left_side'>
                 <div className='left_side_1'>

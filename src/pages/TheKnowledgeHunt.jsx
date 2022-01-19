@@ -2,12 +2,12 @@ import React, { useState } from 'react'
 
 import ScrollToTop from '../components/ScrollToTop'
 import NavBar from "../components/TheKnowledgeHunt/IGS_Navbar";
-import IGS_Footer from "../components/igs/IGS_Footer";
+import Hunt_Footer from "../components/TheKnowledgeHunt/Hunt_Footer";
 import Sidebar from "../components/SideBarIGS";
 import ConductionDetail from '../components/TheKnowledgeHunt/ConductionDetail/ConductionDetail';
 import Faqs from '../components/TheKnowledgeHunt/ConductionDetail_copy/ConductionDetail'  
 import Register from '../components/TheKnowledgeHunt/Register/Register';
-import Sponsors from '../components/Partner';
+import Sponsors from '../components/TheKnowledgeHunt/Partner';
 import Hunt from './Hunt'
 import AboveFooter from '../components/AboveFooter/AboveFooter';
 import Prizes from '../components/TheKnowledgeHunt/IGS_Services_copy';
@@ -33,8 +33,8 @@ const Home = () => {
             <Services/>
             <Sponsors/>
             <Faqs/>
-            <AboveFooter/>
-             <IGS_Footer /> 
+            {/* <AboveFooter/> */}
+             <Hunt_Footer /> 
         </>
     )
 }

@@ -36,42 +36,43 @@ const Navbar = ({ toggle }) => {
           </MobileIcon>
           <NavMenu>
           <NavItem>
-            <NavLinks to='igs'
+            <NavLinks to='hunt-home'
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
               >Home</NavLinks>
             </NavItem>
             <NavItem>
             
-              <NavLinks to='IGS_Services'
+              <NavLinks to='register'
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >Major Events</NavLinks>
+              >Register</NavLinks>
             </NavItem>
             <NavItem>
+              <NavLinks to='details-about-conduction'
+              smooth={true} duration={500} spy={true} exact='true' offset={-80}
+              >Details</NavLinks>
+            </NavItem>
+
+            <NavItem>
+              <NavLinks to='Prizes'
+              smooth={true} duration={500} spy={true} exact='true' offset={-80}
+              >Prizes</NavLinks>
+            </NavItem>
             
+            <NavItem>
               <NavLinks to='IGS_Services'
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >Campus Initiatives</NavLinks>
+              >Contact Us</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='Speakers'
+              <NavLinks to='faq-container'
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >Policy Research</NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks to='Speakers'
-              smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >Media</NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks to='Speakers'
-              smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >About</NavLinks>
+              >FAQ</NavLinks>
             </NavItem>
            
             
           </NavMenu>
           <NavBtn>
-             <a href = "https://www.blogger.com/profile/05197863151050865456" class="opineRed">Contact Us</a>
+             <a href = "https://www.blogger.com/profile/05197863151050865456" class="opineRed">Opine Matters</a>
           </NavBtn>
         </NavbarContainer>
       </Nav>

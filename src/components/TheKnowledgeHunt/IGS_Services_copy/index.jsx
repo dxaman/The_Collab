@@ -6,7 +6,7 @@ import {IGS_ServicesContainer, IGS_ServicesH1, IGS_ServicesWrapper, IGS_Services
 
 const IGS_Services = () => {
   return (
-    <IGS_ServicesContainer id='IGS_Services'>
+    <IGS_ServicesContainer id='Prizes'>
       <IGS_ServicesH1>Prizes</IGS_ServicesH1>
       <IGS_ServicesWrapper>
         <IGS_ServicesCard>
