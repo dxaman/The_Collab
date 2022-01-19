@@ -45,7 +45,7 @@ const PC_Footer = () => {
       <div className="footer-content">
         <div className="footer-section contact">
           <SocialLogo to="/" onClick={toggleHome}>
-            <img src="https://i.ibb.co/zxtxY7C/Group-63.png" title="Logo of Indian Governance Summit"/>
+            <img src="https://i.ibb.co/LYtRVKr/Knowledge-hunt-logo.png" title="Logo of Knowledge Hunt" style={{width:"70px"}}/>
           </SocialLogo>
           <TopLine>
             <span>Public Policy</span>
