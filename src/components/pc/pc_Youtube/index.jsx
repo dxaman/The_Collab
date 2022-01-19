@@ -5,10 +5,11 @@ import {
   Content,
   IGS_YoutubeH1,
   IGS_hr,
+  HeroBtnWrapper2
 } from "./YoutubeElements1";
 
-import { Button5 } from "../../igs/IGS_ButtonElements";
-
+import { Button4, Button5 } from "../../igs/IGS_ButtonElements";
+import { BtnWrapTwo } from '../../Youtube/YoutubeElements';
 import {
   ArrowForward,
   ArrowRight,
@@ -114,18 +115,19 @@ const Youtube = () => {
                 {YoutubeOne.description}
               </Content>
 
-              <Button5
-                to=""
-                onMouseEnter={onHover}
-                onMouseLeave={onHover}
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={-80}
-              >
-                Visit Our channel {hover ? <ArrowForward /> : <ArrowRight />}
-              </Button5>
+              <HeroBtnWrapper2
+          to="https://www.youtube.com/channel/UCL6N8QXTgLIdj2SzxYhHrag"
+          onMouseEnter={onHover}
+          onMouseLeave={onHover}
+          smooth={true}
+          duration={500}
+          spy={true}
+          exact="true"
+          offset={-80}
+        >
+          The Knowledge Hunt {hover ? <ArrowForward /> : <ArrowRight />}
+        </HeroBtnWrapper2>
+              
             </div>
           </div>
           <div className="YoutubeImg">
@@ -167,19 +169,18 @@ const Youtube = () => {
               <Content lightText={YoutubeTwo.lightText}>
                 {YoutubeTwo.description}
               </Content>
-
-              <Button5
-                to=""
-                onMouseEnter={onHover}
-                onMouseLeave={onHover}
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={-80}
-              >
-                Visit Our channel {hover ? <ArrowForward /> : <ArrowRight />}
-              </Button5>
+              <HeroBtnWrapper2
+          to="https://www.youtube.com/channel/UCL6N8QXTgLIdj2SzxYhHrag"
+          onMouseEnter={onHover}
+          onMouseLeave={onHover}
+          smooth={true}
+          duration={500}
+          spy={true}
+          exact="true"
+          offset={-80}
+        >
+          The Knowledge Hunt {hover ? <ArrowForward /> : <ArrowRight />}
+        </HeroBtnWrapper2>
             </div>
           </div>
           <div className="YoutubeImg">
@@ -222,18 +223,18 @@ const Youtube = () => {
                 {YoutubeThree.description}
               </Content>
 
-              <Button5
-                to=""
-                onMouseEnter={onHover}
-                onMouseLeave={onHover}
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={-80}
-              >
-                Visit Our channel {hover ? <ArrowForward /> : <ArrowRight />}
-              </Button5>
+              <HeroBtnWrapper2
+          to="https://www.youtube.com/channel/UCL6N8QXTgLIdj2SzxYhHrag"
+          onMouseEnter={onHover}
+          onMouseLeave={onHover}
+          smooth={true}
+          duration={500}
+          spy={true}
+          exact="true"
+          offset={-80}
+        >
+          The Knowledge Hunt {hover ? <ArrowForward /> : <ArrowRight />}
+        </HeroBtnWrapper2>
             </div>
           </div>
           <div className="YoutubeImg">
@@ -277,7 +278,7 @@ const Youtube = () => {
               </Content>
 
               <Button5
-                to=""
+                to="https://www.youtube.com/channel/UCL6N8QXTgLIdj2SzxYhHrag"
                 onMouseEnter={onHover}
                 onMouseLeave={onHover}
                 smooth={true}

@@ -168,16 +168,16 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
 
 export const SocialHandle = styled.div`
   position: absolute;
-  align-content: center;
+  align-content: left;
   height: 5%;
   width: 20%;
   top: 190%;
   left: 40%;
   border-radius: 0px;
-  margin-left: 50%;
   @media screen and (max-width: 756px) {
     top: 230%;
     
+  margin-left: 50%;
     left: -25%;
   }
 `
