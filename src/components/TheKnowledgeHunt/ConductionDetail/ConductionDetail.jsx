@@ -9,7 +9,7 @@ const ConductionDetail = () => {
         setCurrentActiveKey(currentActiveKey === key ? null : key);
     };
     return <>
-        <div className="accordion-container">
+        <div className="accordion-container" id="details-about-conduction">
             <div className="detailContainer">
                 <div className="detailContainerTop">
                     <h2>Details about conduction</h2>

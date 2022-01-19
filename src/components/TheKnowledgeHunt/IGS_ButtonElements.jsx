@@ -103,7 +103,6 @@ export const Button4 = styled(Link)`
 `;
 export const Button5 = styled(Link)`
   border-radius: 10px;
-  width: 22%;
 
   margin-top: 5px;
   background: ${({ primary }) => (primary ? "#FFB830" : "#FFB830")};

@@ -1,26 +1,28 @@
 import styled from 'styled-components'
 
-export const IGS_ServicesContainer = styled.div`
-  height: 800px;
+export const ServicesContainer = styled.div`
+position:relative;
+  padding-bottom:1%;
+  height: 600px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: justify;
+  justify-content: center;
+  align-items: center;
   background: white;
 
   @media screen and (max-width: 1000px) {
-    height: 2000px;
+    height: 600px;
   }
 
   @media screen and (max-width: 480px) {
-    height: 1600px;
+    height: 600px;
   }
  `
-export const IGS_ServicesWrapper = styled.div`
+export const ServicesWrapper = styled.div`
     max-width: 2000px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
     grid-gap: 50px;
     padding: 0 50px;
@@ -32,51 +34,44 @@ export const IGS_ServicesWrapper = styled.div`
     @media screen and (max-width: 786px) {
       grid-template-columns: 1fr;
       padding: 0 20px;
-      grid-gap: 60px;
+      grid-gap: 20px;
   }
 `
-export const IGS_ServicesCard = styled.div`
+export const ServicesCard = styled.div`
 position : relative;
- z-index: 2;
-  background: #fff;
+ 
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   border-radius: 10px;
-  max-height: 400px;
+  max-height: 340px;
   padding:  30px;
   transition: all 0.2s ease-in-out;
-  background: #F9F9F9;
-  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
-  border-radius: 16px;
-  height: 600px;
-  width: 320px;
-  left: 0px;
-  top: -20%;
-  border-radius: 16px;
-  text-align: center;
-  
+  background: none;
+height: 375px;
+width: 250px;
+left: 0px;
+top: 0px;
+border-radius: 16px;
 
 
   &:hover {
-    transform: scale(1.15);
+    transform: scale(1.05);
     transition: all 0.2s ease-in-out;
     cursor:pointer;
   }
-
 `
-
-export const IGS_ServicesIcon = styled.img`
-  height: 80px;
-  width: 80px;
+export const ServicesIcon = styled.img`
+  height: 230px;
+  width: 230px;
   margin-bottom: 10px;
+  border-radius: 10px 40px 10px 40px;
 
 `
-export const IGS_ServicesH1 = styled.h1`
+export const ServicesH1 = styled.h1`
   font-size: 2.5rem;
-  color: #664aa6;
-  text-align: center;
+  color: #C6182F;
   margin-bottom: 64px;
   font-weight: bold;
 
@@ -84,15 +79,18 @@ export const IGS_ServicesH1 = styled.h1`
     font-size: 2rem;
   }  
 `
-export const IGS_ServicesH2 = styled.h2`
-  font-size: 1.5rem;
+export const ServicesH2 = styled.h2`
+  font-size: 1rem;
   margin-bottom: 10px;
+  color:white;
 `
 
-export const IGS_ServicesP = styled.p`
+export const ServicesP = styled.p`
   font-size: 1rem;
   text-align: center;
   padding-bottom: 20%;
+  color: white;
 `
+
 
 

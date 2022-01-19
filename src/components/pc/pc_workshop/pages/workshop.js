@@ -8,11 +8,11 @@ class Workshop extends React.Component  {
       para: "A two day workshop to understand one of the fundamental institutions in our democracy: the Parliament. The first session provided with an overview of who's who in the Parliament and the functions of the legislature. While the 2nd session focussed on how policymakers and citizens can follow the work of Parliament and engage with legislators for a healthy democracy.",
       Head1: "Introduction to Parliament",
       Head2: "Resource person: Ms. Mridula Raghvan, Program Officer, PRS Legislative Research",
-      img: 'https://media-exp1.licdn.com/dms/image/C5603AQHX78sPVnysog/profile-displayphoto-shrink_800_800/0/1621841064521?e=1639008000&v=beta&t=CvrKEAS5rZr21peqT4QM0-AlshgGz1OIubsNWa36ICA'
+      img: 'https://www.c3sindia.org/wp-content/uploads/2014/10/114-207x495.jpg'
     };
   }
   changeFirst = () => {
-    this.setState({Head1: "Introduction to Parliament",Head2: "Resource person: Ms. Mridula Raghvan, Program Officer, PRS Legislative Research",para: "A two day workshop to understand one of the fundamental institutions in our democracy: the Parliament. The first session provided with an overview of who's who in the Parliament and the functions of the legislature. While the 2nd session focussed on how policymakers and citizens can follow the work of Parliament and engage with legislators for a healthy democracy.", img: 'https://media-exp1.licdn.com/dms/image/C5603AQHX78sPVnysog/profile-displayphoto-shrink_800_800/0/1621841064521?e=1639008000&v=beta&t=CvrKEAS5rZr21peqT4QM0-AlshgGz1OIubsNWa36ICA'});
+    this.setState({Head1: "Introduction to Parliament",Head2: "Resource person: Ms. Mridula Raghvan, Program Officer, PRS Legislative Research",para: "A two day workshop to understand one of the fundamental institutions in our democracy: the Parliament. The first session provided with an overview of who's who in the Parliament and the functions of the legislature. While the 2nd session focussed on how policymakers and citizens can follow the work of Parliament and engage with legislators for a healthy democracy.", img: 'https://www.c3sindia.org/wp-content/uploads/2014/10/114-207x495.jpg'});
   }
   changeTwo = () => {
     this.setState({Head1: "Decoding China: China’s Foreign Policy",Head2: "Resource person: Mr. Tanveer Jai Kishen",para:'The workshop highlighted the role of China’s foreign policy in dominating over global economy and trade from a historical perspective. A rigorous discussion on Border Road Initiative and China’s Debt Trap Policy took place along with its impact on India.',img:'https://redkangaroohealth.com/wp-content/uploads/2017/04/TANVIR-PHOTO.jpg' });
@@ -24,7 +24,7 @@ class Workshop extends React.Component  {
   render(){ 
   return (
     <>
-     <h1>Workshop </h1>
+     <h1 style={{textAlign: "center"}}>Workshop </h1>
      
      <div class="main_box shadow-lg p-3 mb-5 bg-body rounded">
 

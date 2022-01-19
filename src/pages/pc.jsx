@@ -1,11 +1,9 @@
 import React, {useState} from 'react'
 
 
-// import {YoutubeOne, YoutubeTwo, YoutubeThree} from '../components/pc/pc_Youtube/Data';
 
 
-
-import Youtoobe from "../components/Youtube_PC";
+import Youtoobe from ".././components/Youtube_PC";
 
 
 import Aboute from "../components/pc/pc_about";

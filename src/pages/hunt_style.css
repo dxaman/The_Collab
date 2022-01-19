@@ -34,7 +34,7 @@ h1{
 .main{
     width: 35%;
     position: absolute;
-  top: 43%; left: 27%;
+    top: 60%; left: 27%;
   transform: translate(-50%,-50%);
   z-index: 1;
 }
@@ -52,15 +52,17 @@ h1{
 .div_know_more{
     text-align: center;
     position: absolute;
-    top: 92%; left: 50%;
+    top: 102%; left: 50%;
     transform: translate(-50%,-50%);
 }
 .hunt_bg_img{
-    height: 90vh;
+    height: 80vh;
     width: auto;
+    margin-right: 10vw;
     position: absolute;
     right: 0%;
-    top: 0%;
+    top: 10%;
+
     z-index: 0;
 }
 .cardi {
@@ -71,10 +73,42 @@ h1{
 }
 .left_heading{
     color: #C6182F;
+    
+}
+.knowledge_img{
+width: 100%;
+height: 50%;
+margin-top: -5px;
 }
 .right_box{
     border: 1px solid #FFFFFF;
     border-radius: 10px;
+}
+.left_side{
+display: flex;
+margin-bottom: 10px;
+}
+.heading_top{
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 6px;
+}
+.heading_hunt{
+    font-weight: 400;
+    letter-spacing: 6px;
+}
+.left_side_2{
+    margin-left: 30px;
+    height: auto;
+    
+}
+.left_side_2 h3{
+    font-weight: bold;
+   /* letter-spacing: 2px; */
+    font-size: 3.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin-top: -10px;
 }
 @media screen and (max-width: 768px) {
     .hunt_bg_img{

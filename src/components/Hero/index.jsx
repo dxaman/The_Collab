@@ -58,7 +58,7 @@ const Hero = () => {
           <br></br>-Noam Chomsky
         </HeroP>
         <HeroBtnWrapper2
-          to="/igs"
+          to="/theknowledgehunt"
           onMouseEnter={onHover}
           onMouseLeave={onHover}
           smooth={true}
@@ -67,7 +67,7 @@ const Hero = () => {
           exact="true"
           offset={-80}
         >
-          Indian Governance Summit {hover ? <ArrowForward /> : <ArrowRight />}
+          The Knowledge Hunt {hover ? <ArrowForward /> : <ArrowRight />}
         </HeroBtnWrapper2>
        
         <SocialHandle>

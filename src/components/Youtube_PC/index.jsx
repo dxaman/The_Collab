@@ -5,8 +5,8 @@ import {
   Content,
   IGS_YoutubeH1,
   IGS_hr,
+  BtnWrap
 } from "./YoutubeElements1";
-
 import { Button5 } from "../igs/IGS_ButtonElements";
 
 import {
@@ -114,18 +114,11 @@ const Youtube = () => {
                 {YoutubeOne.description}
               </Content>
 
-              <Button5
-                to=""
-                onMouseEnter={onHover}
-                onMouseLeave={onHover}
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={-80}
-              >
-                Visit Our channel {hover ? <ArrowForward /> : <ArrowRight />}
-              </Button5>
+              <BtnWrap>
+                                    <a href="https://www.youtube.com/channel/UCL6N8QXTgLIdj2SzxYhHrag" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80} class="goto">
+                                    Visit Our channel {hover ? <ArrowForward /> : <ArrowRight/>}
+                                    </a>
+                                </BtnWrap>
             </div>
           </div>
           <div className="YoutubeImg">
@@ -168,18 +161,11 @@ const Youtube = () => {
                 {YoutubeTwo.description}
               </Content>
 
-              <Button5
-                to=""
-                onMouseEnter={onHover}
-                onMouseLeave={onHover}
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={-80}
-              >
-                Visit Our channel {hover ? <ArrowForward /> : <ArrowRight />}
-              </Button5>
+              <BtnWrap>
+                                    <a href="https://www.youtube.com/channel/UCL6N8QXTgLIdj2SzxYhHrag" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80} class="goto">
+                                    Visit Our channel {hover ? <ArrowForward /> : <ArrowRight/>}
+                                    </a>
+                                </BtnWrap>
             </div>
           </div>
           <div className="YoutubeImg">
@@ -222,18 +208,11 @@ const Youtube = () => {
                 {YoutubeThree.description}
               </Content>
 
-              <Button5
-                to=""
-                onMouseEnter={onHover}
-                onMouseLeave={onHover}
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={-80}
-              >
-                Visit Our channel {hover ? <ArrowForward /> : <ArrowRight />}
-              </Button5>
+              <BtnWrap>
+                                    <a href="https://www.youtube.com/channel/UCL6N8QXTgLIdj2SzxYhHrag" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80} class="goto">
+                                    Visit Our channel {hover ? <ArrowForward /> : <ArrowRight/>}
+                                    </a>
+                                </BtnWrap>
             </div>
           </div>
           <div className="YoutubeImg">
@@ -276,18 +255,11 @@ const Youtube = () => {
                 {YoutubeFour.description}
               </Content>
 
-              <Button5
-                to=""
-                onMouseEnter={onHover}
-                onMouseLeave={onHover}
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={-80}
-              >
-                Visit Our channel {hover ? <ArrowForward /> : <ArrowRight />}
-              </Button5>
+              <BtnWrap>
+                                    <a href="https://www.youtube.com/channel/UCL6N8QXTgLIdj2SzxYhHrag" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80} class="goto">
+                                    Visit Our channel {hover ? <ArrowForward /> : <ArrowRight/>}
+                                    </a>
+                                </BtnWrap>
             </div>
           </div>
           <div className="YoutubeImg">
