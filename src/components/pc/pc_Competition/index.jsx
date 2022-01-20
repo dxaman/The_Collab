@@ -1,6 +1,6 @@
 import React from 'react'
 import Icon1 from '../../../images/book-open.png'
-import { Button2 } from '../IGS_ButtonElements'
+import { Button2 } from '../../ButtonElements'
 import {IGS_ServicesContainer, IGS_ServicesH1, IGS_ServicesWrapper, IGS_ServicesCard, IGS_ServicesIcon, IGS_ServicesH2, IGS_ServicesP, IGS_ServicesCardMid, IGS_ServicesCardRght} from './IGS_ServiceElements'
 
 const IGS_Services = () => {
