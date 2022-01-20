@@ -86,7 +86,7 @@ Type of Corporate/Institution - <b>Educational Institutions</b></p>
 down the transaction number as well. 
 </i></b></p>
                     <NavBtn>
-            <a href = "#" class="KH">Coming Soon!</a>
+            <a href = "https://www.onlinesbi.com/sbicollect/"  class="KH">Pay Fee!</a>
             
           </NavBtn>
           
