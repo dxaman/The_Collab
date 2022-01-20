@@ -46,7 +46,6 @@ position : relative;
   border-radius: 10px;
   max-height: 400px;
   padding:  30px;
-  transition: all 0.2s ease-in-out;
   background: #F9F9F9;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
   border-radius: 16px;
@@ -57,13 +56,6 @@ position : relative;
   border-radius: 16px;
   text-align: center;
   
-
-
-  &:hover {
-    transform: scale(1.15);
-    transition: all 0.2s ease-in-out;
-    cursor:pointer;
-  }
 
 `
 
