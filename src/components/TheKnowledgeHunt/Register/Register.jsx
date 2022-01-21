@@ -76,8 +76,12 @@ Type of Corporate/Institution - <b>Educational Institutions</b></p>
                        <li> <p>Click on ‘Submit’.</p></li>
                     </div>
                     <div className="OptionStep">
-                        <p>Select <b>‘STUDENTS GYMKHANA’</b> in the Payment Category.
+                        <p>Select <b>‘PUBLIC POLICY AND OPINION CELL’</b> in the Payment Category.
 
+</p>
+                    </div>
+<div className="OptionStep">
+                        <p>Fill the all the necessary details in the form and enter the amount of Rs. 120.
 </p>
                     </div>
                     
@@ -86,7 +90,7 @@ Type of Corporate/Institution - <b>Educational Institutions</b></p>
 down the transaction number as well. 
 </i></b></p>
                     <NavBtn>
-            <a href = "#" class="KH">Coming Soon!</a>
+            <a href = "https://www.onlinesbi.com/sbicollect/"  class="KH">Pay Fee!</a>
             
           </NavBtn>
           
