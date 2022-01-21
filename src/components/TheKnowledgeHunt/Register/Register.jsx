@@ -33,15 +33,15 @@ You will be redirected to the corresponding Registration Form on Dare2Compete Pl
                     </ul>
                     <p><b><i>Important Note: The Knowledge Hunt will be conducted on Dare2compete platform itself hence you must remember your login credentials and keep a track of the confirmation email.</i></b></p>
                     <NavBtn>
-            <a href = "https://dare2compete.com/o/rXj1uvi?lb=h0xkG4o" class="KH">Pool A</a>
+            <a href = "https://dare2compete.com/o/rXj1uvi?lb=h0xkG4o" target="_blank" class="KH">Pool A</a>
             
           </NavBtn>
           <NavBtn>
-            <a href = "https://dare2compete.com/o/E5SRy0c?lb=h0xkG4o" class="KH">Pool B</a>
+            <a href = "https://dare2compete.com/o/E5SRy0c?lb=h0xkG4o" target="_blank" class="KH">Pool B</a>
             
           </NavBtn>
           <NavBtn>
-            <a href = " https://dare2compete.com/o/zJNARnH?lb=h0xkG4o" class="KH">Pool C</a>
+            <a href = " https://dare2compete.com/o/zJNARnH?lb=h0xkG4o" target="_blank" class="KH">Pool C</a>
             
           </NavBtn>
                      </div>
@@ -92,7 +92,7 @@ down the transaction number as well.
           
                      </div>
                      
-                     <div className="RegisterOptionLeft">
+                     {/* <div className="RegisterOptionLeft">
                     <h3 className="RegisterOptionHeading">3. Verification</h3>
                     <ul>
                     <div className="OptionStep">
@@ -115,7 +115,21 @@ Further information shall be conveyed after the preliminary contact is  made.
 
                     </div>
                    
-                     </div>
+                     </div> */}
+                     <div className="RegisterOptionRight">
+                    <h3 className="RegisterOptionHeading">Via School Registration</h3>
+                    <div className="OptionStep">
+                        
+                        <p className="note"><b><i>Interested schools/academic institutions may contact us at ppoc.iitk@gmail.com                                           
+Further information shall be conveyed after the preliminary contact is  made.
+</i></b></p>
+                    </div>
+                   
+                    <div className="OptionStep">
+                        <img src={imageName} alt="workshop image" />
+
+                    </div>
+                </div>
             
             </div>
 
