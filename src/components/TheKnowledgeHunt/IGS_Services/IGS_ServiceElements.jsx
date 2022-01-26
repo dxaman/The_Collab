@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const IGS_ServicesContainer = styled.div`
-  height: 800px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;

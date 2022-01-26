@@ -2,6 +2,7 @@ import { React, useState } from "react";
 
 import Accordion from 'react-bootstrap/Accordion';
 import './ConductionDetail.css';
+import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavLinks, NavItem, NavBtn, NavBtnLink } from '../KH_NavbarElements'
 const ConductionDetail = () => {
     const [currentActiveKey, setCurrentActiveKey] = useState(null);
 
@@ -35,7 +36,9 @@ const ConductionDetail = () => {
             </div>
             <Accordion defaultActiveKey="0" >
                 <Accordion.Item eventKey="0" className="active">
-                    <Accordion.Header className={(currentActiveKey === "0") ? "active" : ""}>Pool A: Class VI-VIII</Accordion.Header>
+                    <Accordion.Header className={(currentActiveKey === "0") ? "active" : ""}>Pool A: Class VI-VIII
+                    
+                    </Accordion.Header>
                     <Accordion.Body>
                         <h5>Social Science, Science and Maths NCERT book of class 6-8</h5>
                         <div className="subjects">
@@ -209,6 +212,25 @@ const ConductionDetail = () => {
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
+            <div>
+            <br></br>
+            <h1 className="sample">Sample Papers:</h1>
+             <NavBtn>
+            <a href = "https://drive.google.com/file/d/163jsBHyAAni5_hHHjVMlW_hVvK1ohPE2/view?usp=sharing" target="_blank" class="KHS">Pool A</a>
+            
+          </NavBtn>
+         <NavBtn>
+            <a href = "https://dare2compete.com/o/E5SRy0c?lb=h0xkG4o" target="_blank" class="KHS">Pool B</a>
+            
+          </NavBtn>
+          <NavBtn>
+            <a href = " https://dare2compete.com/o/zJNARnH?lb=h0xkG4o" target="_blank" class="KHS">Pool C</a>
+            
+          </NavBtn>
+          <p className="samplepara"><b><i>Important Note: Actual Paper will contain 90 questions.</i></b></p> 
+          </div>
+          
+          
 
         </div>
     </>

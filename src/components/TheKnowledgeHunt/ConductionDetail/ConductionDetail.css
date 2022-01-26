@@ -117,6 +117,7 @@ ul li {
 
 
 @media screen and (max-width: 948px) {
+    
     .subjects {
         flex-direction: column;
         height: auto;
@@ -143,8 +144,45 @@ ul li {
     .subject:not(.last) {
         border-right: none;
     }
+    .KHS{
+        float : none;
+        padding: 10px 142px;
+    }
+    
+   
+    
 }
 
 /* .accordion-button::after{
     background: rgb(156, 156, 156);
 } */
+.KHS{
+    
+    border-radius: 10px;
+    
+background: #C6182F;
+white-space: nowrap;
+padding: 10px 122px;
+color: white;
+font-size: 16px;
+outline: none;
+border: none;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+text-decoration: none;
+margin-top: -5%;
+
+}
+.KHS:hover {
+    transition: all 0.2s ease-in-out;
+    background:#38218f;
+    color: white;
+}
+.sample{
+    float:left;
+    
+}
+.samplepara{
+    font-size:20px;
+    padding-top:80px;
+}
