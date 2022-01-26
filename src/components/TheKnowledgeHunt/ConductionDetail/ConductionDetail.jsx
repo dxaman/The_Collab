@@ -220,11 +220,11 @@ const ConductionDetail = () => {
             
           </NavBtn>
          <NavBtn>
-            <a href = "https://docs.google.com/document/d/1I7yccDQPCElw1sJ2RayIlElvz4ZR2s8F0VKwvDD05Ig/edit?usp=sharing" target="_blank" class="KHS">Pool B</a>
+            <a href = "https://drive.google.com/file/d/1fIS2zdkrzAcedowShq3cGrDi55gwpQ5I/view?usp=sharing" target="_blank" class="KHS">Pool B</a>
             
           </NavBtn>
           <NavBtn>
-            <a href = "https://drive.google.com/file/d/1BD9GJpb4fXplLNrSm_pwib8QUKCwsttT/view?usp=sharing" target="_blank" class="KHS">Pool C</a>
+            <a href = "https://drive.google.com/file/d/1aikZG-UF4VNQRSuboccVq35Ordgcod3L/view?usp=sharing" target="_blank" class="KHS">Pool C</a>
             
           </NavBtn>
           <p className="samplepara"><b><i>Important Note: Actual Paper will contain 90 questions.</i></b></p> 
