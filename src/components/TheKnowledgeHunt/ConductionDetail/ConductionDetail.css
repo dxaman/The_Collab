@@ -180,9 +180,11 @@ margin-top: -5%;
 }
 .sample{
     float:left;
+    color:white;
     
 }
 .samplepara{
     font-size:20px;
     padding-top:80px;
+    color:white;
 }
