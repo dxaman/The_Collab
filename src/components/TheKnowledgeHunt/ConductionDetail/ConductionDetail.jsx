@@ -220,11 +220,11 @@ const ConductionDetail = () => {
             
           </NavBtn>
          <NavBtn>
-            <a href = "https://dare2compete.com/o/E5SRy0c?lb=h0xkG4o" target="_blank" class="KHS">Pool B</a>
+            <a href = "https://docs.google.com/document/d/1I7yccDQPCElw1sJ2RayIlElvz4ZR2s8F0VKwvDD05Ig/edit?usp=sharing" target="_blank" class="KHS">Pool B</a>
             
           </NavBtn>
           <NavBtn>
-            <a href = " https://dare2compete.com/o/zJNARnH?lb=h0xkG4o" target="_blank" class="KHS">Pool C</a>
+            <a href = "https://drive.google.com/file/d/1BD9GJpb4fXplLNrSm_pwib8QUKCwsttT/view?usp=sharing" target="_blank" class="KHS">Pool C</a>
             
           </NavBtn>
           <p className="samplepara"><b><i>Important Note: Actual Paper will contain 90 questions.</i></b></p> 
