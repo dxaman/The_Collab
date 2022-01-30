@@ -1,0 +1,29 @@
+.PC{
+    
+border-radius: 0 0 10px 10px;
+width: 100%;
+background: #ff7e3d;
+white-space: nowrap;
+padding: 10px 22px;
+color: white;
+font-size: 16px;
+cursor: pointer;
+position: absolute;
+bottom:0;
+left:0;
+right:0;
+width: 300px;
+outline: none;
+border: none;
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: all 0.2s ease-in-out;
+text-decoration: none;
+}
+.PC:hover {
+    transition: all 0.2s ease-in-out;
+    background:#38218f;
+    color: white;
+}

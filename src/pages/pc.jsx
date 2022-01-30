@@ -44,13 +44,13 @@ const Home = () => {
     <NavBar toggle={toggle}/>
     <Pc_Hero />
  <Aboute {...AboutOne}/>
-
+ <Pc_Services/> 
 
 
  
  <Youtoobe/>
  <Workshop/>
-   <Pc_Services/> 
+   
  <Partner/>
  <PC_Footer />
 

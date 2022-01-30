@@ -13,14 +13,14 @@ export const IGS_ServicesContainer = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    height: 1600px;
+    height: 2900px;
   }
  `
 export const IGS_ServicesWrapper = styled.div`
     max-width: 2000px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
     grid-gap: 50px;
     padding: 0 50px;
@@ -44,16 +44,16 @@ position : relative;
   justify-content: flex-start;
   align-items: center;
   border-radius: 10px;
-  max-height: 400px;
-  padding:  30px;
+  max-height: 650px;
+  padding:  8px;
   transition: all 0.2s ease-in-out;
   background: #F9F9F9;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
   border-radius: 16px;
-  height: 600px;
-  width: 320px;
+  height: 900px;
+  width: 300px;
   left: 0px;
-  top: -20%;
+  top: -5%;
   border-radius: 16px;
   text-align: center;
   
@@ -68,8 +68,8 @@ position : relative;
 `
 
 export const IGS_ServicesIcon = styled.img`
-  height: 80px;
-  width: 80px;
+  height:290px;
+  width: 290px;
   margin-bottom: 10px;
 
 `
