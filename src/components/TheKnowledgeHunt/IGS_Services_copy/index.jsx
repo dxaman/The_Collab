@@ -12,19 +12,19 @@ const IGS_Services = () => {
         <IGS_ServicesCard>
           <IGS_ServicesIcon src={Icon1}/>
           <IGS_ServicesH2>Winner</IGS_ServicesH2>
-          <IGS_ServicesP>Prizes upto Rs 5000!</IGS_ServicesP>
+          <IGS_ServicesP>Prizes upto Rs 3500!</IGS_ServicesP>
           
         </IGS_ServicesCard>
         <IGS_ServicesCard>
         <IGS_ServicesIcon src={Icon2}/>
         <IGS_ServicesH2>Runner Up</IGS_ServicesH2>
-          <IGS_ServicesP>Prizes upto Rs 3000!</IGS_ServicesP>
+          <IGS_ServicesP>Prizes upto Rs 2500!</IGS_ServicesP>
           
         </IGS_ServicesCard>
         <IGS_ServicesCard>
           <IGS_ServicesIcon src={Icon1}/>
           <IGS_ServicesH2>2nd Runner up</IGS_ServicesH2>
-          <IGS_ServicesP>Prizes upto Rs 2000!</IGS_ServicesP>
+          <IGS_ServicesP>Prizes upto Rs 1000!</IGS_ServicesP>
           
         </IGS_ServicesCard>
         <IGS_ServicesCard>

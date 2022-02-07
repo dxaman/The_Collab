@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-
+import {IGS_ServicesContainer, IGS_ServicesH1, IGS_ServicesWrapper, IGS_ServicesCard, IGS_ServicesIcon, IGS_ServicesH2, IGS_ServicesP} from '../IGS_Services_copy/IGS_ServiceElements'
 import Accordion from 'react-bootstrap/Accordion';
 import './ConductionDetail.css';
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavLinks, NavItem, NavBtn, NavBtnLink } from '../KH_NavbarElements'
@@ -166,7 +166,7 @@ const ConductionDetail = () => {
                             <div className="subject">
                                 <ul>
                                     {/* mention "heading " class for subject name */}
-                                    <li className="heading">History(5Q)</li>
+                                    <li className="heading">History(15Q)</li>
                                     <li>History of India</li>
                                     <li>Indian National Movement.</li>
                                 </ul>
@@ -194,7 +194,7 @@ const ConductionDetail = () => {
                             </div>
                             <div className="subject">
                                 <ul>
-                                    <li className="heading">Geography(5Q)</li>
+                                    <li className="heading">Geography(15Q)</li>
                                     <li>Indian and World Geography</li>
                                     <li>Physical, Social, Economic Geography of India and the World</li>
                                     <li>General issues on Environmental Ecology</li>
@@ -228,8 +228,19 @@ const ConductionDetail = () => {
             
           </NavBtn>
           <p className="samplepara"><b><i>Important Note: Actual Paper will contain 90 questions.</i></b></p> 
-          </div>
           
+          </div>
+          <br></br>
+        <div class="exam_link">
+        <IGS_ServicesH1><center>Examination Link</center></IGS_ServicesH1>  <br></br>
+        <div class="examination_link">
+            <a href = "https://dare2compete.com/o/rXj1uvi?lb=h0xkG4o" target="_blank" class="ZHS">Pool A</a>
+            <a href = "https://dare2compete.com/o/E5SRy0c?lb=h0xkG4o" target="_blank" class="ZHS">Pool B</a>
+            <a href = "https://dare2compete.com/o/zJNARnH?lb=h0xkG4o" target="_blank" class="ZHS">Pool C</a>
+            
+          
+          </div>
+        </div>          
           
 
         </div>
