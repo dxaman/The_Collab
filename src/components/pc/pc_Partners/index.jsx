@@ -27,7 +27,7 @@ const Slider = () => {
       };
     return (
         <ServicesContainer id='partner'>
-        <ServicesH1>Sponsors</ServicesH1>
+        <ServicesH1>Past Sponsors</ServicesH1>
         
   <hr/>      
 <Carousel responsive={responsive}  
