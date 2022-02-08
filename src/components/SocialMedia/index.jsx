@@ -11,10 +11,10 @@ import {ServicesContainer, ServicesH1, ServicesWrapper,ServicesCard,Boxx, Servic
 
 const Services = () => {
   return (
+    <><br></br><br></br>
     <ServicesContainer id='socialMedia'>
       <centre>
       <ServicesH1>Social Medias</ServicesH1>
-
 <Boxx>
  <>
   <SocialHandle>
@@ -25,7 +25,7 @@ const Services = () => {
 
   <SocialHandle>  
 <div class="twitter" >
-<TweetEmbed id="1441750799764262917"  />
+<TweetEmbed id="1490352839344148481"  />
 </div>
 </SocialHandle>
  </Boxx>
@@ -34,7 +34,7 @@ const Services = () => {
       </centre>
     
     </ServicesContainer>
-    
+    </>
   )
 }
 
